@@ -1,10 +1,10 @@
 // question: 0  name: Switch category to $course$/top/Les opérations
-$CATEGORY: $course$/top/Les opérations
+$CATEGORY: Les opérations
 
 
 // question: 1433  name: A1C001Q01
 ::A1C001Q01::[html]<p>Laquelle des opérations suivantes est commutative ?</p>{
-	=<p>Addition</p>
+	=<p>Addition + + </p>
 	~<p>Soustraction</p>#<p>Par exemple on a \: \\( 5 - 3 \= 2)\\</p>\n<p>Alors que \:  \\( 3 - 5 \= -2)\\</p>
 	~<p>Division</p>
 	~<p>Aucune des réponses ci-dessus</p>
