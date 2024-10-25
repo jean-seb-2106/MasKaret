@@ -1,0 +1,60 @@
+// question: 0  name: Switch category to $course$/top/Les opérations
+$CATEGORY: $course$/top/Les opérations
+
+
+// question: 1433  name: A1C001Q01
+::A1C001Q01::[html]<p>Laquelle des opérations suivantes est commutative ?</p>{
+	=<p>Addition</p>
+	~<p>Soustraction</p>#<p>Par exemple on a \: \\( 5 - 3 \= 2)\\</p>\n<p>Alors que \:  \\( 3 - 5 \= -2)\\</p>
+	~<p>Division</p>
+	~<p>Aucune des réponses ci-dessus</p>
+	####<p>La commutativité est une propriété de certaines opérations mathématiques qui indique que l'ordre dans lequel deux nombres sont opérés n'affecte pas le résultat.</p>
+}
+
+
+// question: 1427  name: A1C001Q02
+::A1C001Q02::[html]<p>Laquelle des opérations suivantes est associative ?</p>{
+	=<p>Addition</p>
+	~<p>Soustraction</p>
+	~<p>Division</p>
+	~<p>Aucune des réponses ci-dessus. </p>
+	####<p>L'associativité est une propriété de certaines opérations mathématiques qui stipule que l'ordre dans lequel les opérations sont effectuées n'affecte par le résultat, tant que la séquence reste la même. </p>
+}
+
+
+// question: 1428  name: A1C001Q03
+::A1C001Q03::[html]<p>Quel est l'élément neutre de l'addition ?</p>{
+	=<p>0</p>
+	~<p>1</p>
+	~<p>-1</p>
+	~<p>10</p>
+}
+
+
+// question: 1429  name: A1C001Q04
+::A1C001Q04::[html]<p>Quel est l'élément neutre de la multiplication ?</p>{
+	~<p>0</p>
+	=<p>1</p>
+	~<p>-1</p>
+	~<p>10</p>
+}
+
+
+// question: 1430  name: A1C001Q05
+::A1C001Q05::[html]<p>Quelle opération démontre la propriété de distributivité par rapport à l'addition ?</p>{
+	~<p>Soustraction</p>
+	=<p>Multiplication</p>
+	~<p>Division</p>
+	~<p>Aucune des réponses ci-dessus</p>
+}
+
+
+// question: 1431  name: A1C001Q06
+::A1C001Q06::[html]<p>Quel est l'inverse de l'addition de 7 ?</p>{
+	=<p>-7</p>
+	~<p>7</p>
+	~<p>0</p>
+	~<p>1</p>
+}
+
+
