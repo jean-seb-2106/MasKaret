@@ -4,57 +4,59 @@ $CATEGORY: Les opérations
 
 // question: 1433  name: A1C001Q01
 ::A1C001Q01::[html]<p>Laquelle des opérations suivantes est commutative ?</p>{
-	=<p>Addition + + </p>
-	~<p>Soustraction</p>#<p>Par exemple on a \: \\( 5 - 3 \= 2)\\</p>\n<p>Alors que \:  \\( 3 - 5 \= -2)\\</p>
-	~<p>Division</p>
-	~<p>Aucune des réponses ci-dessus</p>
-	####<p>La commutativité est une propriété de certaines opérations mathématiques qui indique que l'ordre dans lequel deux nombres sont opérés n'affecte pas le résultat.</p>
+	=<p>Addition </p>#<p>Correct ! L'addition est une opération commutative, car l'ordre des termes n'affecte pas le résultat. Exemple \: \\( 3 + 5 \= 5 + 3 \\).</p>
+	~<p>Soustraction</p>#<p>Incorrect. La soustraction n'est pas commutative, car \\( 5 - 3 \= 2 \\) n'est pas égal à \\( 3 - 5 \= -2 \\).</p>
+	~<p>Division</p>#<p>Incorrect. La division n'est pas commutative, car \\( 6 / 2 \= 3 \\) n'est pas égal à \\( 2 / 6 \= 1/3 \\).</p>
+	~<p>Aucune des réponses ci-dessus</p>#<p>Incorrect. La bonne réponse est l'addition, qui est commutative.</p>
+	####<p>La commutativité est une propriété de certaines opérations mathématiques indiquant que l'ordre dans lequel deux nombres sont opérés n'affecte pas le résultat.</p>
 }
 
 
 // question: 1427  name: A1C001Q02
 ::A1C001Q02::[html]<p>Laquelle des opérations suivantes est associative ?</p>{
-	=<p>Addition</p>
-	~<p>Soustraction</p>
-	~<p>Division</p>
-	~<p>Aucune des réponses ci-dessus. </p>
-	####<p>L'associativité est une propriété de certaines opérations mathématiques qui stipule que l'ordre dans lequel les opérations sont effectuées n'affecte par le résultat, tant que la séquence reste la même. </p>
+	=<p>Addition</p>#<p>Correct ! L'addition est associative, car \\( (a + b) + c \= a + (b + c) \\).</p>
+	~<p>Soustraction</p>#<p>Incorrect. La soustraction n'est pas associative, car \\( (a - b) - c \\) n'est pas nécessairement égal à \\( a - (b - c) \\).</p>
+	~<p>Division</p>#<p>Incorrect. La division n'est pas associative, car \\( (a / b) / c \\) n'est pas égal à \\( a / (b / c) \\).</p>
+	~<p>Aucune des réponses ci-dessus.</p>#<p>Incorrect. L'addition est une opération associative.</p>
+	####<p>L'associativité est une propriété stipulant que l'ordre dans lequel les opérations sont effectuées n'affecte pas le résultat, tant que la séquence reste la même.</p>
 }
 
 
 // question: 1428  name: A1C001Q03
 ::A1C001Q03::[html]<p>Quel est l'élément neutre de l'addition ?</p>{
-	=<p>0</p>
-	~<p>1</p>
-	~<p>-1</p>
-	~<p>10</p>
+	=<p>0</p>#<p>Correct ! L'élément neutre de l'addition est 0, car ajouter 0 à un nombre n'en change pas la valeur.</p>
+	~<p>1</p>#<p>Incorrect. 1 est l'élément neutre de la multiplication, pas de l'addition.</p>
+	~<p>-1</p>#<p>Incorrect. -1 n'est pas l'élément neutre de l'addition.</p>
+	~<p>10</p>#<p>Incorrect. L'élément neutre de l'addition est 0, pas 10.</p>
+	####<p>L'élément neutre d'une opération est celui qui laisse un nombre inchangé lorsqu'il est appliqué.</p>
 }
 
 
 // question: 1429  name: A1C001Q04
 ::A1C001Q04::[html]<p>Quel est l'élément neutre de la multiplication ?</p>{
-	~<p>0</p>
-	=<p>1</p>
-	~<p>-1</p>
-	~<p>10</p>
+	~<p>0</p>#<p>Incorrect. 0 est l'élément absorbant de la multiplication, mais pas l'élément neutre.</p>
+	=<p>1</p>#<p>Correct ! L'élément neutre de la multiplication est 1, car multiplier un nombre par 1 n'en change pas la valeur.</p>
+	~<p>-1</p>#<p>Incorrect. -1 n'est pas l'élément neutre de la multiplication.</p>
+	~<p>10</p>#<p>Incorrect. L'élément neutre de la multiplication est 1, pas 10.</p>
+	####<p>L'élément neutre d'une opération est celui qui laisse un nombre inchangé lorsqu'il est appliqué.</p>
 }
 
 
 // question: 1430  name: A1C001Q05
 ::A1C001Q05::[html]<p>Quelle opération démontre la propriété de distributivité par rapport à l'addition ?</p>{
-	~<p>Soustraction</p>
-	=<p>Multiplication</p>
-	~<p>Division</p>
-	~<p>Aucune des réponses ci-dessus</p>
+	~<p>Soustraction</p>#<p>Incorrect. La soustraction n'est pas distributive par rapport à l'addition.</p>
+	=<p>Multiplication</p>#<p>Correct ! La multiplication est distributive par rapport à l'addition, car \\( a \cdot (b + c) \= (a \cdot b) + (a \cdot c) \\).</p>
+	~<p>Division</p>#<p>Incorrect. La division n'est pas distributive par rapport à l'addition.</p>
+	~<p>Aucune des réponses ci-dessus</p>#<p>Incorrect. La multiplication est distributive par rapport à l'addition.</p>
+	####<p>La distributivité est une propriété d'opérations qui permet d'étendre une opération sur une somme, comme dans la multiplication par rapport à l'addition.</p>
 }
 
 
 // question: 1431  name: A1C001Q06
 ::A1C001Q06::[html]<p>Quel est l'inverse de l'addition de 7 ?</p>{
-	=<p>-7</p>
-	~<p>7</p>
-	~<p>0</p>
-	~<p>1</p>
+	=<p>-7</p>#<p>Correct ! L'inverse de l'addition de 7 est -7, car \\( 7 + (-7) \= 0 \\).</p>
+	~<p>7</p>#<p>Incorrect. L'inverse de 7 est -7, car 7 + (-7) \= 0.</p>
+	~<p>0</p>#<p>Incorrect. 0 est l'élément neutre de l'addition, pas l'inverse de 7.</p>
+	~<p>1</p>#<p>Incorrect. 1 n'est pas l'inverse de 7 en addition. L'inverse de 7 est -7.</p>
+	####<p>L'inverse d'une opération est l'élément qui, combiné à un autre, donne l'élément neutre de cette opération.</p>
 }
-
-
