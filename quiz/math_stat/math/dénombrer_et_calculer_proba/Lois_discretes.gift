@@ -1,0 +1,96 @@
+$CATEGORY: Lois discrètes
+
+// question: A1C02LoisDiscretesQ01
+::A1C02LoisDiscretesQ01::[html]<p>Dans une urne contenant 5 boules rouges et 5 boules bleues, vous tirez une boule au hasard. Quelle loi modélise cette situation ?</p>{
+    =<p>Loi uniforme</p>#<p>Correct ! La loi uniforme modélise cette situation car chaque boule a une chance égale d'être tirée.</p>
+    ~<p>Loi de Bernoulli</p>#<p>Incorrect. La loi de Bernoulli s'applique à un essai unique avec deux résultats possibles.</p>
+    ~<p>Loi binomiale</p>#<p>Incorrect. La loi binomiale concerne plusieurs essais avec une probabilité constante de succès.</p>
+    ~<p>Loi géométrique</p>#<p>Incorrect. La loi géométrique s'applique lorsque l'on compte le nombre d'essais jusqu'au premier succès.</p>
+    ~<p>Loi de Poisson</p>#<p>Incorrect. La loi de Poisson modélise le nombre d'événements dans un intervalle fixe.</p>
+    ####<p>La loi uniforme s'applique lorsque tous les résultats possibles d'une expérience ont la même probabilité.</p>
+}
+
+// question: A1C02LoisDiscretesQ02
+::A1C02LoisDiscretesQ02::[html]<p>Un étudiant passe un examen avec une probabilité de succès de 0,7. Si l'étudiant passe l'examen une seule fois, quelle loi peut modéliser cette situation ?</p>{
+    ~<p>Loi uniforme</p>#<p>Incorrect. La loi uniforme modélise des cas où chaque résultat est également probable.</p>
+    =<p>Loi de Bernoulli</p>#<p>Correct ! La loi de Bernoulli s'applique aux situations d'essai unique avec deux résultats possibles \: succès ou échec.</p>
+    ~<p>Loi binomiale</p>#<p>Incorrect. La loi binomiale s'applique à plusieurs essais avec une probabilité de succès constante.</p>
+    ~<p>Loi géométrique</p>#<p>Incorrect. La loi géométrique concerne le nombre d'essais jusqu'au premier succès.</p>
+    ~<p>Loi de Poisson</p>#<p>Incorrect. La loi de Poisson modélise le nombre d'événements dans un intervalle fixe.</p>
+    ####<p>La loi de Bernoulli s'applique aux essais uniques avec deux issues, succès ou échec.</p>
+}
+
+// question: A1C02LoisDiscretesQ03
+::A1C02LoisDiscretesQ03::[html]<p>Un joueur de dés lance le dé 10 fois et compte le nombre de fois où il obtient un 6. Quelle loi modélise cette situation ?</p>{
+    ~<p>Loi uniforme</p>#<p>Incorrect. La loi uniforme ne prend pas en compte le nombre de succès sur plusieurs essais.</p>
+    ~<p>Loi de Bernoulli</p>#<p>Incorrect. La loi de Bernoulli s'applique à un seul essai.</p>
+    =<p>Loi binomiale</p>#<p>Correct ! La loi binomiale s'applique ici, car il s'agit de plusieurs essais indépendants avec une probabilité constante de succès.</p>
+    ~<p>Loi géométrique</p>#<p>Incorrect. La loi géométrique concerne le nombre d'essais jusqu'au premier succès.</p>
+    ~<p>Loi de Poisson</p>#<p>Incorrect. La loi de Poisson modélise le nombre d'événements dans un intervalle fixe.</p>
+    ####<p>La loi binomiale est utilisée pour des situations de plusieurs essais indépendants avec une probabilité constante de succès.</p>
+}
+
+// question: A1C02LoisDiscretesQ04
+::A1C02LoisDiscretesQ04::[html]<p>Un joueur continue de lancer un dé jusqu'à obtenir un 6. Quelle loi décrit le nombre de lancers nécessaires pour obtenir le premier 6 ?</p>{
+    ~<p>Loi uniforme</p>#<p>Incorrect. La loi uniforme s'applique lorsque tous les résultats sont équiprobables.</p>
+    ~<p>Loi de Bernoulli</p>#<p>Incorrect. La loi de Bernoulli modélise un seul essai.</p>
+    ~<p>Loi binomiale</p>#<p>Incorrect. La loi binomiale concerne plusieurs essais avec un nombre fixe de succès.</p>
+    =<p>Loi géométrique</p>#<p>Correct ! La loi géométrique est utilisée pour déterminer le nombre d'essais jusqu'au premier succès.</p>
+    ~<p>Loi de Poisson</p>#<p>Incorrect. La loi de Poisson modélise le nombre d'événements dans un intervalle fixe.</p>
+    ####<p>La loi géométrique modélise le nombre d'essais jusqu'au premier succès.</p>
+}
+
+// question: A1C02LoisDiscretesQ05
+::A1C02LoisDiscretesQ05::[html]<p>Le nombre d'appels reçus par un standard de téléphonie en une heure suit une distribution avec une moyenne de 5 appels. Quelle loi peut modéliser cette situation ?</p>{
+    ~<p>Loi uniforme</p>#<p>Incorrect. La loi uniforme s'applique lorsque chaque résultat a la même probabilité.</p>
+    ~<p>Loi de Bernoulli</p>#<p>Incorrect. La loi de Bernoulli concerne un seul essai.</p>
+    ~<p>Loi binomiale</p>#<p>Incorrect. La loi binomiale modélise plusieurs essais avec un nombre fixe de succès.</p>
+    ~<p>Loi géométrique</p>#<p>Incorrect. La loi géométrique concerne le nombre d'essais jusqu'au premier succès.</p>
+    =<p>Loi de Poisson</p>#<p>Correct ! La loi de Poisson modélise le nombre d'événements dans un intervalle fixe.</p>
+    ####<p>La loi de Poisson est souvent utilisée pour modéliser des événements sur un intervalle fixe.</p>
+}
+
+// question: A1C02VarAleaDiscretesQ06
+::A1C02VarAleaDiscretesQ06::[html]<p>Une pièce truquée a 70 % de chances de tomber sur face. On effectue un lancer. Quelle est la probabilité que la pièce tombe sur pile ?</p>{
+    =<p>0,3</p>#<p>Correct ! La probabilité de tomber sur pile est l’inverse de la probabilité de tomber sur face, donc 1 - 0,7 \= 0,3.</p>
+    ~<p>0,5</p>#<p>Incorrect. 0,5 serait la probabilité si la pièce n’était pas truquée.</p>
+    ~<p>0,7</p>#<p>Incorrect. 0,7 est la probabilité de tomber sur face.</p>
+    ~<p>0,9</p>#<p>Incorrect. 0,9 est bien trop élevé pour cette situation.</p>
+    ####<p>La loi de Bernoulli s’applique ici, car l’expérience a deux issues possibles \: face ou pile.</p>
+}
+
+// question: A1C02LoisDiscretesQ07
+::A1C02LoisDiscretesQ07::[html]<p>Si un étudiant réussit un examen avec une probabilité de 0,8, quelle est l'espérance de réussite pour 3 examens ?</p>{
+    =<p>2,4</p>#<p>Correct ! L'espérance est de \( E(X) \= n \cdot p \= 3 \cdot 0,8 \= 2,4 \).</p>
+    ~<p>3</p>#<p>Incorrect. 3 serait l'espérance si la probabilité de réussite était 1.</p>
+    ~<p>1,6</p>#<p>Incorrect. 1,6 est incorrect pour cette probabilité et ce nombre d'examens.</p>
+    ~<p>2</p>#<p>Incorrect. 2 est un sous-estimé pour l'espérance ici.</p>
+    ####<p>L'espérance est calculée avec la formule \( E(X) \= n \cdot p \).</p>
+}
+
+// question: A1C02LoisDiscretesQ08
+::A1C02LoisDiscretesQ08::[html]<p>Un jeu consiste à lancer un dé et à gagner 10 € si on obtient un 6. Quelle est l'espérance de gain ?</p>{
+    =<p>1,67 €</p>#<p>Correct ! L'espérance est de 1,67 €, soit \( E(X) = 10 \cdot \frac{1}{6} \).</p>
+    ~<p>2,50 €</p>#<p>Incorrect. 2,50 € serait pour une probabilité de 0,25.</p>
+    ~<p>5 €</p>#<p>Incorrect. 5 € est trop élevé pour cette situation.</p>
+    ~<p>10 €</p>#<p>Incorrect. 10 € serait le gain uniquement si on gagnait à chaque lancer.</p>
+    ####<p>L'espérance est calculée par \( E(X) = gain \cdot probabilité \).</p>
+}
+
+// question: A1C02LoisDiscretesQ09
+::A1C02LoisDiscretesQ09::[html]<p>Un sac contient 3 boules rouges et 7 boules bleues. Si vous tirez une boule, quelle est la probabilité qu'elle soit rouge ?</p>{
+    =<p>0,3</p>#<p>Correct ! La probabilité est de \( \frac{3}{10} = 0,3 \).</p>
+    ~<p>0,7</p>#<p>Incorrect. 0,7 est la probabilité de tirer une boule bleue.</p>
+    ~<p>0,5</p>#<p>Incorrect. Ce serait la probabilité si les boules étaient réparties également.</p>
+    ~<p>0,2</p>#<p>Incorrect. 0,2 est trop bas pour cette situation.</p>
+    ####<p>La probabilité se calcule par le ratio des cas favorables sur les cas possibles.</p>
+}
+
+// question: A1C02LoisDiscretesQ10
+::A1C02LoisDiscretesQ10::[html]<p>Dans une usine, une machine produit 5 % de pièces défectueuses. Si l'on prélève une pièce, quelle est la probabilité qu'elle soit défectueuse ?</p>{
+    =<p>0,05</p>#<p>Correct ! La probabilité qu'une pièce soit défectueuse est de 5 %.</p>
+    ~<p>0,95</p>#<p>Incorrect. 0,95 est la probabilité qu'une pièce soit non défectueuse.</p>
+    ~<p>0,5</p>#<p>Incorrect. Ce serait la probabilité si c'était du hasard complet.</p>
+    ~<p>0,10</p>#<p>Incorrect. 0,10 est trop élevé.</p>
+    ####<p>La probabilité ici est directement donnée dans l'énoncé.</p>
+}
