@@ -70,27 +70,30 @@ $CATEGORY: Lois discrètes
 
 // question: A1C02LoisDiscretesQ08
 ::A1C02LoisDiscretesQ08::[html]<p>Un jeu consiste à lancer un dé et à gagner 10 € si on obtient un 6. Quelle est l'espérance de gain ?</p>{
-    =<p>1,67 €</p>#<p>Correct ! L'espérance est de 1,67 €, soit \( E(X) = 10 \cdot \frac{1}{6} \).</p>
+    =<p>1,67 €</p>#<p>Correct ! L'espérance est de 1,67 €, soit \( E(X) \= 10 \cdot 1/6 \).</p>
     ~<p>2,50 €</p>#<p>Incorrect. 2,50 € serait pour une probabilité de 0,25.</p>
     ~<p>5 €</p>#<p>Incorrect. 5 € est trop élevé pour cette situation.</p>
     ~<p>10 €</p>#<p>Incorrect. 10 € serait le gain uniquement si on gagnait à chaque lancer.</p>
-    ####<p>L'espérance est calculée par \( E(X) = gain \cdot probabilité \).</p>
+    ####<p>L'espérance est calculée par \( E(X) \= gain \cdot probabilité \).</p>
 }
 
 // question: A1C02LoisDiscretesQ09
-::A1C02LoisDiscretesQ09::[html]<p>Un sac contient 3 boules rouges et 7 boules bleues. Si vous tirez une boule, quelle est la probabilité qu'elle soit rouge ?</p>{
-    =<p>0,3</p>#<p>Correct ! La probabilité est de \( \frac{3}{10} = 0,3 \).</p>
-    ~<p>0,7</p>#<p>Incorrect. 0,7 est la probabilité de tirer une boule bleue.</p>
-    ~<p>0,5</p>#<p>Incorrect. Ce serait la probabilité si les boules étaient réparties également.</p>
-    ~<p>0,2</p>#<p>Incorrect. 0,2 est trop bas pour cette situation.</p>
-    ####<p>La probabilité se calcule par le ratio des cas favorables sur les cas possibles.</p>
+::A1C02LoisDiscretesQ09::
+Une pièce de monnaie est lancée 10 fois. Quel est le nombre moyen d'issues favorables (c'est-à-dire obtenir face) si la probabilité d'obtenir face lors d'un lancer est de 0,5 ? Utilisez la loi binomiale pour calculer l'espérance.{
+    =5 # Correct ! L'espérance de la loi binomiale est donnée par \(E(X) \= n * p\), où n est le nombre d'essais et p est la probabilité de succès.
+    ~2 # Incorrect. Cette réponse ne correspond pas au calcul de l'espérance.
+    ~7 # Incorrect. Cette réponse ne correspond pas au calcul de l'espérance.
+    ~10 # Incorrect. Cette réponse représente le nombre total de lancers, pas l'espérance.
+#### Dans une loi binomiale, l'espérance (ou moyenne) se calcule avec la formule E(X) \= n * p, où n est le nombre d'essais et p est la probabilité de succès. Dans ce cas, avec 10 lancers et une probabilité de 0,5 pour obtenir face, l'espérance est de 10 * 0,5 \= 5.
 }
 
 // question: A1C02LoisDiscretesQ10
-::A1C02LoisDiscretesQ10::[html]<p>Dans une usine, une machine produit 5 % de pièces défectueuses. Si l'on prélève une pièce, quelle est la probabilité qu'elle soit défectueuse ?</p>{
-    =<p>0,05</p>#<p>Correct ! La probabilité qu'une pièce soit défectueuse est de 5 %.</p>
-    ~<p>0,95</p>#<p>Incorrect. 0,95 est la probabilité qu'une pièce soit non défectueuse.</p>
-    ~<p>0,5</p>#<p>Incorrect. Ce serait la probabilité si c'était du hasard complet.</p>
-    ~<p>0,10</p>#<p>Incorrect. 0,10 est trop élevé.</p>
-    ####<p>La probabilité ici est directement donnée dans l'énoncé.</p>
+::A1C02LoisDiscretesQ10::
+Un laboratoire observe en moyenne 2 défauts par lot de production. Si le nombre de défauts par lot suit une loi de Poisson, quelle est la probabilité d'avoir exactement 3 défauts dans un lot ?
+{
+=0,180 # Correct ! La probabilité de k événements dans une loi de Poisson se calcule avec la formule  P(X\=k) \= (λ^k * e^-λ) / k!, où λ est le taux d'arrivée (2 ici) et k est le nombre d'événements (3).
+~0,090 # Incorrect. Cette réponse ne correspond pas au calcul de la probabilité pour k\=3.
+~0,270 # Incorrect. Cette réponse ne correspond pas au calcul de la probabilité pour k\=3.
+~0,135 # Incorrect. Cette réponse ne correspond pas au calcul de la probabilité pour k\=3.
+#### Dans une loi de Poisson, la probabilité d'observer un certain nombre d'événements dans un intervalle donné est calculée avec la formule P(X\=k) \= (λ^k * e^(-λ)) / k!, où λ est le nombre moyen d'événements dans cet intervalle. Dans ce cas, pour λ \= 2 et k \= 3, la probabilité est d'environ 0,180.
 }
