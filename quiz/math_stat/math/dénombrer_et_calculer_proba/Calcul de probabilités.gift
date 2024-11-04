@@ -1,0 +1,78 @@
+$CATEGORY: Calcul de probabilité
+
+::A1C02calculprobaQ01::Une boîte contient 5 boules rouges, 
+4 boules bleues et 3 boules vertes. On tire une boule au hasard de la boîte. 
+Parmi les choix suivants, lequel représente l'univers des résultats possibles 
+pour cette expérience ?{
+    =[Rouge, Bleu, Vert]
+    ~[5, 4, 3]
+    ~[Rouge, Bleu]
+    ~[Rouge, Bleu, Vert, Noir]
+#### L'univers des résultats possibles représente l'ensemble des issues possibles de l'expérience. Ici, les seules couleurs de boules dans la boîte sont le rouge, le bleu et le vert. Les réponses comme [5, 4, 3] ou incluant une couleur inexistante (noir) ne sont pas correctes.
+}
+
+::A1C02calculprobaQ02::Une classe organise un tirage au sort pour désigner les trois élèves qui vont s'occuper de la distribution de fournitures. Les élèves sont numérotés de 1 à 20, et trois numéros sont tirés au hasard.
+Parmi les propositions suivantes, laquelle représente un évènement pour cette expérience aléatoire ? 
+{
+=Le numéro 5 est tiré.
+~Il y a 20 élèves dans la classe.
+~Trois numéros sont tirés.
+~L’élève numéro 1 n’a pas été tiré.
+#### Un évènement est un sous-ensemble des résultats possibles de l'expérience. Ici, un évènement est le fait que le numéro 5 soit tiré. Les autres options ne sont pas des évènements au sens de la théorie des probabilités.
+}
+
+::A1C02calculprobaQ03::Dans une pochette surprise, il y a 10 cartes dont 4 cartes avec un super-héros. Un enfant tire une carte au hasard. Quelle est la probabilité de tirer une carte avec un super-héros ? 
+{
+~0.1
+~0.2
+=0.4
+~0.5
+#### La probabilité d'un évènement est calculée en divisant le nombre de cas favorables par le nombre total de cas possibles. Ici, la probabilité est de 4/10 \= 0,4, ce qui correspond à la réponse correcte.
+}
+
+
+::A1C02calculprobaQ04::Dans un jeu de cartes, on tire au hasard une carte d'un jeu de 52 cartes. Quelle est la probabilité de tirer soit une carte rouge soit une carte de figure (valet, dame ou roi) ? 
+{
+~0.25
+~0.5
+=0.75
+~1
+#### Pour calculer la probabilité d'une union d'évènements, il faut ajouter les probabilités de chaque évènement et retirer les doublons (cartes rouges de figure). En comptant correctement, on obtient la probabilité de 0,75.
+}
+
+::A1C02calculprobaQ05::Lors d'un lancer de deux dés, on s’intéresse aux évènements suivants \: A \: "Obtenir un 5 sur le premier dé", B \: "Obtenir un nombre pair sur le second dé". 
+Quelle est la probabilité de réaliser l'intersection des deux évènements A et B ? 
+{
+~1/6
+~1/4
+=1/12
+~1/36
+#### La probabilité de l'intersection de deux évènements indépendants est le produit de leurs probabilités. La probabilité d'obtenir un 5 sur le premier dé est 1/6, et celle d'obtenir un nombre pair sur le second dé est 1/2, donc 1/6 * 1/2 \= 1/12.
+}
+
+::A1C02calculprobaQ06::Une boîte contient 6 stylos verts, 3 stylos bleus et 1 stylo rouge. On tire un stylo au hasard. Si l’évènement A est "tirer un stylo vert", quel est l’évènement contraire ? 
+{
+~Tirer un stylo rouge
+=Tirer un stylo qui n'est pas vert
+~Tirer un stylo bleu
+~Tirer un stylo vert ou rouge
+#### L'évènement contraire d'un évènement A regroupe tous les cas où A ne se produit pas. Ici, l'évènement contraire de "tirer un stylo vert" est "tirer un stylo qui n'est pas vert", soit un stylo rouge ou bleu.
+}
+
+::A1C02calculprobaQ07::Lors d'une soirée, on interroge les invités sur leur préférence pour le dessert \: 60 % préfèrent le chocolat, 30 % préfèrent la vanille et 10 % n’ont pas de préférence. Si on tire au sort un invité, quelle est la probabilité totale de tirer un invité ayant une préférence pour le chocolat ou la vanille ? 
+{
+~0.1
+~0.6
+=0.9
+~1
+#### La probabilité totale d'évènements exclusifs est la somme de leurs probabilités. Ici, 60 % préfèrent le chocolat et 30 % la vanille, soit une probabilité totale de 0,9.
+}
+
+::A1C02calculprobaQ08::Lors d'un test de sélection pour un jeu, un joueur doit réussir deux épreuves consécutives pour être qualifié. La probabilité de réussir la première épreuve est de 0,7 et, s'il réussit, la probabilité de réussir la deuxième est de 0,5. Quelle est la probabilité que le joueur réussisse les deux épreuves et soit qualifié ? 
+{
+~0.2
+=0.35
+~0.5
+~0.7
+#### La probabilité de réussir deux évènements dépendants est le produit de la probabilité de réussir le premier et de réussir le second, sachant que le premier a été réussi. Ici, 0,7 * 0,5 \= 0,35.
+}
