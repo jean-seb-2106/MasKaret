@@ -1,0 +1,94 @@
+// question: 0  name: Switch category to $course$/top/Variable aléatoire discontinue
+$CATEGORY: $course$/top/Variable aléatoire discontinue
+
+
+// question: 1454  name: A1C02Q021
+::A1C02Q021::La somme des probabilités associées à toutes les valeurs possibles d'une variable aléatoire doit être égale à \:{
+	=1#Correct, la somme des probabilités d'une variable aléatoire doit toujours être égale à 1.
+	~0#Non, la somme des probabilités doit être égale à 1, pas 0.
+	~1.5#Non, la somme des probabilités ne peut jamais dépasser 1.
+	~dépend du type de variable aléatoire#Non, quel que soit le type de variable, la somme doit être égale à 1.
+}
+
+
+// question: 1464  name: A1C02Q022
+::A1C02Q022::[html]<p>Si une variable aléatoire X prend les valeurs 1, 2 et 3 avec les probabilités respectives 0.2, 0.5 et 0.3, quelle est l'espérance de X ?</p>{
+	~[moodle]2.2#[moodle]Non, l'espérance se calcule en multipliant chaque valeur par sa probabilité et en additionnant les résultats.
+	~[moodle]2.5#[moodle]Non, la somme des produits des valeurs par les probabilités est différente.
+	=[moodle]2.1#[moodle]Correct, l'espérance est de 2.1 (1*0.2 + 2*0.5 + 3*0.3 \= 2.1).
+	~[moodle]2.3#[moodle]Non, il s'agit d'une valeur trop élevée pour cette distribution.
+}
+
+
+// question: 1456  name: A1C02Q023
+::A1C02Q023::Un dé équilibré est lancé 50 fois. Quel est le nombre moyen de fois où l'on obtient un 6 ?{
+	~5#Non, le nombre moyen est plus proche de 8 étant donné que la probabilité d'obtenir un 6 est 1/6.
+	~8#Non, la valeur exacte est un peu plus élevée.
+	~10#Non, c'est trop élevé. La probabilité est seulement de 1/6.
+	=8.33#Correct, le nombre moyen de 6 obtenus est 50 * 1/6 \= 8.33.
+}
+
+
+// question: 1457  name: A1C02Q024
+::A1C02Q024::Si on lance deux dés, quelle est la probabilité que la somme des deux dés soit égale à 7 ?{
+	=1/6#Correct, il y a 6 combinaisons possibles sur un total de 36 qui donnent une somme de 7.
+	~1/12#Non, il y a plus de chances d'obtenir une somme de 7 que 1/12.
+	~1/36#Non, 1/36 serait la probabilité pour une seule combinaison spécifique.
+	~1/3#Non, 1/3 est beaucoup trop élevé pour cette probabilité.
+}
+
+
+// question: 1458  name: A1C02Q025
+::A1C02Q025::Une urne contient 4 boules rouges et 6 boules bleues. On tire une boule au hasard. Quelle est la probabilité que la boule soit rouge ?{
+	=2/5#Correct, la probabilité est de 4/10 \= 2/5.
+	~3/5#Non, il y a moins de boules rouges que de boules bleues.
+	~1/2#Non, il y a plus de chances de tirer une boule bleue qu'une boule rouge.
+	~1/4#Non, cette valeur est trop faible.
+}
+
+
+// question: 1459  name: A1C02Q026
+::A1C02Q026::La variance mesure \:{
+	=La dispersion des valeurs de la variable aléatoire autour de son espérance.#Correct, la variance mesure la dispersion autour de l'espérance.
+	~Le nombre moyen de valeurs prises par la variable.#Non, c'est l'espérance qui mesure la moyenne des valeurs.
+	~La probabilité que la variable prenne une certaine valeur.#Non, cela fait référence à la distribution de probabilité, pas à la variance.
+	~Le maximum des valeurs de la variable aléatoire.#Non, la variance ne se rapporte pas au maximum, mais à la dispersion.
+}
+
+
+// question: 1460  name: A1C02Q027
+::A1C02Q027::Une urne contient 5 boules rouges et 5 boules bleues. On tire deux boules sans remise. Quelle est la probabilité que les deux boules soient rouges ?{
+	=2/9#Correct, la probabilité de tirer deux boules rouges est 5/10 * 4/9 égal à 2/9.
+	~1/2#Non, la probabilité est plus faible car il y a moins de boules rouges.
+	~1/4#Non, la probabilité est légèrement plus élevée que cela.
+	~5/9#Non, cette valeur est incorrecte.
+}
+
+
+// question: 1461  name: A1C02Q028
+::A1C02Q028::On lance une pièce équilibrée deux fois. Quelle est la probabilité d'obtenir exactement une face ?{
+	=1/2#Correct, il y a 2 combinaisons sur 4 (PF et FP) qui donnent exactement une face.
+	~1/4#Non, il y a plus de chances d'obtenir exactement une face.
+	~3/4#Non, 3/4 serait trop élevé pour cette situation.
+	~1/8#Non, il y a plus de chances que cela d'obtenir une seule face.
+}
+
+
+// question: 1462  name: A1C02Q029
+::A1C02Q029::Si X prend les valeurs 3, 5, et 7 avec des probabilités respectives de 0.2, 0.4 et 0.4, quelle est la variance de X (approximativement) ?{
+	~1.2#Non, cette valeur est trop basse. La variance est plus grande.
+	=2.56#Correct, la variance se calcule en tenant compte des écarts par rapport à l'espérance.
+	~3.6#Non, c'est un peu trop élevé.
+	~4#Non, c'est bien plus élevé que la variance calculée.
+}
+
+
+// question: 1463  name: A1C02Q030
+::A1C02Q030::L'espérance d'une variable aléatoire est également appelée \:{
+	=La moyenne.#Correct, l'espérance est une autre façon de désigner la moyenne d'une variable aléatoire.
+	~La médiane.#Non, la médiane est une mesure différente qui divise les données en deux parties égales.
+	~La variance.#Non, la variance mesure la dispersion, pas la moyenne.
+	~L'écart-type.#Non, l'écart-type est la racine carrée de la variance, pas la moyenne.
+}
+
+
