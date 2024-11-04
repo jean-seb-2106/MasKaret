@@ -1,0 +1,49 @@
+$CATEGORY: Loi normale
+
+::A1C002loinormaleQ01::
+Une usine fabrique des boulons dont le diamètre est censé être de 1 cm. 
+Après plusieurs années de production, on observe que les diamètres des boulons suivent une distribution centrée autour de 1 cm avec une certaine dispersion. Comment qualifieriez-vous cette distribution ?{
+=Distribution normale #Bonne réponse. Une distribution normale est souvent utilisée pour décrire des phénomènes naturels ou industriels, comme le diamètre des boulons, car elle permet de modéliser des valeurs concentrées autour d’une moyenne avec une dispersion autour de celle-ci.
+~Distribution uniforme #Incorrect. Une distribution uniforme n’a pas la forme de cloche caractéristique de la loi normale.
+~Distribution exponentielle #Incorrect. La distribution exponentielle est utilisée pour modéliser des temps d'attente, pas des mesures comme des diamètres.
+~Distribution de Bernoulli #Incorrect. Cette distribution concerne des événements discrets avec deux issues possibles (succès ou échec).
+####La loi normale est particulièrement pertinente pour modéliser des mesures qui varient autour d'une valeur moyenne, comme les diamètres de produits industriels.
+}
+
+::A1C002loinormaleQ02::
+Dans une entreprise, le poids des produits finis suit une loi normale de moyenne 500 g et d’écart-type 20 g. Quelle proportion des produits se situe entre 460 g et 540 g ?
+{
+= A) Environ 68 % #Bonne réponse. Dans une loi normale, environ 68 % des valeurs sont situées dans un intervalle de ±1 écart-type autour de la moyenne. Cet intervalle, ici de 460 g à 540 g, représente donc environ 68 % des produits.
+~ B) Environ 95 % #Incorrect. 95 % des valeurs se situent dans un intervalle de ±2 écarts-types.
+~ C) Environ 99 % #Incorrect. 99 % des valeurs se situent dans un intervalle de ±3 écarts-types.
+~ D) Environ 50 % #Incorrect. 50 % des valeurs se situent en dessous de la moyenne, mais cela ne s’applique pas à l’intervalle spécifié.
+####Cette question illustre la répartition des valeurs dans une loi normale et comment l'écart-type permet de déterminer la proportion des observations dans un certain intervalle.
+}
+
+::A1C002loinormaleQ03::Un magasin de vêtements observe que le nombre de clients par jour suit une distribution normale avec une moyenne de 100 et un écart-type de 10. En moyenne, combien de jours par an peut-on s'attendre à voir plus de 120 clients ? (Supposons 365 jours dans l’année.)
+{
+= B) Environ 19 jours #Bonne réponse. Pour une loi normale, 2,5 % des valeurs sont supérieures à 2 écarts-types au-dessus de la moyenne. En multipliant ce pourcentage par 365 jours, on obtient environ 19 jours avec plus de 120 clients.
+~ A) Environ 13 jours #Incorrect. Ce chiffre ne correspond pas au calcul basé sur la loi normale.
+~ C) Environ 23 jours #Incorrect. Cela surestime le nombre de jours avec plus de 120 clients.
+~ D) Environ 28 jours #Incorrect. Ce chiffre est trop élevé pour la situation donnée.
+####Cette question met en lumière l'application de la loi normale pour prévoir des événements dans le temps, en utilisant les propriétés de l'écart-type pour des calculs pratiques.
+}
+
+::A1C002loinormaleQ04::Imaginons une usine qui produit un très grand nombre de pièces chaque jour. La durée de fabrication de chaque pièce est une variable aléatoire, avec une moyenne et une variance finies. Si l’on observe la durée totale pour produire un lot de 1 000 pièces, cette durée suit approximativement \:
+{
+= Une loi normale #Bonne réponse. Le théorème central limite stipule que la somme (ou la moyenne) d’un grand nombre de variables aléatoires indépendantes, avec une espérance et une variance finies, tend vers une loi normale.
+~ Une loi uniforme #Incorrect. Cela ne correspond pas à la distribution attendue dans cette situation.
+~ Une loi exponentielle #Incorrect. Cette loi modélise des temps d'attente, pas des sommes de variables.
+~ Une loi binomiale #Incorrect. La loi binomiale modélise des événements discrets, pas des sommes continues.
+####Le théorème central limite est un concept fondamental en statistique, expliquant pourquoi de nombreuses distributions dans le monde réel peuvent être approximées par une loi normale, surtout lorsqu'on observe des sommes de grandes quantités de variables.
+}
+
+::A1C002loinormaleQ05::Fluffy le chat a découvert une réserve de boîtes de croquettes. Chaque boîte contient aléatoirement entre 3 et 7 croquettes, avec une moyenne de 5 croquettes par boîte et une variance de 2 croquettes. Fluffy ouvre 10 boîtes en espérant atteindre le nirvana des croquettes.
+Quelle est l’espérance et l’écart type du nombre total 20 de croquettes que Fluffy va obtenir ?
+{
+=Espérance \: 50 croquettes, Écart type \: 4,47 croquettes #Bonne réponse. L’espérance totale est obtenue en multipliant l’espérance d’une boîte par le nombre de boîtes \: 10 × 5 \= 50 croquettes. L’écart type est la racine carrée de la variance totale, donc \( racine carrée (10 \times 2) \approx 4,47 \).
+~Espérance \: 50 croquettes, Écart type \: 2 croquettes #Incorrect. Ce calcul correspond à l'espérance correcte mais l'écart type n'est pas 2 croquettes.
+~Espérance \: 25 croquettes, Écart type \: 4,47 croquettes #Incorrect. Ce calcul sous-estime l'espérance totale, bien que l'écart type soit correct.
+~Espérance \: 25 croquettes, Écart type \: 2 croquettes #Incorrect. Ce calcul sous-estime à la fois l'espérance et l'écart type.
+####Cette question illustre comment l'espérance et l'écart type sont calculés pour une somme de variables aléatoires indépendantes, et comment ces concepts s'appliquent à des situations pratiques.
+}

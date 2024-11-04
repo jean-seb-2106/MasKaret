@@ -1,3 +1,19 @@
 {
-    "r.bracketedPaste": true
+    "r.bracketedPaste": true,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "Maskaret",
+            "database": "Maskaret",
+            "username": "root",
+            "password": ""
+        }
+    ]
 }
