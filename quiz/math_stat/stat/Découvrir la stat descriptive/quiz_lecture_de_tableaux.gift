@@ -10,46 +10,68 @@ Comment lire un tableau statistique ? {
 }
 
 ::A2C001lectureQ02::
-Comment lire un tableau statistique ? {
-~De bas en haut du tableau 
-~De haut en bas du tableau 
-=D’abord l’extérieur puis l’intérieur du tableau 
-~D’abord l’intérieur puis l’extérieur du tableau 
-####Il faut avoir une démarche méthodique pour lire un tableau statistique en examinant d’abord les éléments à l’extérieur du tableau puis les données qui sont à l’intérieur. 
+Qu’est-ce qu’un titre informatif ?  {
+~Il donne de l’information sur la méthodologie de collecte
+~Il donne de l’information sur l’actualité économique 
+=Il donne de l’information issue de l’analyse des données du tableau 
+~Il ne donne pas d’information particulière
+####Un titre informatif est une information ou un message issu de l’analyse des données du tableau. 
 }
 
 ::A2C001lectureQ03::
-Comment lire un tableau statistique ? {
-~De bas en haut du tableau 
-~De haut en bas du tableau 
-=D’abord l’extérieur puis l’intérieur du tableau 
-~D’abord l’intérieur puis l’extérieur du tableau 
-####Il faut avoir une démarche méthodique pour lire un tableau statistique en examinant d’abord les éléments à l’extérieur du tableau puis les données qui sont à l’intérieur. 
+Quel titre est informatif parmi les titres des publications suivantes ? {
+~Dépenses des administrations publiques ventilées par fonction en 2023 
+~Consommation de soins et de biens médicaux entre 2013 et 2023 
+~Équipements géolocalisés (commerce, service, sport, santé) en 2023
+=L’activité économique se maintient grâce aux seuls services
+####Le message est issue de l’analyse des données de conjoncture économique de l’Insee. Les autres titres sont des titres descriptifs.  
 }
 
 ::A2C001lectureQ04::
-Comment lire un tableau statistique ? {
-~De bas en haut du tableau 
-~De haut en bas du tableau 
-=D’abord l’extérieur puis l’intérieur du tableau 
-~D’abord l’intérieur puis l’extérieur du tableau 
-####Il faut avoir une démarche méthodique pour lire un tableau statistique en examinant d’abord les éléments à l’extérieur du tableau puis les données qui sont à l’intérieur. 
+Dans quelle source a-t-on des informations sur la collecte des données ?  {
+=Source\: Insee, Recensement de la population 
+~Source\: France Travail, DARES
+~Source\: IPSOS
+~Source\: Insee
+####La source indique le producteur de la donnée (l’Insee) et le dispositif de collecte de données qui est celui du recensement de la population (par enquête). Pour connaître plus précisément ce dispositif, il faut aller sur Insee.fr. 
 }
 
 ::A2C001lectureQ05::
-Comment lire un tableau statistique ? {
-~De bas en haut du tableau 
-~De haut en bas du tableau 
-=D’abord l’extérieur puis l’intérieur du tableau 
-~D’abord l’intérieur puis l’extérieur du tableau 
-####Il faut avoir une démarche méthodique pour lire un tableau statistique en examinant d’abord les éléments à l’extérieur du tableau puis les données qui sont à l’intérieur. 
+Cochez les éléments qui peuvent être contenues dans les notes sous le tableau \: {
+    ~Un message essentiel issu de l’analyse des données
+    =Une précision méthodologique
+    =Des définitions
+    ~L’unité du tableau
+    =Un guide de lecture
+    ~La source des données
+    =Le type de données (révisées, provisoires..)
+    =Le champs
+####Les notes, souvent situées sous le tableau, permettent d’aider le lecteur dans la compréhension du tableau statitistique, mais elles ne doivent pas répéter des éléments qui apparaissent autre part comme le message essentiel qui est dans le titre, l’unité ou la source. 
 }
 
 ::A2C001lectureQ06::
-Comment lire un tableau statistique ? {
-~De bas en haut du tableau 
-~De haut en bas du tableau 
-=D’abord l’extérieur puis l’intérieur du tableau 
-~D’abord l’intérieur puis l’extérieur du tableau 
-####Il faut avoir une démarche méthodique pour lire un tableau statistique en examinant d’abord les éléments à l’extérieur du tableau puis les données qui sont à l’intérieur. 
+« Répartition des agents de l’Insee par établissement » \: d’après ce titre d’un tableau statistique, quel est le caractère étudié ? {
+~Le nombre d’agents de l’Insee
+=L’âge des agents de l’Insee
+~Le salaire des agents l’Insee
+~Les établissements d’affectation des agents de l’Insee 
+####Dans le titre descriptif d’un tableau statistique, on peut trouver le caractère étudié qui est l’établissement dans lequel est affecté un agent de l’Insee. Les agents de l’Insee constituent la population étudiée selon le caractère « établissement d’affectation ».
+}
+
+::A2C001lectureQ07::
+D’après ce tableau, quelle est la part des agents de catégorie A dans l’ensemble de la fonction publique en 2022 ?  {
+~55,2 %
+~12,7 %
+~43,7 %
+=38,2 % 
+####Les marges des tableaux statistiques permettent de connaître le poids des modalités des caractères étudiés de la population d’étude. Les marges permettent ici de connaître le poids des différentes catégories dans l’ensemble de la fonction publique. 
+}
+
+::A2C001lectureQ08::
+Au sein de la fonction publique territoriale, quelle est la part des agents de catégorie C ?  {
+~14,8 %
+~1,0 %
+~100,0 %
+=71,3 % 
+####Au sein de la fonction publique territoriale, 71,3 % des agents sont de catégorie C, ce qui est relativement plus que dans l’ensemble de la fonction publique (39,0 % de l’ensemble de la fonction publique). C’est un message essentiel du tableau !
 }
