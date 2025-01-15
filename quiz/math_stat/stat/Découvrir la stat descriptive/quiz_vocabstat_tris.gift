@@ -1,0 +1,73 @@
+$CATEGORY: Vocabulaire et tris à plat
+
+::A2C001introstatQ01 ::
+Quelle est la définition d'une population en statistique descriptive ?{
+~L’ensemble des variables étudiées
+=Un groupe d’individus étudié selon certains critères
+~La somme des valeurs observées
+~Une variable quantitative continue
+####La population est constituée d’individus statistiques, étudiés dans un fichier détail.
+}
+
+::A2C001introstatQ02 ::
+Que signifie le terme "modalité" en statistique descriptive ?{
+=Une catégorie ou une valeur possible d’une variable
+~La somme des valeurs d’une variable
+~Une mesure de tendance centrale
+~La fréquence absolue d’une variable
+####Par exemple, « homme » et « femme » sont des modalités de la variable sexe.
+}
+
+::A2C001introstatQ03 ::
+Quelle est la différence entre une variable qualitative et une variable quantitative ?{
+~Les variables qualitatives peuvent être additionnées
+~Les variables quantitatives ont des modalités non mesurables
+=Les variables qualitatives sont non mesurables, tandis que les quantitatives sont numériques et mesurables
+~Il n’y a aucune différence entre les deux
+####Attention, les variables qualitatives sont parfois numériques, quand les modalités sont codées avec un nombre.
+}
+
+::A2C001introstatQ014::
+Qu’est-ce qu’un "tri à plat" sur un fichier détail ?{
+~Une liste des variables étudiées
+=Un comptage des individus selon les modalités d’une variable
+~Une analyse des relations entre deux variables
+~Un regroupement des données en classes
+####C’est un des premiers traitements statistique à réaliser pour appréhender et synthétiser l’information contenue dans un fichier détail.
+}
+
+::A2C001introstatQ05 ::
+En quoi consiste la « mise en tranche » d'une variable quantitative ?{
+=À regrouper les valeurs observées en classes d’amplitude définie
+~À calculer la moyenne et l’écart type de la variable
+~À transformer une variable quantitative continue en variable quantitative discrète
+~À représenter graphiquement les fréquences cumulées
+#### Les valeurs d’une variable quantitative peuvent être classées par ordre croissant et regroupées en classes (ou tranches) ce qui permet de rendre le tableau du tri à plat plus lisible.
+}
+
+::A2C001introstatQ06 ::
+A quelle question permettent de répondre les effectifs cumulés dans un tri à plat ?{
+~Combien d’individus possèdent une modalité k ou plus ?
+~Combien d’individus possède exactement la modalité k ?
+=Combien d’individus possèdent une modalité k ou moins ?
+~Aucune de ces questions.
+####Par exemple, dans une population donnée, combien d’individus ont 50 ans ou moins.
+}
+
+::A2C001introstatQ07 ::
+Quel est le principal intérêt d'utiliser une représentation graphique en statistique descriptive ?{
+=Faciliter la visualisation et l’interprétation des données
+~Faire joli sur un support de diffusion
+~Regrouper les modalités d’une variable qualitative
+~Identifier les relations de causalité entre les variables 
+####La représentation graphique permet de synthétiser les données et de mettre en valeur un ou plusieurs messages issus de l’analyse des données.
+}
+
+::A2C001introstatQ08 ::
+Quel type de graphique convient le mieux pour représenter une variable qualitative ?{
+=Diagramme en barres
+~Histogramme
+~Courbe
+~Boîte à moustaches
+####Le diagramme en barres (et le diagramme circulaire) est adapté pour représenter une variable qualitative, ce qui permet de comparer les effectifs et les fréquences des différentes modalités.
+}
