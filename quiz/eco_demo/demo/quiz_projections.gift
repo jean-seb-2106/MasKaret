@@ -1,0 +1,37 @@
+$CATEGORY:  Projections
+
+::C2C02projectionsQ01 ::
+La pyramide des âges permet de visualiser sur un seul graphique \:{ 
+~%50%la répartition d’une population par âge
+~%50%la répartition d’une population par sexe
+~ la répartition d’une population par PCS
+~ la répartition d’une population par niveau de diplôme
+#### La pyramide des âges représente la répartition par sexe et âge de la population à un instant donné. Elle est constituée de deux histogrammes, un pour chaque sexe (par convention, les hommes à gauche et les femmes à droite), où les effectifs sont portés horizontalement et les âges verticalement. 
+}
+
+::C2C02projectionsQ02 ::
+Parmi les pyramides d’âge suivantes, laquelle permet d’assurer le renouvellement des générations \:{
+~ en haut à gauche
+~ en bas à gauche
+= en haut à droite
+~ en bas à droite
+#### Elle correspond à la pyramide des âges de la Côte d’Ivoire et a vraiment la forme d’une pyramide. Il s’agit d’une population dans laquelle il y a beaucoup de jeunes et très peu de personnes âgées.
+}
+
+::C2C02projectionsQ03 ::
+Pour fournir une image dans le futur du nombre d’habitants, les projections démographiques établissent des hypothèses pour les composantes suivantes \:{
+~%33.33%fécondité
+~ hérédité
+~%33.33%mortalité
+~ morbidité
+~%33.33%migrations
+~ précarité
+~ pauvreté
+#### Différentes hypothèses d'évolution sont faites pour chaque composante, constituant différents scénarios.
+}
+
+::C2C02projectionsQ04 ::
+Les projections démographiques sont comme des prévisions \: elles intègrent des éléments conjoncturels qui sont susceptibles de modifier l’évolution démographique tendancielle. {
+FALSE
+#### Les projections servent de base à la réflexion de long terme et permettent d’analyser l’évolution de la population si les hypothèses se vérifiaient, mais ne sont pas des prévisions. Les comportements individuels, certaines actions de politiques publiques, des progrès scientifiques ou des imprévus (évènements météorologiques, épidémies) dans les années à venir peuvent en effet avoir un effet durable et sensiblement influencer les évolutions tendancielles, ce que les projections ne prennent pas en compte.
+}
