@@ -1,0 +1,61 @@
+$CATEGORY:  Migrations
+
+::C2C02migrationsQ01 ::
+Qu’est-ce que le solde naturel ?{
+~ C’est le rapport entre le nombre de naissances et le nombre de décès
+= C’est la différence entre le nombre de naissances et le nombre de décès
+~ C’est la différence entre le nombre de décès et le nombre de naissances
+~ C’est la somme entre le nombre de naissances et le nombre de décès
+####Le solde naturel est la différence entre le nombre de naissances et le nombre de décès enregistrés au cours d'une période.
+}
+
+::C2C02migrationsQ02 ::
+Un solde naturel positif sur un territoire indique que \:{
+~%50% le nombre de naissances est supérieur au nombre de décès
+~ la natalité est forte
+~ la mortalité est faible
+~%50% l’excédent naturel est positif
+~ l’excédent naturel est négatif
+#### Un solde naturel positif indique qu’il y a un accroissement naturel ou un excédent naturel, ce qui signifie que le nombre de naissances est supérieur au nombre de décès sur un territoire. Cet indicateur ne donne pas d’indications sur le volume des flux de naissances et de décès \: on ne sait pas si la natalité ou mortalité est forte ou faible.
+}
+
+::C2C02migrationsQ03 ::
+La transition démographique est cette période de l’histoire des pays industrialisés pendant laquelle \: {
+~%50% la croissance démographique était très forte
+~%50% la natalité était bien plus élevée que la mortalité
+~ la mortalité était bien plus élevée que la natalité
+~ la croissance démographique était très faible
+#### Pendant la période dite de transition démographique, les pays en industrialisation ont connu une période de forte natalité et de faible mortalité, dont un forte croissance démographique due à l’excédent naturel. Cette période suit une période de forte natalité et de forte mortalité (excédent naturel faible) et précède une période de faible natalité et de faible mortalité (excédent naturel faible).
+}
+
+::C2C02migrationsQ04 ::
+Qu’est-ce que le solde migratoire apparent sur un territoire ?{
+~ C’est le nombre d’entrées
+~ C’est le nombre de sorties
+= C’est la différence entre les entrées et les sorties
+~ C’est la différence entre les sorties et les entrées
+#### On parle de solde migratoire apparent parce que pour calculer ce solde, on fait la différence entre la variation de la population sur une période donnée et le solde naturel. Il est obtenu par déduction des deux autres indicateurs.
+}
+
+::C2C02migrationsQ05 ::
+Que signifie un solde migratoire négatif sur un territoire ?{
+~ Qu’il y a beaucoup de flux d’entrées et de sorties
+~ Que le nombre d’entrées est supérieur au nombre de sorties
+= Que le nombre de sorties est supérieur au nombre d’entrées
+~ Qu’il y a peu de flux d’entrées et de sorties 
+#### Par définition, un solde migratoire négatif signifie qu’il y a davantage de sorties que d’entrées sur un territoire. Le solde migratoire apparent des entrées-sorties est aussi un indicateur d’attractivité d’un territoire.
+}
+
+::C2C02migrationsQ06 ::
+Au 1er janvier 2023, il y a 1 000 habitants sur un territoire. Au 1er janvier 2024, on recense 1 500 habitants. En 2023, il y a eu 800 naissances, et 200 décès. Concernant l’évolution démographique entre 2023 et 2024, je peux en conclure que \:{
+~%20%la population augmente de 500 habitants
+~%20%le solde naturel contribue positivement à la croissance démographique
+~ le solde migratoire contribue positivement à la croissance démographique
+~%20%le solde migratoire contribue négativement à la croissance démographique
+~ le solde migratoire contribue négativement à la croissance démographique
+~%20%le solde naturel est égal à +600
+~ le solde migratoire est égal à +100
+~%20%le territoire n’est pas attractif
+~ les flux migratoires sont importants
+#### Entre 2023 et 2024, ce territoire gagne 500 habitants. C’est l’accroissement naturel qui porte intégralement la croissance démographique \: le solde naturel s’élève à 600 habitants. Au contraire, le solde migratoire apparent freine la croissance démographique et fait perdre 100 habitants au territoire. Il n’y a pas d’indications sur l’importance des flux migratoires, mais seulement sur la différence entre les entrées et les sorties. Il pourrait en théorie y avoir 1 000 000 d’entrées et 1 000 100 sorties du territoire (1 000 100 – 1 000 000 \= 100), tout comme 100 sorties et 0 entrée. On sait juste qu’il y a davantage de sorties que d’entrées, et que cette différence est égale à 100.
+}
