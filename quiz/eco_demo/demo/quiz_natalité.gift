@@ -1,0 +1,43 @@
+$CATEGORY: Natalité
+
+::C2C01nataliteQ01 ::
+Un bébé est né à la maternité de l’hôpital de Libourne. Sa maman habite à Saint-André de Cubzac, son papa habite à Vayres. Comment l’Insee comptabilise cette naissance ? {
+= Une naissance enregistrée à Libourne, une naissance domiciliée à Saint André de Cubzac
+~ Une naissance enregistrée à Libourne, une naissance domiciliée à Vayres
+~ Une naissance domiciliée à Vayres, une naissance domiciliée à Saint-André de Cubzac
+~ Une naissance enregistrée à Vayres, une naissance domiciliée à Saint André de Cubzac
+#### Les naissances enregistrées alimentent l’information statistique dans le domaine de l’offre de soins alors que les naissances domiciliées permettent d’étudier les dynamiques démographiques territoriales.
+}
+
+::C2C01nataliteQ02 ::
+Pour mesurer le taux de natalité sur un territoire, on relativise le nombre de naissance \:{
+= au nombre d’habitants
+~ au nombre de femmes
+~ au nombre de femmes entre 15 et 49 ans
+~ au nombre d’hommes
+#### Plus précisément, le taux de natalité est le rapport du nombre de naissances vivantes de l'année à la population totale moyenne de l'année.
+}
+
+::C2C01nataliteQ03 ::
+L’ICF (indicateur conjoncturel de fécondité) est calculé à partir des taux de fécondité (quotient de fécondité) par âge \:{
+TRUE
+#### L’ICF est la somme des taux de fécondité par âge observés une année donnée. Il correspond au nombre d’enfants qu’aurait une femme tout au long de sa vie si les taux de fécondité observés l’année considérée à chaque âge demeuraient inchangés. On parle aussi d’ISF (indice syhthétique de fécondité). 
+}
+
+::C2C01nataliteQ04 ::
+Pour assurer le renouvellement des générations, l’ICF doit être au moins égal à \:{
+~ 1,9 enfants par femme
+~ 2,0 enfants par femme
+= 2,1 enfants par femme
+~ 2,2 enfants par femme
+#### Pour qu’une génération puisse se renouveler sous le seul effet de la « nature » sur un territoire donné, l’ICF doit être supérieur à 2 enfants par femme parce qu’il y a légèrement plus de naissances de garçons que de filles et parce que certaines femmes meurent avant d’atteindre l’âge de procréer.
+}
+
+::C2C01nataliteQ05 ::
+En 2024, en France, l’ICF s’établit à \:{
+~ 1,15 enfants par femme
+= 1,62 enfants par femme
+~ 1,95 enfants par femme
+~ 2,33 enfants par femme
+#### En 2024, l’indicateur conjoncturel de fécondité (ICF) continue de diminuer et s’établit à 1,62 enfant par femme (1,59 en France métropolitaine), après 1,66 en 2023 (1,62 en France métropolitaine). [Bilan démo Insee 2024](https\://www.insee.fr/fr/statistiques/8327319\#titre-bloc-10)
+}
