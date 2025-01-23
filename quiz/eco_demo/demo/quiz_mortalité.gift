@@ -1,0 +1,58 @@
+$CATEGORY:  Mortalité
+
+::C2C01mortaliteQ01 ::
+Pour mesurer la mortalité sur un territoire, on peut utiliser l’indicateur suivant \:
+{
+~ le nombre de naissances
+~ le nombre de malades en fin de vie
+= le nombre de décès
+~ le nombre d’enterrements
+#### Depuis mars 2020 (Covid), l’Insee diffuse des statistiques sur le nombre de décès quotidiens en France pour suivre avec précision la mortalité en France.
+}
+
+::C2C01mortaliteQ02 ::
+Une personne meurt à l’hôpital de Libourne et habite à Saint-Émilion. Comment l’Insee comptabilise ce décès ?
+{
+~ 1 décès enregistré à Libourne, 1 décès enregistré à Saint-Émilion
+= 1 décès enregistré à Libourne, 1 décès domicilié à Saint-Émilion
+~ 1 décès domicilié à Libourne, 1 décès enregistré à Saint-Émilion
+~ 1 décès domicilié à Libourne, 1 décès domicilié à Saint-Émilion
+#### Les décès domiciliés sont comptés au domicile du défunt, les décès enregistrés sont comptés au lieu où s’est produit le décès (hôpital, maison de retraite, lieu de l’accident etc...). Ces deux statistiques ont des finalités différentes.
+}
+
+::C2C01mortaliteQ03 ::
+Comment s’appelle le répertoire géré par l’Insee dans lequel sont enregistrés les décès ?
+{
+~ Sirene
+~ Fideli
+= RNIPP
+~ BPE
+#### Le répertoire national d’identification des personnes physiques, tenu par l’Insee depuis 1946, enregistre les décès survenus en France et déclarés par les officiers d’état civil. Il est l’image des registres d’état civil.
+}
+
+::C2C01mortaliteQ04 ::
+Par quoi faut-il relativiser le nombre de décès pour mesurer le taux de mortalité sur un territoire ?
+{
+= le nombre d’habitants
+~ le nombre de naissance
+~ le nombre de lits dans les hopitaux
+~ le nombre d’entreprises
+#### Le taux de mortalité est plus précisément le rapport du nombre de décès de l'année à la population totale moyenne de l'année.
+}
+
+::C2C01mortaliteQ05 ::
+Le quotient de mortalité par âge permet de mesurer \:
+{
+= la probabilité de mourir à un certain âge pour une même génération
+~ la probabilité de mourir une année donnée pour une même génération
+~ la probabilité de mourir à un âge donné pour plusieurs générations
+~ la probabilité de mourir tout court
+#### Plus précisément, le quotient de mortalité par âge mesure la probabilité, pour les personnes survivantes à cet âge, de décéder avant l'âge suivant. C’est ce quotient qui est utilisé dans les tables de mortalité pour calculer les espérances de vie par âge (et notamment l’espérance de vie à la naissance).
+}
+
+::C2C01mortaliteQ06 ::
+Le calcul de l’espérance de vie à la naissance prend en compte la probabilité d’évènements exceptionnels (guerre, épidémie, séismes…).
+{
+FALSE
+#### L’espérance de vie à la naissance est calculée dans des conditions « normales » de mortalité, c’est-à-dire dans les mêmes conditions que les générations précédentes à chaque âge pour un territoire donné.
+}
