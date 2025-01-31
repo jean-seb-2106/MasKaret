@@ -1,0 +1,31 @@
+$CATEGORY:  liens_quartiers
+
+::D1C01liensquartiersQ01::
+Dans la ville Insee, le quartier du pilotage n’a aucun lien avec des organismes extérieurs. {
+FALSE
+####Eurostat et le CNIS expriment leurs besoins d’information statistique via le quartier du pilotage. Et l’Insee doit rendre compte de son activité auprès de ces deux organismes. 
+}
+
+::D1C01liensquartiersQ02::
+L’Insee se finance principalement grâce à la vente de données et d’études économiques.{
+FALSE
+####Le budget de l’Insee, en tant que direction générale du ministère de l’économique, est voté chaque année en loi de finances au Parlement. L’Insee doit rendre compte de son activité et de ses performances dans un rapport transmis au Parlement.
+}
+
+::D1C01liensquartiersQ03::
+Les ménages, les entreprises et les administrations sont des fournisseurs des données pour le quartier de la production statistique à l’Insee.{
+TRUE
+####Ces acteurs de la vie économique et sociale fournissent des données à l’Insee en répondant à des enquêtes ou en transmettant des fichiers. Ces données sont traitées par l’Insee pour produire et diffuser de l’information statistique exploitable.
+}
+
+::D1C01liensquartiersQ04::
+A l’Insee, toute l’activité de développement et de maintenance informatique est externalisée à des entreprises privées.{
+FALSE
+####Dans le quartier de l’informatique, les agents développement et assurent la maintenance d’un grand nombre d’applications et d’outils informatiques permettant à tous les autres quartiers de réaliser leur mission.
+}
+
+::D1C01liensquartiersQ05::
+Le quartier des référentiels (SIRENE, RNIPP…) permet de fournir des concepts aux autres quartiers de production de l’Insee.{
+TRUE
+####Le quartier des référentiels fournit des concepts clairement définis aux unités du quartier de production, ce qui leur permet notamment de produire des informations comparables dans le temps et l’espace.
+}
