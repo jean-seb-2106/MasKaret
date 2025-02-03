@@ -1,0 +1,34 @@
+$CATEGORY: parcours_donnees
+
+::D1C04parcoursdonneesQ01 ::
+C’est le Parlement français qui enregistre et transmet à l’Insee la plupart des besoins de nouvelles données \:{
+FALSE
+####Le Parlement vote les crédits accordés à l’Insee en loi de finances, mais l’expression des besoins de nouvelles informations statistiques est principalement formulé par le CNIS (Comité National d’Information Statistique) et Eurostat.
+}
+
+::D1C04parcoursdonneesQ02 ::
+La naissance d’une enquête à l’Insee est formalisée par une inscription au journal officiel \: {
+TRUE
+####L’inscription au journal officiel permet d’inscrire l’enquête au programme de travail de l’Insee. Le lien ci-après montre un exemple d’arrêté qui fixe le programme d’enquêtes auprès des ménages et des collectivités territoriales pour 2025 \:  https\://www.cnis.fr/wp-content/uploads/2024/10/jo-initial-octobre-2024-menages-collter.pdf
+}
+
+::D1C04parcoursdonneesQ03 ::
+Les données produites par l’Insee proviennent nécessairement d’une enquête \:{
+FALSE
+####Les données peuvent aussi provenir de fichiers administratifs produits par des organisations exerçant des missions de service public. Depuis la loi pour une République numérique de 2016, elles peuvent aussi provenir de fichiers produits par les entreprises privées, comme les données de caisse qui sont utilisées pour construire l’IPC.
+}
+
+::D1C04parcoursdonneesQ04 ::
+Les données collectées par enquête ou issues de fichiers administratifs, sont directement diffusées au grand public.{
+FALSE
+#### Avant d’être diffusée, la donnée doit subir un certain nombre de traitement \: contrôle, apurement, redressement, imputation etc. Elle doit être mise aux normes conformément au protocole de collecte et de traitement défini en amont.
+}
+
+::D1C04parcoursdonneesQ05 ::
+Le référentiel de métadonnée à l’Insee s’appelle \: {
+~AChiL
+~PoZéidon
+=Rmés
+~NepTHUNE
+####Afin de rendre les métadonnées accessibles, RMéS, le Référentiel de Métadonnées Statistiques de l’Insee et du service statistique publique, les structure, les harmonise et les centralise, garantissant ainsi la cohérence des informations grâce à des règles d’identification pour tous les utilisateurs et leur réutilisation grâce à la mise en œuvre de normes et de standards internationaux.
+}
