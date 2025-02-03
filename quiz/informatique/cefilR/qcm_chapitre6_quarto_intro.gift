@@ -1,0 +1,81 @@
+$CATEGORY: quarto_intro
+
+::B1C06introQ01 ::
+Qu’est-ce que Quarto ?{
+~ Un langage de programmation #Quarto utilise les balises Markdown pour la mise en forme et permet l’exécution de code de différents langages mais n’en est pas un en particulier.
+~ Un outil de gestion de bases de données #Quarto n’a rien à voir avec les bases de données.
+= Un système de publication scientifique et technique
+~ Un éditeur de texte#On utilise un éditeur (par exemple RStudio) pour saisir le fichier source, mais Quarto n’est pas un éditeur de texte.
+}
+
+::B1C06introQ02 ::
+Quel est le format de fichier principal utilisé par Quarto ?{
+= .qmd
+~ .rmd#C’est le format de Rmarkdown dont Quarto a repris les grands principes en les faisant fortement évoluer.
+~ .html#Le html est un format de rendu de Quarto, c’est le format des pages et applications web qu’affichent Firefox ou Edge.
+~ .pdf#Le pdf est un format de rendu de Quarto, c’est le format de fichiers imprimables.
+}
+
+::B1C06introQ03 ::
+Quels éléments ne peuvent pas être inclus dans un document Quarto ?{
+~ Texte et images uniquement#Quarto permet d’afficher du texte mis en forme, des images, du code et son exécution et des éléments scientifiques et multimédia.
+~ Code et sorties de code#Quarto permet d’afficher du texte mis en forme, des images, du code et son exécution et des éléments scientifiques et multimédia.
+~ Équations mathématiques#Quarto permet d’afficher du texte mis en forme, des images, du code et son exécution et des éléments scientifiques et multimédia.
+= Une feuille de tableur Calc
+}
+
+::B1C06introQ04 ::
+Quel format de rendu n’est pas supporté par Quarto ?{
+~ HTML#Quarto peut générer un document au format HTML
+~ PDF#Quarto peut générer un document au format PDF
+= Calc
+~ Word#Quarto peut générer un document au format Word.
+}
+
+::B1C06introQ05 ::
+Quel est le rôle de l’en-tête YAML dans un document Quarto ?{
+= Définir les métadonnées du document
+~ Exécuter du code R#L’en-tête YAML d’un document Quarto sert à définir des informations telles que le titre, l’auteur, la date, le format de sortie, et d’autres paramètres de configuration. L’en-tête YAML permet de personnaliser et de contrôler divers aspects du rendu et de la présentation du document. Le code R est exécuté dans le corps du document.
+~ Formater le texte#L’en-tête YAML d’un document Quarto sert à définir des informations telles que le titre, l’auteur, la date, le format de sortie, et d’autres paramètres de configuration. L’en-tête YAML permet de personnaliser et de contrôler divers aspects du rendu et de la présentation du document. Le texte formaté se situe dans le corps du document.
+~ Insérer des images#L’en-tête YAML d’un document Quarto sert à définir des informations telles que le titre, l’auteur, la date, le format de sortie, et d’autres paramètres de configuration. L’en-tête YAML permet de personnaliser et de contrôler divers aspects du rendu et de la présentation du document. Les images illustrant le document sont mélées au texte, dans le corps du document.
+}
+
+::B1C06introQ06 ::
+Parmi les propositions suivantes, quel langage ne peut pas être exécuté par un chunk de code dans un document Quarto ?{
+~ R#Quarto permet de créer du contenu dynamique avec Python, R, Julia et Observable.
+= Basic
+~ Julia#Quarto permet de créer du contenu dynamique avec Python, R, Julia et Observable.
+~ Python#Quarto permet de créer du contenu dynamique avec Python, R, Julia et Observable.
+}
+
+::B1C06introQ07 ::
+Comment peut-on exécuter un chunk de code dans un document Quarto ?{
+~ En cliquant sur le bouton “Run” dans RStudio#Ce bouton permet d’exécuter du code dans un script R.
+= En cliquant sur le bouton “Render” dans RStudio
+~ En utilisant la fonction render()#Cette fonction n’existe pas.
+~ En utilisant la fonction execute()#Cette fonction n’existe pas.
+}
+
+::B1C06introQ08 ::
+Quelle option permet de cacher le code mais d’afficher la sortie dans un chunk Quarto ?{
+= echo\: FALSE
+~ include\: FALSE#Le code s’exécute mais ne s’affiche pas, ni son résultat.
+~ results\: 'hide'#Ce n’est pas une option Yaml valide
+~ eval\: FALSE#Le code s’affiche mais ne s’exécute pas
+}
+
+::B1C06introQ09 ::
+Comment peut-on définir le titre d’un document Quarto dans l’en-tête YAML ?{
+~ name\: "Mon Titre"#name n’est pas un paramètre d’un document Quarto
+~ document_title\: "Mon Titre"#document_title n’est pas un paramètre d’un document Quarto
+~ heading\: "Mon Titre"#heading n’est pas un paramètre d’un document Quarto
+= title\: "Mon Titre"
+}
+
+::B1C06introQ10 ::
+Qu’est ce qu’un ‘inline chunk’ ?{
+~ Un chunk contenant une seule ligne de code#On peut exécuter autant de lignes de code que l’on souhaite
+~ Un chunk qui ne s’exécute pas#Ce type de chunk prend l’option eval\: false
+= Un résultat de code intégré au texte
+~ Un chunk qui n’a rien de spécial#Un ‘inline chunk’ est un résultat de code intégré au texte.
+}
