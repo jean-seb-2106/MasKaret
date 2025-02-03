@@ -1,0 +1,51 @@
+$CATEGORY: naissance d’une enquête
+
+::D1C03naissance_enqueteQ01 ::
+Quels sont les deux critères à respecter pour que l’Insee puisse inscrire une enquête à son programme de travail ?{
+= %50 %Critère de conformité aux règles de l’art
+~ Critère de pertinence
+= %50 %Critère d’opportunité
+~ Critère d’inopportunité
+~ Critère d’absence d’information existante
+~ Critère de rigueur méthodologique
+~ Critère de ponctualité
+####L’absence d’information existante et la pertinence sont incluses dans le critère d’opportunité. La rigueur méthodologique est incluse dans le critère de conformité aux règles de l’art.
+}
+
+::D1C03naissance_enqueteQ02 ::
+En tant que chef d’entreprise (boulanger), je peux demander à l’Insee de faire une enquête pour avoir des données sur les comportements de ma clientèle de proximité \: {
+FALSE
+####Cette demande ne remplit pas les trois conditions du critère d’opportunité. En effet, même s’il est fort probable que cette information n’existe pas par ailleurs, elle ne répond au besoin spécifique que d’une seule entreprise.
+}
+
+::D1C03naissance_enqueteQ03 ::
+Sélectionner les trois grandes missions du CNIS \:{
+~ Il produit des statistiques et les diffuse
+= %33.3%Il présente les données statistiques existantes et leur fabrication
+~ Il évalue la qualité des données diffusées par le SSP
+= %33.3%Il écoute les utilisateurs et met en lumière les sujets émergents
+= %33.3%Il s’assure de l’intérêt général et de l’utilité des opérations statistiques présentées dans les programmes de travail
+####C’est l’Insee et les SSM (services statistiques ministériels) qui produisent les données et les diffusent et c’est l’ASP (autorité de la statistique publique) qui évalue la qualité des données de la statistique publique. Les autres missions sont exercées par le CNIS, qui délivre un avis d’opportunité aux enquêtes remplissant le critère d’opportunité.
+}
+
+::D1C03naissance_enqueteQ04 ::
+Comment s’appelle le comité en charge de vérifier la conformité d’une enquête aux règles de l’art ?{
+~ Le comité national de la donnée
+~ Le comité théodule
+~ Le comité de la statistique publique
+= Le comité du label
+~ Le comité du visa
+####Le comité du label est missionné par le CNIS pour délivrer des avis de conformité aux règles de l’art. Il est composé d’une quarantaine d’experts de la statistique et il s’assure de la conformité du dispositif de production de données aux règles de la qualité statistique.
+}
+
+::D1C03naissance_enqueteQ05::
+Si une enquête remplit le critère de conformité aux règles de l’art, elle reçoit le label d’intérêt général et de conformité statistique\:{
+FALSE
+####Pour recevoir le label d’intérêt général, une enquête doit remplir les deux critères \: le critère d’opportunité délivré par le CNIS et le critère de conformité aux règles de l’art délivré par le comité du label.
+}
+
+::D1C03naissance_enqueteQ06::
+Pour qu’une enquête soit obligatoire, il faut qu’elle obtienne le label d’intérêt général et de conformité statistique. {
+TRUE
+#### C’est une condition nécessaire mais pas suffisante. Il faut aussi que le ministre en charge de l’économie lui accorde un visa. 
+}
