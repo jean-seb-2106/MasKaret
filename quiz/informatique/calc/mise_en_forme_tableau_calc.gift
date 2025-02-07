@@ -1,0 +1,57 @@
+$CATEGORY: mise en forme tableau
+
+::B2C03forme_tableauQ01 ::
+Quelle option permet d'afficher tout le texte contenu dans une cellule sans modifier sa largeur ?{
+~ Modifier le format en "Texte"#Changer le format en "Texte" ne permet pas d'afficher le texte sur plusieurs lignes.
+~ Ajouter des espaces entre les mots#Ajouter des espaces ne garantit pas que le texte soit bien affiché.
+= Activer le retour à la ligne automatique
+~ Réduire la taille de la police#Réduire la taille de la police peut rendre le texte illisible.
+}
+
+::B2C03forme_tableauQ02::
+Comment appliquer rapidement la mise en forme d’une cellule à d’autres cellules ?{
+~ Copier-coller la cellule#Copier-coller copiera aussi les données, pas seulement la mise en forme.
+~ Activer le mode "Format auto"#Cette option n’existe pas dans Calc.
+~ Appliquer manuellement chaque paramètre#C'est une solution, mais elle prend du temps et peut être source d’erreurs.
+= Utiliser l'outil "Reproduire la mise en forme"
+}
+
+::B2C03forme_tableauQ03::
+Où peut-on personnaliser les bordures d’un tableau dans Calc ?{
+= Dans "Format" > "Cellules" > "Bordures"
+~ Dans "Données" > "Définir bordures"#Ces menus ne permettent pas de modifier les bordures.
+~ Dans "Affichage" > "Bordures automatiques"#Ces menus ne permettent pas de modifier les bordures.
+~ Il n’est pas possible de personnaliser les bordures dans Calc#Calc permet bien d’ajouter et de personnaliser les bordures.
+}
+
+::B2C03forme_tableauQ04 ::
+Comment appliquer une couleur de fond à une cellule ?{
+= En allant dans "Format" > "Cellules" > "Arrière-plan"
+~ En tapant "\=COULEUR(255,255,0)" dans la cellule#Il n’existe pas de fonction "\=COULEUR()" dans Calc.
+~ En modifiant la couleur de la police#Changer la couleur de la police ne modifie pas le fond de la cellule.
+~ En insérant une image de couleur dans la cellule#Une image ne remplace pas un arrière-plan de cellule.
+}
+
+::B2C03forme_tableauQ05 ::
+Quelle est la méthode correcte pour fusionner plusieurs cellules dans Calc ?{
+~ Sélectionner les cellules et appuyer sur "Ctrl + M"#"Ctrl + M" ne sert pas à fusionner des cellules.
+~ Copier la première cellule et la coller dans les autres#Copier-coller du contenu ne fusionne pas les cellules.
+~ Supprimer les bordures entre les cellules#Supprimer les bordures ne fusionne pas les cellules, cela modifie seulement l'affichage.
+= Sélectionner les cellules, puis cliquer sur "Format" > "Fusionner les cellules">Fusionner et centrer les cellules
+}
+
+::B2C03forme_tableauQ06 ::
+Que se passe-t-il si vous fusionnez plusieurs cellules contenant des valeurs différentes ?{
+~ Toutes les valeurs sont concaténées automatiquement dans la nouvelle cellule#Calc ne concatène pas automatiquement les valeurs lors d’une fusion.
+~ Une erreur apparaît et empêche la fusion#Il n’y a pas d’erreur, mais certaines données peuvent être perdues.
+= Une fenêtre apparaît et nous offre la possibilité de concaténer les valeurs dans la première cellule
+~ Chaque valeur est répartie dans une sous-cellule invisible#Les sous-cellules invisibles n’existent pas dans Calc.
+}
+
+::B2C03forme_tableauQ07 ::
+Quelle est la meilleure façon de supprimer les décimales dans une cellule contenant un nombre ?{
+~ Appuyer sur "Suppr" pour effacer les décimales#Supprimer le contenu ne change pas le format de la cellule.
+= Utiliser "Format" > "Cellules" > "Nombre" et définir le nombre de décimales à 0
+~ Modifier le texte de la cellule pour supprimer les chiffres après la virgule#Modifier manuellement le texte ne garantit pas que le format soit bien appliqué.
+~ Appliquer le format "Texte" à la cellule#Le format "Texte" empêchera d’effectuer des calculs sur la valeur.
+}
