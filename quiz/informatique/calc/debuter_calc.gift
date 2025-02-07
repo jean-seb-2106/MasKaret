@@ -1,0 +1,82 @@
+$CATEGORY: Débuter avec Calc
+
+::B2C01debutercalcQ01 ::
+Quelle est l’extension par défaut des fichiers Calc ?{
+~ .xls#.xls est le format des fichiers Excel, pas de Calc.
+= .ods
+~ .csv#.csv est un format de texte pour stocker des données tabulaires, mais ce n'est pas le format natif de Calc.
+~ .odt#.odt est un format de traitement de texte utilisé par Writer.
+}
+
+::B2C01debutercalcQ02 ::
+Comment créer un nouveau classeur dans Calc ?{
+~ En cliquant sur Fichier > Nouveau > Classeur#C'est une méthode valide, mais pas la seule.
+~ En appuyant sur Ctrl + N#C'est un raccourci valide, mais il existe aussi la méthode via le menu.
+~ En cliquant sur Insertion > Nouveau classeur#L’option "Insertion > Nouveau classeur" n’existe pas.
+= A et B
+}
+
+::B2C01debutercalcQ03 ::
+Comment ajouter une nouvelle feuille dans un classeur Calc ?{
+~ En cliquant sur l’icône "+" en bas de la fenêtre#C'est un raccourci valide, mais il existe aussi la méthode via le menu.
+~ En appuyant sur Ctrl + F#Ctrl + F sert à rechercher du texte dans le classeur, pas à insérer une feuille.
+~ En allant dans Insertion > Feuille#Cette option fonctionne, mais il existe aussi une icône rapide.
+= A et C
+}
+
+::B2C01debutercalcQ04 ::
+Comment renommer une feuille dans Calc ?{
+~ Double-cliquer sur l’onglet de la feuille et taper un nouveau nom#C’est une méthode valide, mais on peut aussi passer par le menu.
+~ Sélectionner la feuille et appuyer sur F2#F2 permet d’éditer le contenu d’une cellule, mais pas de renommer une feuille.
+~ Clic droit sur l’onglet de la feuille > Renommer#C’est une méthode valide, mais il existe aussi le double-clic.
+= A et C
+}
+
+::B2C01debutercalcQ05::
+Quelle est l’adresse de la cellule située à la 3ᵉ colonne et à la 5ᵉ ligne ?{
+~E3#C’est l’adresse de la troisième ligne, cinquième colonne
+= C5
+~3E #Il faut commencer par la lettre de la colonne, cette adresse n’existe pas
+~5C #Il faut commencer par la lettre de la colonne, cette adresse n’existe pas
+}
+
+
+::B2C01debutercalcQ06::
+Où peut-on voir le contenu exact d’une cellule sélectionnée ?{
+~ Dans la barre d’état#La barre d’état affiche des informations générales sur le classeur, pas le contenu précis d’une cellule.
+= Dans la barre de formule
+~ Dans le ruban d’outils#Le ruban d’outils permet d’accéder aux commandes, mais pas de voir directement le contenu exact d’une cellule.
+~ Dans la barre de titre#La barre de titre affiche uniquement le nom du fichier, pas le contenu des cellules.
+}
+
+::B2C01debutercalcQ07::
+Quelle action permet de sélectionner une plage de cellules non adjacentes ?{
+= Cliquer sur la première cellule, maintenir Ctrl enfoncé et cliquer sur les autres cellules
+~ Cliquer sur la première cellule, maintenir Shift et cliquer sur la dernière cellule#Shift permet de sélectionner une plage continue, pas des cellules non adjacentes.
+~ Faire un glisser-déposer avec la souris#Le glisser-déposer sélectionne uniquement une zone contiguë.
+~ Utiliser la touche Alt en cliquant sur les cellules#La touche Alt ne sert pas à la sélection multiple dans Calc.
+}
+
+::B2C01debutercalcQ08::
+Comment sélectionner toute une colonne dans Calc ?{
+= En cliquant sur l’en-tête de la colonne (A, B, C…)
+~ En appuyant sur Ctrl + C#Ctrl + C sert à copier du contenu.
+~ En tapant Ctrl + E#Ctrl + E n’est pas un raccourci de sélection de colonne dans Calc.
+~ En double-cliquant sur une cellule de la colonne#Un double-clic permet d’éditer une cellule, mais pas de sélectionner une colonne entière.
+}
+
+::B2C01debutercalcQ09::
+Comment insérer rapidement plusieurs lignes vides sous une ligne existante ?{
+~ Sélectionner une ligne, faire Insertion > Lignes autant de fois que nécessaire#Cette méthode fonctionne, mais elle est plus lente que la sélection multiple.
+= Sélectionner plusieurs lignes puis faire Insertion > Lignes
+~ Utiliser le raccourci Ctrl + I#Ctrl + I n’est pas un raccourci d’insertion de ligne dans Calc.
+~ Faire un clic droit et choisir "Dupliquer la ligne"#Il n’existe pas d’option "Dupliquer la ligne" pour insérer plusieurs lignes vides.
+}
+
+::B2C01debutercalcQ10::
+Que se passe-t-il si l’on entre un nombre précédé d’un apostrophe ('123) dans une cellule ?{
+~ Le nombre est converti automatiquement en valeur numérique#L’apostrophe force Calc à considérer l’entrée comme du texte, il n’y a pas de conversion automatique.
+~ Un message d’erreur apparaît#Aucun message d’erreur n’apparaît, le texte est simplement affiché tel quel.
+= Calc le reconnaît comme du texte et l’affiche tel quel
+~ L’apostrophe disparaît et seule la valeur numérique est conservée#L’apostrophe est cachée dans l’affichage mais reste présente pour indiquer qu’il s’agit de texte.
+}
