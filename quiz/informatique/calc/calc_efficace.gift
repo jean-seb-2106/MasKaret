@@ -1,0 +1,65 @@
+$CATEGORY: Calc efficacement
+
+::B2C02calc_efficaceQ01 ::
+Quelle est la différence entre une référence relative et une référence absolue dans Calc ?{
+~ Une référence absolue change lorsqu’elle est copiée, tandis qu’une référence relative reste fixe#C’est l’inverse, la référence absolue ne change pas lors de la copie.
+= Une référence relative change lorsqu’elle est copiée, tandis qu’une référence absolue reste fixe
+~ Il n’y a aucune différence entre les deux#La distinction entre références relatives et absolues est essentielle dans Calc.
+~ Une référence absolue ne peut pas être utilisée dans des formules#Une référence absolue est bien utilisable dans une formule.
+}
+
+::A2C02calc_efficaceQ02::
+Comment fixe-t-on une cellule en référence absolue dans une formule Calc ?{
+= En ajoutant le symbole $ devant la lettre de la colonne et le numéro de la ligne
+~ En encadrant la référence avec des crochets [ ]#Cette méthode n’est pas utilisée pour fixer une cellule dans une formule Calc.
+~ En tapant "ABS()" devant la référence#Cette méthode n’est pas utilisée pour fixer une cellule dans une formule Calc.
+~ En mettant un dièse \# avant la cellule#Cette méthode n’est pas utilisée pour fixer une cellule dans une formule Calc.
+}
+
+::A2C02calc_efficaceQ03::
+À quoi sert le collage spécial avec liaison dans Calc ?{
+= À conserver une connexion dynamique entre la source et la destination des données
+~ À fusionner des cellules avant de les coller#Le collage spécial ne fusionne pas les cellules.
+~ À convertir les valeurs en texte après collage#Il ne sert pas à convertir les valeurs en texte.
+~ À copier uniquement la mise en forme d’une cellule#Il permet de copier les valeurs avec lien dynamique, pas seulement la mise en forme.
+}
+
+::A2C02calc_efficaceQ04::
+Comment effectuer un collage spécial avec liaison dans Calc ?{
+= Copier la plage, puis "Édition" > "Collage spécial" > "Coller avec liaison"
+~ Copier et coller normalement avec "Ctrl + V"#Un collage normal ne crée pas de liaison dynamique.
+~ Utiliser la fonction "\=COLLER()" dans une cellule#Il n'existe pas de fonction "\=COLLER()" dans Calc.
+~ Cliquer sur "Insérer" > "Liaison de données"#L’insertion de données n’est pas utilisée pour le collage spécial lié.
+}
+
+::A2C02calc_efficaceQ05::
+Quelle est la conséquence d’un collage spécial avec liaison si la source est modifiée ?{
+= Les données collées sont mises à jour automatiquement
+~ Les données collées restent inchangées#Le collage spécial avec liaison permet une mise à jour automatique des données.
+~ Les données collées sont supprimées#Les données ne sont pas supprimées, elles restent liées à la source.
+~ Les données collées sont converties en valeurs fixes#Le collage spécial avec liaison permet une mise à jour automatique des données.
+}
+
+::A2C02calc_efficaceQ06::
+Quelle est la fonction principale du collage spécial transposé ?{
+~ Supprimer les formules des cellules copiées#Cette option ne concerne pas la transposition des données.
+= Inverser les lignes et les colonnes lors du collage
+~ Convertir les nombres en texte#Cette option ne concerne pas la transposition des données.
+~ Modifier la couleur de fond des cellules collées#Le collage spécial transposé ne modifie pas la mise en forme des cellules.
+}
+
+::A2C02calc_efficaceQ07::
+Comment effectuer un collage spécial transposé dans Calc ?{
+~ Copier-coller normalement avec "Ctrl + V"#Un simple "Ctrl + V" ne permet pas d’effectuer une transposition.
+~ Insérer une nouvelle feuille et recopier manuellement les valeurs#Recopier manuellement les valeurs est une méthode longue et inutile.
+~ Cliquer sur "Données" > "Convertir en texte"#L’option "Convertir en texte" ne permet pas de transposer des données.
+= Copier la plage, puis "Édition" > "Collage spécial" > "Collé transposé"
+}
+
+::A2C02calc_efficaceQ08::
+Quelle combinaison d’actions permet de fixer une cellule tout en transposant des données ?{
+= Utiliser le symbole $ dans la formule, puis effectuer un collage spécial transposé
+~ Activer le mode "Fixer les valeurs" dans Calc#Cette option ne permet pas de fixer une cellule et de transposer des données.
+~ Appliquer la mise en forme conditionnelle après collage#Cette option ne permet pas de fixer une cellule et de transposer des données.
+~ Copier-coller avec "Ctrl + Shift + V"#"Ctrl + Shift + V" permet d’ouvrir le menu du collage spécial, mais il faut encore choisir l’option transposée.
+}
