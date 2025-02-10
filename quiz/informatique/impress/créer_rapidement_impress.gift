@@ -1,0 +1,41 @@
+$CATEGORY: Impress rapide
+
+::B2C06impress_rapideQ01 ::
+Il est possible de générer un document de présentation Impress à partir d’un document créé avec Writer \:{
+TRUE
+####C’est une bonne pratique de commencer à rédiger son texte de présentation sur Writer pour structurer son plan, avant de se lancer dans la fabrication d’un document Impress. En effet, cette pratique permet de dissocier le travail sur le fond et la forme.
+}
+
+::B2C06impress_rapideQ02 ::
+Pour générer une présentation Impress à partir d’un document Writer, il faut commencer par changer le style de la page\:{
+FALSE
+####Il n’est pas nécessaire de changer le style de la page. En revanche, il faut changer les styles des paragraphes en utilisant les styles Titre 1, Titre 2, Titre 3...
+}
+
+::B2C06impress_rapideQ03 ::
+Quel style de paragraphe sera utilisé comme titre de la diapositive dans Impress?{
+= Titre1
+~ Titre2#Ce style de titre sera le premier message de la diapositive, mais pas le titre de la diapositive
+~ Titre3#Ce style de paragraphe sera le contenu de la diapositive à l’intérieur du paragraphe 
+~ Style de paragraphe par défaut#ce style n’est pas pris en compte dans Impress
+}
+
+::B2C06impress_rapideQ04 ::
+Quand le document Writer est format, quelle manipulation faut-il effectuer pour le transformer en document Impress?{
+~ Menu Insertion/Document/Impress#Ce menu n’existe pas
+~ Menu Outils/Transformer/Impress#Ce menu n’existe pas
+~ Menu Aide/Impress#Ce menu n’existe pas
+= Menu Fichier/Envoyer/Plan vers Présentation
+}
+
+::B2C06impress_rapideQ05 ::
+Il est conseillé de choisir un des modèles proposés par l’Insee dès la création du document Impress\:{
+TRUE
+####Il n’est pas évident de formater un document avec un modèle de l’Insee à posteriori. Il vaut mieux commencer dès le début à utiliser un des modèles de présentation proposé par l’Insee
+}
+
+::B2C06impress_rapideQ06 ::
+Le choix du modèle de présentation de l’Insee proposés dépend complètement du service dans lequel vous travaillez à l’Insee \:{
+FALSE
+####Les modèles de présentation proposés dans la liste des modèles dépendent du public auquel s’adresse la présentation \: grand public ? Public de spécialiste ?
+}
