@@ -1,0 +1,83 @@
+::B2C05graphiquesQ01 ::
+Comment insérer un graphique dans Calc ?{
+~ Cliquer sur « Affichage » > « Graphique »#Il n’y a pas Graphique dans Affichage
+~ Sélectionner les données et appuyer sur la touche F4#La touche F4 ne sert pas à insérer un graphique.
+= Sélectionner les données à représenter, puis cliquer sur « Insertion » > « Diagramme »#Il est aussi possible de cliquer directement sur l’icône intitulée « insérer un diagramme ».
+~ Taper \=GRAPH() dans une cellule et rentrer les coordonnées des cellules#Il n'existe pas de fonction \=GRAPH() dans Calc.
+}
+
+::B2C05graphiquesQ02 ::
+A chaque fois qu’un nouveau graphique est créé dans Calc, il faut suivre les 4 étapes de l’assistant de diagramme \:{
+TRUE
+####Il n’est pas possible de retrouver l’assistant de diagramme une fois que le graphique a été créé.
+}
+
+::B2C05graphiquesQ03 ::
+Pour accéder aux options de modifications d’un graphique, il faut cliquer une fois sur le graphique pour le sélectionner \:{
+FALSE
+####Il faut cliquer deux fois sur le graphique pour accéder aux options de modifications. Un encadré gris autour du graphique indique qu’on peut accéder aux options de modifications.
+}
+
+::B2C05graphiquesQ04 ::
+Quel type de graphique est le plus adapté pour représenter une évolution dans le temps ?{
+~ Un diagramme en barre#Un diagramme en barre sert à comparer des valeurs mais pas à montrer une évolution.
+~ Un diagramme circulaire#Un diagramme circulaire est utilisé pour représenter des proportions, pas des évolutions.
+= Un graphique en courbes
+~ Un histogramme#Un histogramme est adapté aux distributions de fréquences, pas aux évolutions temporelles.
+####Les courbes en Calc correspondent aux diagrammes « Ligne »et « XY ».
+}
+
+::B2C05graphiquesQ05 ::
+Que se passe-t-il si vous modifiez les données sources d’un graphique ?{
+= Le graphique est mis à jour automatiquement
+~ Le graphique reste identique et doit être recréé#Il n’est pas nécessaire de recréer le graphique.
+~ Le graphique devient invalide et affiche une erreur#Un graphique ne devient pas invalide après une modification des données.
+~ Seule la couleur des barres ou des courbes est affectée#Modifier les données sources peut impacter toutes les valeurs du graphique, pas seulement la couleur.
+}
+
+::B2C05graphiquesQ06 ::
+Si vous modifiez l’ordre des données sources d’un diagramme en barre, l’ordre des barres change automatiquement ?{
+TRUE
+####Vous ne pouvez pas modifier l’ordre des barres directement dans les options du graphiqe.
+}
+
+::B2C05graphiquesQ06 ::
+Quel élément ne peut pas être modifié directement dans un graphique Calc ?{
+~ La couleur des barres#La couleur des éléments du graphique peut être modifiée.
+= Les valeurs des cellules sources
+~ La police du titre#La police du titre est personnalisable.
+~ Le type de graphique#Le type de graphique peut être changé après coup.
+}
+
+::B2C05graphiquesQ07 ::
+Quel type de graphique est recommandé pour comparer la répartition des parts d’un ensemble ?{
+~ Un histogramme#Un histogramme est utilisé pour des distributions de fréquences.
+= Un diagramme circulaire
+~ Un graphique en courbes#Un graphique en courbes montre une évolution, pas une répartition.
+~ Un nuage de points#Un nuage de points sert à représenter des relations entre deux variables.
+####Le diagramme circulaire s’appelle « Secteur » dans Calc.
+}
+
+::B2C05graphiquesQ08 ::
+Dans un graphique en courbes, quel élément permet d’indiquer les valeurs des points ?{
+~ La légende#La légende indique les catégories, pas les valeurs.
+= Les étiquettes de données
+~ L’axe horizontal#L’axe horizontal sert à positionner les points mais ne donne pas les valeurs précises.
+~ Le titre du graphique#Le titre donne une indication générale mais ne montre pas de valeurs chiffrées.
+}
+
+::B2C05graphiquesQ09 ::
+Comment personnaliser la couleur des barres d’un diagramme en barre dans Calc ?{
+= Double-cliquer sur la barre et choisir une nouvelle couleur
+~ Modifier la couleur du texte des cellules sources#Modifier la couleur du texte n’affecte pas le graphique.
+~ Appliquer une mise en forme conditionnelle dans le tableau source#La mise en forme conditionnelle ne s’applique pas aux graphiques.
+~ Changer la couleur des axes du graphique#Changer la couleur des axes ne modifie pas les barres.
+}
+
+::B2C05graphiquesQ10 ::
+Quelle action permet de modifier rapidement le type de graphique dans Calc ?{
+~ Supprimer le graphique et en insérer un nouveau#Il n’est pas nécessaire de supprimer le graphique.
+= Double cliquer sur le graphique, faire un clic droit sur le graphique et choisir « Type de diagramme »
+~ Modifier les couleurs du graphique#Changer les couleurs n’affecte pas le type de graphique.
+~ Modifier la plage de données sélectionnée#Modifier la plage de données affecte les valeurs mais pas le type de graphique.
+}
