@@ -1,0 +1,77 @@
+$CATEGORY: tables dynamiques
+
+::B2C04tables_dynamiquesQ01 ::
+Quel est le format préconisé de la donnée source d’une table dynamique ?{
+~ Pas de format particulier#il faut bien comprendre la structure des données avant de faire une table dynamique.
+= Une ligne correspond à un enregistrement, une colonne à une variable
+~ Une colonne correspond à un enregistrement, une ligne à une variable#Ce n’est pas préconisé.
+~ La donnée source est localisée dans un autre fichier#les données sources de la table dynamique sont dans le même fichier ods.
+}
+
+::B2C04tables_dynamiquesQ02 ::
+Comment créer une table dynamique dans Calc ?{
+= Sélectionner les données sources et cliquer sur "Insertion" > "Table dynamique"#il est possible de passer par le menu Données ou de choisir l’icône « Insérer ou éditer une table dynamique »
+~ Taper "\=TABLEDYNAMIQUE()" dans une cellule et remplir les données source dans la parenthèse #Il n’existe pas de formule "=TABLEDYNAMIQUE()".
+~ Faire un clic droit sur les données sources sélectionnées et choisir « insérer une table dynamique ». #Cette fonctionnalité n’existe pas quand on fait un clic droit sur données source.
+~ Exporter les données sources vers un autre logiciel#Les tables dynamiques s'utilisent directement dans Calc, sans export nécessaire.
+}
+
+::B2C04tables_dynamiquesQ03 ::
+Les noms des variables apparaissent dans la rubrique « champs disponibles » de l’assistant des tables dynamiques\:{
+TRUE
+####Si les noms ne sont pas définis sur la première ligne, alors ce sont les données associées au premier enregistrement qui seront reprises dans cette rubrique.
+} 
+
+::B2C04tables_dynamiquesQ04 ::
+Pourquoi est-il préconisé d’utiliser la variable « identifiant » dans les champs de données pour faire un comptage ? {
+~ L’identifiant est normé#il a un format prédéfini, mais ce n’est pas pour cette propriété qu’on le choisit pour faire un comptage.
+~ L’identifiant est unique pour chaque enregistrement#c’est vrai, mais ce n’est pas pour cette raison qu’il faut choisir l’identifiant.
+= L’identifiant est exhaustif
+~ Par convention#ce n’est pas une convention.
+}
+
+::B2C04tables_dynamiquesQ05 ::
+Comment modifier une table dynamique déjà créée?{
+= Faire un clic droit sur la table dynamique et choisir « propriétés »
+~ Impossible#Si si c’est possible, heureusement !
+~ Sélectionner la table dynamique et choisir dans le menu « Données »/ »Modifier la table dynamique »#non, cette option n’existe pas dans le menu « Données »
+~ Sélectionner les données et choisir dans le menu « Données »/ »Modifier la table dynamique »#non, cette option n’existe pas dans le menu « Données »
+}
+
+::B2C04tables_dynamiquesQ06 ::
+Comment actualiser une table dynamique après modification des données sources ?{
+~ Supprimer et recréer la table #Il n'est pas nécessaire de recréer la table, une simple actualisation suffit.
+= Cliquer avec le bouton droit sur la table et choisir "Actualiser"
+~ Fermer et rouvrir le fichier#Fermer et rouvrir le fichier ne met pas à jour la table.
+~ Modifier les valeurs directement dans la table dynamique#Les données doivent être modifiées dans la source et non directement dans la table dynamique.
+}
+
+::B2C04tables_dynamiquesQ07 ::
+Comment ajouter un champ supplémentaire à une table dynamique existante ?{
+= Modifier la source de données et actualiser la table
+~ Saisir directement les nouvelles valeurs dans la table dynamique#Les données doivent être modifiées dans la source, pas dans la table.
+~ Redémarrer Calc et réouvrir le fichier#Redémarrer Calc ne change rien à la structure de la table dynamique.
+~ Dupliquer la table dynamique et modifier l’originale#Il n'est pas nécessaire de dupliquer la table pour ajouter un champ.
+}
+
+::B2C04tables_dynamiquesQ08 ::
+Pour extraire une sélection d’individus de la base de données sources, quelle case faut-il cocher dans le menu « options » de l’assistant de la table dynamique ? {
+~ Identifier les catégories#Cette option affecte les cases non remplies à la catégorie de la case précédente au lieu de leur affecter la modalité « vide » par défaut.
+= Activer le rappel d’éléments
+~ Ajouter un filtre#Le filtre apparaîtra en première ligne de la table dynamique, mais il ne permet pas d’extraire une partie de la table source
+~ Ignorer les lignes vides#cette option permet de ne pas prendre en compte les lignes vides qui ont été sélectionnées
+}
+
+::B2C04tables_dynamiquesQ09 ::
+La table dynamique permet de calculer des indicateurs statistiques par groupe d’individus \:{
+TRUE
+####A partir des données sources, la table dynamique permet de calculer des statistiques par groupe d’individus comme la moyenne, la médiane, le maximum, le minimum. Il faut mettre la variable concernée en champ de données et changer la fonction (en double-cliquant dessus). On peut ensuite préciser la variable de groupe en champ de ligne.
+}
+
+::B2C04tables_dynamiquesQ10 ::
+Comment faire un comptage croisé selon deux variables dans une table dynamique ?{
+= Ajouter un champ en ligne et un champ en colonne
+~ Utiliser la fonction RECHERCHEV#RECHERCHEV sert à rechercher des valeurs, pas à croiser des variables.
+~ Saisir manuellement les valeurs croisées#La table dynamique effectue automatiquement le croisement, il n’est pas nécessaire d’entrer les valeurs manuellement.
+~ Appliquer une mise en forme conditionnelle#La mise en forme conditionnelle ne modifie pas la structure des données.
+}
