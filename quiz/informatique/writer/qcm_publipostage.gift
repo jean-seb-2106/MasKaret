@@ -1,0 +1,57 @@
+$CATEGORY:  Publipostage
+
+::B2C08publipostQ01::
+Quel est l’intérêt principal du publipostage ?{
+~ Envoyer un document identique sans personnalisation à plusieurs destinataires#Pas besoin d’outils publipostage pour envoyer des documents identiques à plusieurs destinataires. 
+= Gagner du temps en envoyant un document personnalisé à plusieurs destinataires
+~ Fusionner plusieurs documents en un seul fichier#Le publipostage ne sert pas à fusionner des documents, mais à personnaliser des envois.
+~ Remplir automatiquement des tableaux avec des données issues d’un tableur#Bien que les données puissent provenir d’un tableur, le publipostage ne sert pas à remplir des tableaux. 
+}
+
+::B2C08publipostQ02::
+Quelle est la première étape pour réaliser le publipostage d’une lettre dans Writer ?{
+~ Identifier les personnes malades#Il est recommandé de commencer par rédiger le document type avant d'utiliser l’assistant.
+~ Mesurer le stock de population à un moment donné#La source de données est sélectionnée après avoir préparé le document.
+~ Prévoir les modes de consommation futurs#Les champs de fusion s’insèrent après avoir défini la source de données.
+= Rédiger le document type#Il faut prévoir des espaces pour les éléments personnalisés qui seront remplis par le publipostage
+}
+
+::B2C08publipostQ03::
+Quelle source de données peut être utilisée pour un publipostage ?{
+~ Un document Writer#Writer n'est pas conçu pour stocker des bases de données.
+~ Un fichier PDF#Un fichier PDF ne peut pas être utilisé comme source de données dans Writer.
+~ Un dossier contenant plusieurs fichiers texte#Un dossier de fichiers texte ne constitue pas une base de données exploitable pour le publipostage.
+= Un fichier Calc
+}
+
+::B2C08publipostQ04::
+Quelle manipulation permet d'associer un fichier Writer à une source de données Calc pour le publipostage ?{
+~ Ouvrir le fichier Calc et le copier directement dans Writer#Copier le fichier Calc dans Writer ne permet pas de l’associer comme source de données 
+~ Enregistrer le fichier Calc en format CSV, puis l’importer dans Writer#Il n’est pas nécessaire de convertir en CSV, Writer peut directement utiliser un fichier Calc.
+= Dans Writer, aller dans "Édition > Changer de base de données" et sélectionner le fichier Calc
+~ Insérer un tableau dans Writer et y lier le fichier Calc#Un tableau inséré ne permet pas d’automatiser le publipostage. 
+}
+
+::B2C08publipostQ05::
+Comment insérer un champ de fusion dans une lettre de publipostage ?{
+~ En tapant manuellement le nom du champ entre accolades#Les champs de fusion doivent être insérés via les outils dédiés de Writer.
+= En utilisant l'option "Insertion > Champ > Autres champs"#Il faut ensuite aller dans l’onglet base de données et choisir la base de données et le champ à insérer
+~ En cliquant sur "Insérer un champ de fusion" dans la barre d’outils de publipostage#Il n’y a pas cette option dans la barre d’outils de publipostage
+~ En copiant directement les données depuis la source et en les collant dans le document#Copier-coller les données ne permet pas d’automatiser la fusion des documents.
+}
+
+::B2C08publipostQ06::
+Quelle est la première étape pour démarrer un publipostage d’étiquettes dans Writer ?{
+~ Créer un tableau et y insérer les données manuellement#L’insertion manuelle d’un tableau ne permet pas de faire un publipostage automatique.
+~ Sélectionner le format des étiquettes dans "Mise en page"#Il faut d’abord les créer avant de s’occuper du format
+~ Importer un modèle d’étiquettes depuis Internet#Writer propose déjà des formats standards d’étiquettes sans nécessiter un téléchargement externe.
+= Aller dans "Fichier > Nouveau > Étiquettes"#Un assistant de création d’étiquettes s’ouvre alors.
+}
+
+::B2C08publipostQ07::
+Lors du publipostage d’étiquettes, quelle option permet de dupliquer le format sur toutes les étiquettes ?{
+= Utiliser le bouton "Synchroniser les étiquettes"
+~ Copier-coller la première étiquette dans toutes les cases#Cette méthode est manuelle et inefficace, contrairement à la synchronisation automatique.
+~ Cocher "Appliquer à toutes les étiquettes" dans les options d’impression#Il n’existe pas d’option "Appliquer à toutes les étiquettes" dans les paramètres d’impression.
+~ Générer un tableau contenant les données de la source#Les étiquettes ne sont pas un tableau classique mais des cadres mis en page automatiquement.
+}
