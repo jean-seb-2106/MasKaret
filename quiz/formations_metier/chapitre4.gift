@@ -2,9 +2,65 @@ $CATEGORY:  chapitre4
 
 ::question1::
 Quels sont les onglets qui permettent de voir qu’une série a été révisée ? {
-~L’onglet Analyse et validation, dans la colonne « Révision » du tableau 
-=L’onglet Graphique, après être entré dans une série 
+=%33.3%L’onglet Analyse et validation, dans la colonne « Révision » du tableau 
+=%33.3%L’onglet Graphique, après être entré dans une série 
 ~L’onglet graphique annuel, après être entré dans une série 
-~L’onglet Indices, après être entré dans une série
+=%33.3%L’onglet Indices, après être entré dans une série
+#### Pour voir si une série est révisée, il faut regarder la valeur qui s’affiche dans la colonne « Révision» du tableau de l’onglet Analyse et validation. Si la valeur est égale à 0.00, la série n’a pas été révisée. En revanche, une série peut avoir été révisée mais avec une révision trop faible qui fait que sa contribution est égale à « 0.00 » dans la colonne « Contrib révision». 
+}
+
+::question2::
+Parmi les affirmations suivantes, cochez celles qui sont vraies \:{
+~ Sur l’onglet « Indices », on visualise automatiquement les indices révisés
+~ Sur l’onglet « Graphique », la couleur rouge du graphe met en évidence les indices révisés
+= %50% Sur l’onglet « Indices », il suffit de cliquer sur « Affichage campagne précédente » pour visualiser les éventuels indices révisés
+= %50%Sur l’onglet « Graphique », on peut voir la valeur d’un indice révisé si l’on se positionne sur un point de la courbe jaune
+~ Sur l’onglet « Indices », après avoir cliqué sur « Affichage campagne précédente », on peut visaliser  une seule valeur modifiée en rouge
+#### Pour repérer des séries révisées (sur une ou plusieurs périodes), il suffit d’aller sur l’onglet « Indices » , puis de cliquer sur « Affichage campagne précédente ». Les données en rouge qui s’affichent sur la ligne « écart » correspondent aux valeurs modifiées. Sur l’onglet Graphique, on visualise la valeur d’avant révision des indices en cliquant sur le ou les points de la courbe jaune.
+}
+
+::question3::
+Parmi les affirmations suivantes, cochez celle qui est vraie \:{
+~ Il faut commenter tous les mois impactés par une révision
+= Dans l’onglet « Analyse et validation », si la valeur affichée dans la colonne « Contrib révision » d’une série élémentaire est différente de 0.00, on doit commenter la révision
+~ Si plusieurs mois sont révisés, il faut uniquement commenter le mois révisé précédent
+~Pour identifier les mois révisés à commenter, il faut aller dans l’onglet « Détail Révision » et sélectionner le mois précédent dans le menu « A partir de »
+####Lorsqu’il y a plusieurs mois révisés (préalablement repérés via l’onglet Indice en cliquant sur « Affichage campagne précédente »), il faut aller dans l’onglet « Détail révision » et sélectionner le mois le plus ancien (parmi les mois révisés) dans le menu déroulant « A partir de ». Il faudra commenter uniquement les mois où la valeur de la colonne « Contrib à la révision »  est différente de 0.00.
+}
+
+::question4::
+Parmi les affirmations suivantes, cochez celle qui est vraie \:{
+~ On ne peut pas modifier un commentaire d’une série révisée
+~ On peut saisir un commentaire sur une série révisée uniquement via l’onglet « commentaire »
+~ Pour savoir si un commentaire a été saisi en révision, il faut obligatoirement accéder à la série
+~ On ne peut pas supprimer un commentaire en révision
+= Lorsqu’une série est commentée en révision et en évolution, l’icone commentaire prend la forme d’une « double page »
+####pour savoir si un commentaire a été saisi en révision pour une série, il suffit de vérifier dans le tableau d’Analyse et validation si l’icone commentaire comporte un « R » devant la série. Pour saisir un commentaire en révision, on peut cliquer sur le bouton « Saisir commentaire » qui se trouve dans l’onglet « Données individuelles révision » ou bien aller sur l’onglet Commentaire et cocher « révision » dans le champ Type de commentaire. Dans tous les cas, il faut cocher les mois révisés. On peut modifier un commentaire en révision, tout comme un commentaire en évolution. On peut également le supprimer si on en est l’auteur.
+}
+
+::question5::
+Il y a des révisions parce que \:{
+~ Ocapi calcule un IPI provisoire et un IPI définitif
+~ Les entreprises n’ont plus d’accès à Coltrane après 11h30
+= Certaines entreprises corrigent leurs données qui ont été envoyées lors d’une campagne précédente
+~ Des entreprises envoient leur questionnaire après midi le jour de l’IPI
+#### Une série peut être révisée lorsqu’une entreprise a envoyé sa réponse tardivement (après l’IPI) ou bien si elle souhaite corriger une donnée envoyée lors de la campagne précédente. Les entreprises peuvent saisir leur questionnaire mensuel en ligne (ainsi que les 3 campagnes précédentes), même si l’IPI est passé. Il y a des IPI dits précoces et des IPI définitifs mais pas d’IPI provisoire. 
+    }
+
+::question6::
+Quelle colonne dans l’onglet "Détail révision" permet de savoir si un mois doit être commenté ?{
+~ DCA DRF
+= Contrib à la révision
+~ DCA -1 DRF
+~ Libellé de la série
+#### La colonne Contrib à la révision indique l’impact des révisions sur une série. Si la contribution est différente de 0, cela signifie que le mois doit être commenté.
+}
+
+::question7::
+Dans quel(s) onglet(s) saisit-on un commentaire de révision ? {
+~Indices
+=%33.3%Détail révision
+=%33.3%Données individuelles révision
+=%33.3%Commentaire
 #### Pour voir si une série est révisée, il faut regarder la valeur qui s’affiche dans la colonne « Révision» du tableau de l’onglet Analyse et validation. Si la valeur est égale à 0.00, la série n’a pas été révisée. En revanche, une série peut avoir été révisée mais avec une révision trop faible qui fait que sa contribution est égale à « 0.00 » dans la colonne « Contrib révision». 
 }
