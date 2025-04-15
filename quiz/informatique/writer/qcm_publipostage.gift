@@ -10,9 +10,9 @@ Quel est l’intérêt principal du publipostage ?{
 
 ::B2C08publipostQ02::
 Quelle est la première étape pour réaliser le publipostage d’une lettre dans Writer ?{
-~ Identifier les personnes malades#Il est recommandé de commencer par rédiger le document type avant d'utiliser l’assistant.
-~ Mesurer le stock de population à un moment donné#La source de données est sélectionnée après avoir préparé le document.
-~ Prévoir les modes de consommation futurs#Les champs de fusion s’insèrent après avoir défini la source de données.
+~ Lancer l'assistant de publipostage#Il est recommandé de commencer par rédiger le document type avant d'utiliser l’assistant.
+~ Sélectionner la source de données#La source de données est sélectionnée après avoir préparé le document.
+~ Insérer les champs de fusion#Les champs de fusion s’insèrent après avoir défini la source de données.
 = Rédiger le document type#Il faut prévoir des espaces pour les éléments personnalisés qui seront remplis par le publipostage
 }
 

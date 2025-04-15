@@ -1,0 +1,81 @@
+$CATEGORY:  quarto_éléments_avancés
+
+::B1C06elements_avancesQ01::
+Où spécifie-t-on le thème d’un document Quarto ? {
+~ Dans le premier chunk du document#Mauvaise réponse \: C’est l’en-tête Yaml du document qui héberge les options de mise en forme générale du document.
+~ Dans le dernier chunk du document#Mauvaise réponse \: C’est l’en-tête Yaml du document qui héberge les options de mise en forme générale du document
+= Dans l’en-tête Yaml du document#Bonne réponse !
+~ Dans un chunk avec l’option#Mauvaise réponse \: C’est l’en-tête Yaml du document qui héberge les options de mise en forme générale du document.
+}
+
+::B1C06elements_avancesQ02::
+Quarto propose plusieurs thèmes prédéfinis. Comment peut-on les personnaliser ? {
+~ On ne peut pas personnaliser un thème#Mauvaise réponse \: On peut personnaliser un thème
+~  En téléchargeant le package « theme »#Mauvaise réponse \: Ce package n’existe pas
+~ En paramétrant les éléments du document dans un chunk#Mauvaise réponse \: Les chunks ne sont pas fait pour ça
+= En paramétrant les éléments du document dans un fichier « custom.scss » appelé par l’option Yaml « theme »#Exact !
+}
+
+::B1C06elements_avancesQ03::
+Comment paramétrer un document Quarto en Français ? {
+~ En téléchargeant la version française de Quarto#Mauvaise réponse \: Quarto est un logiciel anglo-saxon mais disposant d’une internationalisation. Tous les éléments de texte disposent d’une traduction.
+~ On ne peut pas afficher les éléments d’un document Quarto autrement qu’en Anglais#Mauvaise réponse \: Tous les éléments de texte disposent d’une traduction.
+= Avec l’option Yaml « lang\: fr » dans l’en-tête du document#Bonne réponse.
+~ Avec l’option Yaml « language \= "fr" » dans l’en-tête du document#Ce paramètre n’existe pas.
+}
+
+::B1C06elements_avancesQ04::
+Comment modifier la couleur de fond en jaune pâle (lightyellow) ? {
+~ Avec l’option « color\: lightyellow » de l’en-tête Yaml#Mauvaise réponse \: Ce paramètre n’existe pas.
+~ Avec le paramètre « \#|backgroundcolor\: lightyellow » dans le premier chunk du document#Mauvaise réponse \: Les chunks ne sont pas faits pour ça.
+~ Dans les paramètres généraux de RStudio « (Tools -> Global options) »#Mauvaise réponse \: Ce menu permet de paramétrer le comportement de RStudio, pas des documents en particulier.
+= Avec l’option « backgroundcolor\: lightyellow » de l’en-tête Yaml#Bonne réponse.
+}
+
+::B1C06elements_avancesQ05::
+Peut-on colorer en bleu (blue) une partie d’un texte du document ? {
+~ Oui, dans l’en-tête Yaml, « color\: blue; »#Mauvaise réponse \: Ce paramètre n’existe pas.
+= Oui, dans Format -> Span, puis dans Styles CSS, « color\: blue; »#Bonne réponse !
+~ Oui, dans Format -> Color, et cliquer sur la couleur bleue#Mauvaise réponse \: Ce menu n’existe pas.
+~ Non, le texte d’un document Quarto est obligatoirement noir#Mauvaise réponse \: Les documents seraient bien tristounets.
+}
+
+::B1C06elements_avancesQ06::
+Peut-on insérer un emotycône dans un document Quarto ? {
+~ Non#Mauvaise réponse \: Les émotycônes sont implémentés dans Quarto au même titre que les caractères spéciaux.
+~ Oui, à l’aide des combinaisons de touches du clavier que vous avez dans la documentation officielle des émotycônes\: www.smiley.com#Mauvaise réponse \: Cette documentation n’existe pas.
+~ Oui, dans le menu RStudio Code -> Emotycône#Mauvaise réponse \: Ce menu n’existe pas.
+= Oui, en cliquant sur Insérer -> Special characters -> Insert Emoji#Bonne réponse.
+}
+
+::B1C06elements_avancesQ07::
+Comment afficher deux graphiques côte à côte ? {
+~ Dans l’en-tête Yaml du document#Mauvaise réponse \: Ce paramètre n’existe pas dans l’en-tête.
+= Dans le chunk à l’aide du paramètre « \#| layout-ncol\: 2 »#Bonne réponse.
+~ Dans le chunk à l’aide du paramètre « \#| ncol\: "2" »#Mauvaise réponse \: Ce paramètre de chunk n’existe pas.
+~ Dans le chunk à l’aide du paramètre « \#| 2cols \: true »#Mauvaise réponse \: Ce paramètre de chunk n’existe pas.
+}
+
+::B1C06elements_avancesQ08::
+Quel paramètre de l’en-tête Yaml permet d’afficher une table des matières ?{
+~ tdm\: true#Mauvaise réponse \: ce paramètre de l’en-tête Yaml n’existe pas.
+= contents\: true#Mauvaise réponse \: ce paramètre de l’en-tête Yaml n’existe pas.
+~ toc\: true# Bonne réponse.
+~ toc\: "true"#Mauvaise réponse \: le paramètre toc de l’en-tête Yaml prend une valeur true ou false sans guillemets.
+}
+
+::B1C06elements_avancesQ09::
+Comment référencer une image graph_pop puis l’appeler dans le document ?{
+~ On liste toutes les références dans un fichier references.bib puis @graph_pop dans le document.#Mauvaise réponse \: Ce fichier sert aux références externes, et nous ne l’évoquerons pas dans CefilR.
+~ Dans le menu Référence puis @graph_pop dans le document.#Mauvaise réponse \: Ce menu n’existe pas.
+= \#fig-graph_pop en paramètre ID dans l’onglet Attributes des propriétés de l’image puis @graph_pop dans le document.#Bonne réponse !
+~ L’image doit être nommée graph_pop.jpg puis @graph_pop dans le document.#Mauvaise réponse \: Cela ne fonctionnera pas, il faut d’abord identifier l’image \#graph_pop. 
+}
+
+::B1C06elements_avancesQ10::
+Comment annoter des lignes de code dans un chunk ? {
+~ \# <1> au début des lignes annotées puis 1. texte d’annotation sous le chunk#Mauvaise réponse \: le numéro d’annotation est à la fin des lignes de code et le texte en dessous.
+= \# <1> à la fin des lignes annotées puis 1. texte d’annotation sous le chunk#Mauvaise réponse \: le numéro d’annotation est à la fin des lignes de code et le texte en dessous.
+~ \# <1> à la fin des lignes annotées puis 1. texte d’annotation sur le chunk#Bonne réponse !
+~ \# <1> au début des lignes annotées puis 1. texte d’annotation sur le chunk#Mauvaise réponse \: le numéro d’annotation est à la fin des lignes de code et le texte en dessous.
+}

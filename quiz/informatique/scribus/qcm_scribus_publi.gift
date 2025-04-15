@@ -1,0 +1,82 @@
+$CATEGORY:  scribus_4pages
+
+::B3C01scribus_4pagesQ01::
+Quelle est la première étape recommandée avant de commencer à mettre en page dans Scribus ? {
+~ Importer directement les images dans Scribus#Importer directement les images peut entraîner des problèmes de qualité ou de taille de fichier.
+= Préparer et organiser les fichiers sources (images, texte)#Correct ! Préparer les fichiers sources permet d'optimiser le flux de travail et d'éviter les erreurs.
+~ Configurer les paramètres d'exportation#La configuration des paramètres d'exportation vient après la mise en page.
+~ Créer des repères dans Scribus#Les repères sont créés après avoir préparé les sources et configuré le document.
+}
+
+::B3C01scribus_4pagesQ02::
+À quoi servent les repères dans Scribus ? {
+= À aligner les éléments de la mise en page#Correct ! Les repères aident à aligner les éléments.
+~ À définir les marges de la page#Les marges sont définies séparément des repères.
+~ À délimiter les zones de texte#Les zones de texte sont définies par des cadres de texte.
+~ À créer des lignes de coupe pour l'impression#Les lignes de coupe sont des repères spécifiques pour l'impression.
+}
+
+::B3C01scribus_4pagesQ03::
+Comment crée-t-on un cadre de texte dans Scribus ? {
+~ En utilisant l'outil "Insérer une image"#Cet outil est pour les images, pas pour le texte.
+~ En important un fichier texte#Importer un fichier texte ne crée pas un cadre de texte.
+~ En dessinant un rectangle avec l'outil de dessin#Un rectangle dessiné n'est pas un cadre de texte.
+= En utilisant l'outil "Cadre de texte"#Correct ! C'est l'outil dédié aux cadres de texte.
+}
+
+::B3C01scribus_4pagesQ04::
+Comment faire suivre du texte d'un cadre de texte à un autre ? {
+~ En activant l’option « fusion des cadres »#Cette option n’existe pas
+~ Le texte suivra automatiquement dans la colonne d’après#C’est une option à paramétrer
+= En activant l’option « Lier les cadres de texte »#Après avoir sélectionné la première colonne il faut activier l’option et sélectionner la colonne suivante.
+~ En dupliquant les cadres#Dupliquer les cadres ne permet pas de faire suivre du texte. 
+}
+
+::B3C01scribus_4pagesQ05::
+Quel est l'avantage d'utiliser des styles de paragraphe et de caractère ? {
+~ Réduire la taille du fichier #Les styles de texte n'affectent pas la taille du fichier. 
+~ Accélérer l'impression #Les styles de texte n'affectent pas la vitesse d'impression. 
+= Assurer la cohérence typographique #Correct ! Les styles de texte garantissent une cohérence dans tout le document. 
+~ Faciliter l'exportation en PDF #Les styles de texte n'affectent pas l'exportation en PDF. 
+}
+
+::B3C01scribus_4pagesQ06::
+Quelle est la meilleure façon d’insérer une image dans Scribus ? {
+= En utilisant l'outil "Cadre d'image"#Correct ! C'est l'outil dédié aux images. On peut dimensionner le cadre et ensuite insérer une image. 
+~ En copiant-collant l'image directement dans le document#Copier-coller ne fonctionne pas toujours avec les images \: ce n’est pas la méthode recommandée. 
+~ En important l'image via le menu "Fichier"#Le menu "Fichier" ne permet pas d'insérer des images directement. 
+~ En faisant glisser l'image depuis le bureau#Faire glisser une image n'est pas la méthode recommandée même si elle fonctionne.
+}
+
+::B3C01scribus_4pagesQ07::
+Pourquoi est-il important de redimensionner les images avant de les insérer dans Scribus ? {
+~ Pour améliorer la qualité de l'image#Redimensionner n'améliore pas nécessairement la qualité. 
+~ Pour réduire le temps de chargement#Réduire le temps de chargement n'est pas la principale raison. 
+~ Pour optimiser l'espace de stockage #L'optimisation de l'espace de stockage n'est pas la principale raison. 
+= Pour éviter les distorsions#Correct ! Redimensionner évite les distorsions. 
+}
+
+::B3C01scribus_4pagesQ08::
+Comment crée-t-on des marges internes dans un cadre de texte ?{
+~ En utilisant l'outil "Marges internes" #Il n'y a pas d'outil spécifique pour les marges internes. 
+~ En redimensionnant le cadre de texte #Redimensionner le cadre n'affecte pas les marges internes. 
+~ En utilisant les repères de marge #Les repères de marge ne définissent pas les marges internes. 
+= En ajustant les propriétés du cadre de texte #Correct ! Les marges internes sont définies dans les propriétés du cadre. 
+}
+
+::B3C01scribus_4pagesQ09::
+À quoi servent les marges externes sur un cadre ? {
+= À définir l'espace autour du cadre #Correct ! Les marges externes définissent l'espace autour du cadre. 
+~ À définir l'espace à l'intérieur du cadre #Les marges externes concernent l'extérieur du cadre. 
+~ À aligner le cadre avec d'autres éléments #L'alignement n'est pas la fonction des marges externes. 
+~ À créer des lignes de coupe #Les lignes de coupe ne sont pas des marges externes.  
+}
+
+::B3C01scribus_4pagesQ10::
+Quelle est l'utilité des filets dans une mise en page ? {
+~ Ajouter des couleurs #Les filets ne sont pas utilisés pour ajouter des couleurs. 
+~ Créer des repères #Les filets ne sont pas des repères. 
+~ Définir des marges #Les filets ne définissent pas des marges. 
+= Séparer visuellement les parties #Correct ! Les filets aident à séparer les parties d’un document.
+}
+

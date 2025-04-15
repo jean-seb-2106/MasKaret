@@ -1,0 +1,31 @@
+$CATEGORY:  Ville Insee
+
+::D1C01villeInseeQ01::
+Pour établir la comptabilité nationale, les comptables nationaux synthétisent et mettent en cohérence des données produites à l’Insee \:{
+TRUE#mauvaise réponse \:( 
+#### La comptabilité nationale permet notamment de produire un indicateur qui résume la création de la richesse nationale \: le PIB (produit intérieur brut). D’autres indicateurs comme la dette ou le déficit public sont également établis par la comptabilité nationale. 
+}
+
+::D1C01villeInseeQ02::
+L’Insee ne diffuse des études qu’à l’échelle du territoire national et en comparaisons internationales \:{
+FALSE
+#### L’Insee diffuse aussi des analyses territoriales, en s’appuyant notamment sur son réseau d’action régionale. Ces études permettent d’éclairer le débat public au niveau local. 
+}
+
+::D1C01villeInseeQ03::
+Le principal vecteur de diffusion de l’information statistique est le site internet Insee.fr  \:{
+TRUE
+#### D’après le rapport d’activité de l’Insee 2023, le site Insee.fr a reçu 72,3 millions de visites en 2023. Il existe bien sûr d’autres vecteurs de diffusion comme le blog de l’Insee (160 000 visites), les comptes X et Linkedin, l’application InseeMobile. 
+}
+
+::D1C01villeInseeQ04::
+L’Insee a été créé en 1539 sous François Ier par l’ordonnance de Villers-Cotterêts \:{
+FALSE
+#### C’est un décret du 27 avril 1946 qui a institué l’Insee. Mais cette ordonnance n’est pas sans lien avec l’Insee \: c'esr elle que François 1er déclare le français langue officielle (à la place du latin) et il décide de la mise de la création des registres de naissance, de mariage et de décès dans les paroisses.  Cette dernière mission sera reprise par l’Insee qui s’occupe du RNIPP (répertoire national d’identification des personnes physiques).
+}
+
+::D1C01villeInseeQ05::
+L’Insee est implanté dans toutes les régions françaises. \:{
+TRUE
+#### Toutes les régions françaises disposent d’au moins un établissement de l’Insee. Les directions régionales qui gèrent ces établissements régionaux exercent des missions communes, mais elles ont aussi des missions spécifiques. Par exemple, la direction régionale de Nouvelle-Aquitaine est la seule à disposer d'un pôle qui s'occupe de constituer la base permanente des équipements à Limoges. 
+}

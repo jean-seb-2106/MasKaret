@@ -1,0 +1,113 @@
+$CATEGORY:  Mise_en_forme
+
+::B2C07writer_formeQ01::
+Quelle méthode permet d’uniformiser l’alignement des paragraphes dans un document Writer ?{
+~ Utiliser les tabulations manuelles#Les tabulations sont utiles pour des alignements ponctuels, mais pas pour uniformiser un document.
+= Appliquer un style de paragraphe#Les styles permettent d’harmoniser l’ensemble du document.
+~ Ajuster manuellement chaque paragraphe avec des espaces et des retours à la ligne#Cela entraîne des problèmes de mise en page.
+~ Convertir tout le texte en tableau#Un tableau ne gère pas les paragraphes.
+}
+
+::B2C07writer_formeQ02::
+Comment appliquer un style de paragraphe dans Writer ? {
+~ En sélectionnant le texte et en cliquant sur l’icône “Gras”#Cela ne modifie pas le style de paragraphe.
+~ En utilisant la barre d’outils de formatage rapide#Cela ne garantit pas une mise en page cohérente sur l’ensemble du document.
+= En ouvrant le panneau des styles et en sélectionnant un style de paragraphe#C'est la bonne méthode.
+~ En tapant le texte en majuscules#Cela n’a aucun lien avec les styles de paragraphe. 
+}
+
+::B2C07writer_formeQ03::
+Quelle option permet d’ajouter automatiquement un espace entre deux paragraphes sans utiliser la touche "Entrée" ? {
+~ Insérer un saut de ligne manuel#Cela ne gère pas les espacements automatiques.
+~ Modifier l’interligne du paragraphe#L’interligne affecte l’espace entre les lignes d’un même paragraphe.
+= Modifier l’espacement avant ou après dans les propriétés du paragraphe#C’est la bonne façon d’ajouter de l’espace entre les paragraphes, dans l’onglet « Retraits et espacement » des propriétés du style.)
+~ Ajouter plusieurs espaces avec la barre d’espace#Cela rend le document peu structuré.
+}
+
+::B2C07writer_formeQ04::
+Quelle est la première étape pour insérer un sommaire dans Writer ?{
+= Numéroter les titres manuellement#Cela ne permet pas une mise à jour automatique.
+~ Ajouter des signets à chaque titre#Les signets permettent une navigation mais ne génèrent pas de sommaire.
+~ Insérer une table des matières vide et la remplir à la main#Cela n’est pas une bonne pratique.
+= Appliquer des styles de titre aux titres des parties du document#Le sommaire se base sur ces styles pour générer les entrées.
+}
+
+::B2C07writer_formeQ05::
+Comment mettre à jour un sommaire après modification du document ? {
+= En cliquant avec le bouton droit sur le sommaire et en choisissant “Mettre à jour l’index”#Cette option actualise le sommaire.
+~ En le supprimant et en le recréant#Cela est inutile, une mise à jour suffit.
+~ En enregistrant le document sous un autre format#Changer de format ne met pas à jour le sommaire.
+~ En ajoutant une note de bas de page sur chaque titre#Cela n’a aucun effet sur le sommaire.
+}
+
+::B2C08nomsectionQ06::
+Comment insérer un en-tête dans un document Writer ? {
+~ En tapant le texte directement en haut de la première page#Ce n’est pas un en-tête automatisé.
+= En allant dans "Insertion" > "En tête et pied de page" > "En-tête"#Dans ce menu, il faut ensuite choisir le style de page pour lequel l’en tête sera affiché. Cela permet d’activer et de configurer l’en-tête.
+~ En insérant une zone de texte et en la plaçant manuellement en haut de la page#Ce n’est pas un vrai en-tête.
+~ En insérant un saut de page au début du document#Un saut de page ne crée pas d’en-tête.
+}
+
+::B2C07writer_formeQ07::
+Quelle méthode permet de différencier les pieds de page des pages paires et impaires ? {
+~ En insérant des espaces pour aligner le texte différemment sur chaque page#Cela ne garantit pas une mise en page uniforme.
+~ En ajoutant manuellement le pied de page sur chaque page impaire#Trop laborieux et source d’erreurs.
+~ En insérant une ligne de séparation différente sur chaque pied de page#Cela ne change pas le contenu du pied de page.
+= En utilisant des styles de page distincts pour les pages paires et impaires#C’est la meilleure manière de gérer cette mise en page.
+}
+
+::B2C07writer_formeQ08::
+Comment ajouter une liste sans numérotation dans Writer ? {
+= En utilisant l’icône de liste non ordonnée dans la barre d’outils sur un paragraphe#C’est la méthode correcte.
+~ En tapant manuellement des tirets devant chaque élément#Cela ne crée pas une liste structurée.
+~ En insérant un tableau et en mettant les puces dans la première colonne#Un tableau ne sert pas à structurer une liste.
+~ En insérant une ligne de séparation différente sur chaque pied de page#Cela ne change pas le contenu du pied de page.
+}
+
+::B2C07writer_formeQ09::
+Quelle est la première étape pour créer un modèle de document dans Writer ? {
+~ Écrire un texte de base et le sauvegarder en tant que fichier .docx#Un modèle doit être enregistré dans un format spécifique.
+~ Créer un document vierge et le laisser tel quel#Un modèle doit contenir des styles et des éléments prêts à l'emploi.
+= Formater un document avec les styles et mises en page souhaités#Un modèle sert de base à d’autres documents, il doit donc être correctement formaté.
+~ Ajouter une page de garde et des images#Un modèle peut contenir ces éléments, mais ce n'est pas obligatoire.
+}
+
+::B2C07writer_formeQ10::
+Quel avantage principal offre l’utilisation d’un modèle de document ? {
+~ Il permet de retrouver facilement des documents récemment modifiés#Ce n’est pas le rôle d’un modèle.
+~ Il empêche l’insertion d’images et de tableaux#Un modèle n’a pas cette restriction.
+= Il applique automatiquement une mise en page et des styles prédéfinis#C’est le principal avantage d’un modèle.
+~ Il bloque toute modification du document#Un modèle peut être modifié après ouverture.
+}
+
+::B2C07writer_formeQ11::
+Quels types de styles peuvent être importés depuis un autre document ? {
+= Tous les styles \: paragraphes, caractères, cadres, pages, listes et tableaux#Tous ces styles peuvent être importés.
+~ Seulement les styles de paragraphe#Writer permet d’importer plusieurs types de styles.
+~ Uniquement les styles de tableau et de page#Ce ne sont pas les seuls styles importables.
+~ Aucun style, il faut tous les recréer manuellement#Il est possible d’importer des styles.
+}
+
+::B2C07writer_formeQ12::
+Comment importer des styles d’un autre document dans Writer ? {
+~ En copiant directement le texte d’un document à l’autre#Cela ne garantit pas le transfert des styles.
+~ En enregistrant les styles sous forme d’images#Les styles ne peuvent pas être enregistrés sous forme d’images.
+~ En utilisant "Fichier > Enregistrer sous" avec une extension différente#Cela ne concerne pas l’importation de styles.
+=  En allant dans "Styles" > "Charger les styles depuis un modèle" et en cliquant sur le bouton « à partir d’un fichier »# Cette option permet d’importer des styles d’un autre fichier Writer.
+}
+
+::B2C07writer_formeQ13::
+Comment insérer une image dans Writer ?{
+= En allant dans "Insertion" > "Image" et en sélectionnant un fichier#C’est la méthode recommandée.
+~ En collant l’URL de l’image directement dans le texte#Cela ne fonctionne pas dans Writer.
+~ En insérant une zone de texte et en y collant l’image#Ce n’est pas une bonne pratique.
+~ En allant dans "Outils" > "Insertion d’une Image"#Ce menu n’existe pas.
+}
+
+::B2C08nomsectionQ014::
+Comment insérer un tableau issu de Calc en conservant le lien dynamique dans Writer ? {
+~ En utilisant un collage spécial de type « GDI »#Cela permet de le traiter comme une image dans Writer, donc il n’y aura pas de lien avec Calc.
+= En utilisant un collage spécial de type « Lien DDE »#Cela permet de modifier le tableau dans Writer à partir du tableau Calc. En revanche si on modifie les données dans Writer, ça ne modifiera pas les données dans Calc.
+~ En copiant et collant uniquement les valeurs des cellules#Cela rend le tableau statique, sans lien avec le fichier Calc.
+~ En capturant l’écran de Calc et en insérant l’image#Cela n’est pas interactif.
+}
