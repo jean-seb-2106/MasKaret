@@ -1,0 +1,10 @@
+$CATEGORY:  chapitre4
+
+::question1::
+Quels sont les onglets qui permettent de voir qu’une série a été révisée ? {
+~L’onglet Analyse et validation, dans la colonne « Révision » du tableau 
+=L’onglet Graphique, après être entré dans une série 
+~L’onglet graphique annuel, après être entré dans une série 
+~L’onglet Indices, après être entré dans une série
+#### Pour voir si une série est révisée, il faut regarder la valeur qui s’affiche dans la colonne « Révision» du tableau de l’onglet Analyse et validation. Si la valeur est égale à 0.00, la série n’a pas été révisée. En revanche, une série peut avoir été révisée mais avec une révision trop faible qui fait que sa contribution est égale à « 0.00 » dans la colonne « Contrib révision». 
+}
