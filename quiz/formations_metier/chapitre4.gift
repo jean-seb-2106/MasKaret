@@ -2,10 +2,10 @@ $CATEGORY:  chapitre4
 
 ::question1::
 Quels sont les onglets qui permettent de voir qu’une série a été révisée ? {
-=%33.3%L’onglet Analyse et validation, dans la colonne « Révision » du tableau 
-=%33.3%L’onglet Graphique, après être entré dans une série 
+=L’onglet Analyse et validation, dans la colonne « Révision » du tableau
+=L’onglet Graphique, après être entré dans une série 
 ~L’onglet graphique annuel, après être entré dans une série 
-=%33.3%L’onglet Indices, après être entré dans une série
+=L’onglet Indices, après être entré dans une série
 #### Pour voir si une série est révisée, il faut regarder la valeur qui s’affiche dans la colonne « Révision» du tableau de l’onglet Analyse et validation. Si la valeur est égale à 0.00, la série n’a pas été révisée. En revanche, une série peut avoir été révisée mais avec une révision trop faible qui fait que sa contribution est égale à « 0.00 » dans la colonne « Contrib révision». 
 }
 
@@ -13,8 +13,8 @@ Quels sont les onglets qui permettent de voir qu’une série a été révisée�
 Parmi les affirmations suivantes, cochez celles qui sont vraies \:{
 ~ Sur l’onglet « Indices », on visualise automatiquement les indices révisés
 ~ Sur l’onglet « Graphique », la couleur rouge du graphe met en évidence les indices révisés
-= %50% Sur l’onglet « Indices », il suffit de cliquer sur « Affichage campagne précédente » pour visualiser les éventuels indices révisés
-= %50%Sur l’onglet « Graphique », on peut voir la valeur d’un indice révisé si l’on se positionne sur un point de la courbe jaune
+= Sur l’onglet « Indices », il suffit de cliquer sur « Affichage campagne précédente » pour visualiser les éventuels indices révisés
+= Sur l’onglet « Graphique », on peut voir la valeur d’un indice révisé si l’on se positionne sur un point de la courbe jaune
 ~ Sur l’onglet « Indices », après avoir cliqué sur « Affichage campagne précédente », on peut visaliser  une seule valeur modifiée en rouge
 #### Pour repérer des séries révisées (sur une ou plusieurs périodes), il suffit d’aller sur l’onglet « Indices » , puis de cliquer sur « Affichage campagne précédente ». Les données en rouge qui s’affichent sur la ligne « écart » correspondent aux valeurs modifiées. Sur l’onglet Graphique, on visualise la valeur d’avant révision des indices en cliquant sur le ou les points de la courbe jaune.
 }
@@ -59,8 +59,9 @@ Quelle colonne dans l’onglet "Détail révision" permet de savoir si un mois d
 ::question7::
 Dans quel(s) onglet(s) saisit-on un commentaire de révision ? {
 ~Indices
-=%33.3%Détail révision
-=%33.3%Données individuelles révision
-=%33.3%Commentaire
-#### Pour voir si une série est révisée, il faut regarder la valeur qui s’affiche dans la colonne « Révision» du tableau de l’onglet Analyse et validation. Si la valeur est égale à 0.00, la série n’a pas été révisée. En revanche, une série peut avoir été révisée mais avec une révision trop faible qui fait que sa contribution est égale à « 0.00 » dans la colonne « Contrib révision». 
+=Détail révision
+=Données individuelles révision
+=Commentaire
+#### Tout comme le commentaire en évolution, on peut saisir un commentaire en révision via plusieurs onglets. 
 }
+
