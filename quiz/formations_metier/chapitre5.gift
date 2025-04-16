@@ -1,4 +1,4 @@
-$CATEGORY:  chapitre4
+$CATEGORY:  chapitre 5
 
 ::question1::
 Quand est-il conseillé de valider les séries élémentaires ?{
@@ -81,3 +81,11 @@ Quel est le rôle de l’encadrant après que le gestionnaire a validé ses sér
 ####L’encadrant prend le relais en validant les données au niveau agrégé (NACE 4), à partir des commentaires du gestionnaire. 
 }
 
+::question10::
+Une fois les séries de niveau NACE4 validées, l’encadrant est sollicité par ICA{
+    ~ systématiquement, pour confirmer sa validation
+    =de temps en temps, pour saisir des imputations manuelles
+    =de temps en temps, pour enrichir un ou des commentaires de séries Nace4
+    ~systématiquement, pour fermer la campagne IPI 
+####ICA peut solliciter l’encadrant dans l’après-midi pour enrichir un commentaire ou pour saisir des données manuellement (IM) à la place d’imputations automatiques (IA).
+}
