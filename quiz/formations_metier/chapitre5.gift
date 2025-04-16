@@ -1,0 +1,83 @@
+$CATEGORY:  chapitre4
+
+::question1::
+Quand est-il conseillé de valider les séries élémentaires ?{
+    ~ Dès qu’elles sont commentées
+    ~ N’importe quand, du moment que toutes les réponses des entreprises sont arrivées
+    = Une fois que l’heure du dernier calcul de l’IPI est passée
+    ~ A midi pile, le jour de l’IPI
+####Il est essentiel d’attendre le dernier calcul de l’IPI (11h30) pour valider, afin d’inclure toutes les réponses reçues en dernière minute. Valider trop tôt peut nécessiter une dévalidation plus tard.
+}
+
+::question2::
+Quel symbole apparaît dans la colonne commentaire si une série est commentée en révision ?{
+    ~ E
+    = R
+    ~ V
+    ~ I
+####Dans la colonne commentaire de l’onglet « Analyse et validation », un R signifie que la série est commentée en révision, tandis qu’un E correspond à une évolution. Lorsque l’icône commentaire représente une double page, cela signifie que la série est commentée à la fois en révision et en évolution. 
+}
+
+::question3::
+Peut-on valider une série qui n’a pas de commentaire ?{
+   ~ Non, c’est interdit
+    = Oui, toutes les séries ne sont pas à commenter
+    ~ Uniquement si elle ne comporte plus de données estimées
+    ~ Seulement avec l’accord de l’encadrant
+#### Toutes les séries doivent être validées, qu’elles soient commentées ou non. 
+}
+
+::question4::
+Que signifie la présence de données en gras dans le tableau, après avoir cliqué sur « Afficher les données individuelles » ?{
+    ~ Ce sont des erreurs à corriger
+    ~ Ce sont des données confidentielles
+    = Ce sont des réponses récentes d’entreprises 
+    ~ Ce sont des données supprimées
+####Les données en gras indiquent que des réponses tardives sont arrivées et qu’elles n’ont pas été prises en compte dans le calcul de l’IPI. 
+}
+
+::question5::
+Quelle est la première action à effectuer si des données en gras apparaissent alors que la série est déjà validée et qu’il est presque midi, jour d’IPI?{
+    ~ Aucune action à effectuer, c’est une simple information 
+    ~Cliquer sur « Prendre en compte les valeurs recalculées »
+    =Cliquer sur « Invalider » pour dévalider la série
+    ~Contacter l’entreprise concernée afin qu’elle confirme ses chiffres
+####Une série déjà validée doit être d’abord dévalidée pour que des nouvelles réponses soient prises en compte dans le calcul. 
+}
+
+::question6::
+Quelle action permet de prendre en compte les données récentes dans le calcul de l’IPI ?{
+    ~ Valider la série
+    = Cliquer sur « Prendre en compte les valeurs recalculées »
+    ~Ajouter un commentaire
+    ~Demander à MCP de lancer un batch de mise à jour des données
+####Il faut cliquer sur « Prendre en compte les valeurs recalculées » pour que le calcul de l’IPI soit actualisé avec les dernières données reçues. C’est possible si la série n’est pas validée. 
+}
+
+::question7::
+Que se passe-t-il après avoir validé une série ?{
+    ~ La série disparaît du tableau
+    = Un message de validation s’affiche et le bouton « Valider » devient « Invalider »
+    ~ On ne peut plus y accéder
+    ~ Elle est envoyée directement à l’INSEE
+#### Une fois une série validée, un message s’affiche avec la date et le nom du gestionnaire, et le bouton « Valider » disparaît au profit de « Invalider ». 
+}
+
+::question8::
+Quelle est la conséquence de valider une série trop tôt ?{
+    ~ Elle ne sera pas enregistrée
+    ~ Elle sera exclue du batch de calcul de l’IPI
+    =Il faudra potentiellement la dévalider et la revalider
+    ~Les commentaires seront supprimés
+####Valider trop tôt peut empêcher l’intégration de réponses reçues ensuite. Il faudra donc dévalider, cliquer sur « Prendre en compte les valeurs recalculées, puis valider de nouveau. 
+}
+
+::question9::
+Quel est le rôle de l’encadrant après que le gestionnaire a validé ses séries ?{
+    ~ Rien, le travail est terminé
+    ~ Il doit supprimer les séries non commentées
+    =Il rédige des commentaires au niveau NACE 4 et valide les données agrégées
+    ~Il relance toutes les entreprises qui n’ont pas répondu 
+####L’encadrant prend le relais en validant les données au niveau agrégé (NACE 4), à partir des commentaires du gestionnaire. 
+}
+
