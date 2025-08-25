@@ -1,0 +1,865 @@
+$CATEGORY: Windows
+
+::Question 001::Comment crée-t-on un nouveau dossier dans l'explorateur de fichiers ? {
+~Ctrl + N
+~Fichier > Nouveau fichier
+~Alt + Entrée
+=Clic droit > Nouveau > Dossier
+#### Le raccourci clavier pour créer un nouveau dossier est \: Ctrl+Shift+N
+}
+
+::Question 002::Comment peut-on renommer un fichier sous Windows ? {
+~Ouvrir l’assistant de renommage
+=Clic droit > Renommer
+~Ouvrir le fichier
+~Cliquer sur F1
+#### Le raccourci clavier pour renommer un dossier est \: F2
+}
+
+::Question 003::Que se passe-t-il si on fait un "copier-coller" d’un fichier dans le même dossier ? {
+~Cette action n’est pas possible dans Windows
+~Le fichier est renommé automatiquement
+=Une copie du fichier est créée et renommée automatiquement
+~Le fichier s’ouvre
+#### Le fichier créé sera nommé ainsi « nomdufichier - copie »
+}
+
+::Question 004::À quoi sert la corbeille dans Windows ? {
+~À stocker les fichiers récemment ouverts
+~À envoyer les fichiers par mail
+~À supprimer définitivement des fichiers.
+=À stocker temporairement les fichiers supprimés
+#### Les fichiers stockés dans la corbeille y restent pendant 30 jours avant d’être supprimés définitivement. Il est possible manuellement de « vider la corbeille » avant ce délai de 30 jours, mais il est aussi possible de restaurer les fichiers avant la suppression définitive.
+}
+
+::Question 005::Comment afficher les extensions de fichiers dans l’explorateur de fichiers ? {
+~Paramètres> Système >Résolution des problèmes
+~Clic droit sur le fichier > Propriétés
+~Cette action n’est pas possible
+=Afficher > Afficher > Extensions de noms de fichiers
+#### Clic droit > Propriétés permet de connaître le type du fichier, ainsi que son extension, mais ne l’affiche pas dans l’explorateur.
+}
+
+::Question 006::Quel raccourci clavier permet de copier un fichier ? {
+=Ctrl + C
+~Ctrl + V
+~Ctrl + X
+~Ctrl + Z
+#### Ctrl +X pour couper, Ctrl + V pour coller, Ctrl+Z pour annuler la dernière action
+}
+
+::Question 007::À quoi sert la barre des tâches dans Windows ? {
+~À gérer les fichiers supprimés
+~À installer de nouveaux logiciels
+=À accéder rapidement aux applications ouvertes ou épinglées
+~À afficher les notifications uniquement
+#### Astuce \: Tu peux personnaliser la barre des tâches en y épinglant tes applications préférées, en changeant sa position à l’écran ou en ajustant les icônes affichées via les paramètres Windows.
+}
+
+::Question 008::Quel élément de l’explorateur Windows permet d'accéder rapidement à un dossier ? {
+~Le panneau de configuration
+=Le volet de navigation
+~Le bureau
+~La souris
+#### Bon à savoir \: Il est possible d’épingler des dossiers dans l’accès rapide.
+}
+
+::Question 009::Quel raccourci ouvre l’Explorateur de fichiers ? {
+=Windows + E
+~Ctrl + E
+~Alt + Tab
+~F11
+#### F11 permet de passer en plein écran. Le raccourci Ctrl+E permet d’aligner du texte dans Writer.
+}
+
+::Question 010::Quel bouton permet de réduire une fenêtre ? {
+~X
+=—
+~□
+~↑
+#### Astuce \: il est possible de réduire une fenêtre avec un raccourci clavier \: Windows + flèche vers le bas.
+}
+
+::Question 011::Où faut-il cliquer pour accéder au menu Démarrer de Windows ? {
+~Poste de travail
+=Logo Windows
+~Flèche en bas à droite
+~Centre logiciel
+#### Le menu Démarrer de Windows permet d’accéder facilement aux applications, fichiers et paramètres de l’ordinateur. C’est le point de départ principal pour lancer des actions et rechercher du contenu.
+}
+
+::Question 012::Quel raccourci clavier permet de lancer une impression ? {
+~Ctrl + I
+~Ctrl + M
+=Ctrl + P
+~Ctrl + V
+#### Ctrl + P (Print). Le Ctrl+V permet de coller des éléments copiés ou coupés.
+}
+
+::Question 013::Quel format n’est pas un fichier d’image ? {
+~.jpg
+~.png
+~.bmp
+=.avi
+#### Les fichiers .avi sont des fichiers vidéo qui utilisent le format Audio Video Interleave, développé par Microsoft. Ils peuvent contenir à la fois de l’audio et de la vidéo.
+}
+
+::Question 014::Comment déplacer un fichier dans un autre dossier ? {
+~Copier-coller
+=Couper-coller
+~Supprimer et créer
+~Double-clic
+#### Le copier-coller conserve le fichier dans le dossier initial et crée une copie du fichier dans un autre dossier.
+}
+
+::Question 015::Quel outil affiche l'utilisation de la mémoire et du processeur ? {
+~Le Panneau de configuration
+~L’Explorateur Windows
+=Le Gestionnaire de tâches
+~Le Centre de notifications
+#### Le gestionnaire de tâches est un outil essentiel pour identifier les programmes qui ralentissent le système ou qui ne répondent plus.
+}
+
+::Question 016::Que permet la combinaison Ctrl + Z ? {
+~Coller un élément
+=Annuler la dernière action
+~Supprimer une sélection
+~Répéter une action
+#### Bon à savoir \: Le Ctrl + Y permet de rétablir une saisie qui a été annulée avec Ctrl +Z.
+}
+
+::Question 017::Quel est le rôle du panneau de configuration ? {
+~Créer des dossiers
+=Gérer les paramètres du système
+~Accéder à Internet
+~Supprimer des fichiers
+#### Il est possible d’accéder rapidement au panneau de configuration rapidement en appuyant sur Windows + R, puis en tapant control et en validant avec Entrée.
+}
+
+::Question 018::Quel fichier est souvent utilisé pour des textes simples ? {
+=.txt
+~.ods
+~.zip
+~.tex
+#### Un fichier .tex est un fichier texte utilisé pour écrire des documents en LaTeX, un langage de composition de documents, particulièrement utilisé pour les documents scientifiques, mathématiques ou techniques.
+}
+
+::Question 019::Que permet un clic droit sur un fichier ? {
+~Imprimer directement
+~Lancer une recherche
+~Ouvrir automatiquement le fichier
+=Afficher un menu contextuel
+#### Le menu contextuel d’un dossier offre des actions rapides comme ouvrir, renommer, supprimer ou accéder aux propriétés. Il permet aussi d’effectuer des opérations avancées selon les logiciels installés, comme la compression ou le partage.
+}
+
+::Question 020::Que permet de faire la combinaison Ctrl + Alt + Suppr ? {
+~Redémarrer Windows automatiquement
+~Ouvrir les paramètres d’affichage
+=Accéder à des options comme le gestionnaire de tâches
+~Fermer toutes les fenêtres
+#### Avec ce raccourci clavier, il est notamment possible de modifier son mot de passe Windows.
+}
+
+::Question 021::Quelle touche permet de rafraîchir une fenêtre ? {
+~F1
+~F2
+=F5
+~F9
+#### F5 est une commande utile pour voir les dernières modifications ou recharger une page sans redémarrer l’application.
+}
+
+::Question 022::Comment verrouiller rapidement une session Windows ? {
+~Ctrl + F
+~Ctrl + L
+~Windows + F
+=Windows + L
+#### Par défaut, si aucune activité n’est détectée, Windows verrouille la session après 15 minutes d’inactivité, mais il est recommandé de le faire manuellement avec Windows + L pour plus de sécurité lorsque vous quittez votre bureau.
+}
+
+::Question 023::Quelle action suis-je en train de réaliser ? {
+=Copier un chemin
+~Epingler un répertoire
+~Copier un fichier
+~Déplacer un fichier
+#### Pour connaitre l’emplacemen d’un fichier, il suffit d’un clic droit > Propriétés.
+}
+
+$CATEGORY: Firefox
+
+::Question 024::Quelle action n’est-il pas possible de réaliser avec la barre d’adresse ? {
+~Faire une recherche via un moteur de recherche
+~Ecrire une adresse web (URL)
+~Connaitre son historique de navigation récent
+=Afficher l’heure
+#### Bon à savoir \: le raccourci clavier Ctrl+L permet d’accéder à la barre d’adresse.
+}
+
+::Question 025::Pour trouver une information encyclopédique sur un sujet, quel site est le plus approprié ? {
+~Amazon
+~Pinterest
+=Wikipedia
+~Acadomia
+#### Wikipédia n'utilise pas de mécanisme systématique pour vérifier les faits ou leur précision. Les informations sont donc à prendre avec précaution.
+}
+
+::Question 026::Que permet de faire la navigation par onglets dans Firefox ? {
+~Utiliser plusieurs profils
+~Télécharger plusieurs fichiers
+~Sécuriser sa navigation internet.
+=Ouvrir plusieurs pages web dans une seule fenêtre
+#### Le raccourci clavier Ctrl+Tab permet de passer d’un onglet à un autre.
+}
+
+::Question 027::Que permet de faire un moteur de recherche ? {
+=Rechercher des informations sur internet
+~Télécharger automatiquement les fichiers
+~Supprimer les cookies
+~Naviguer en mode privé
+#### Dans Firefox, il est possible de paramétrer son moteur de recherche.
+}
+
+::Question 028::Qu’est ce qu’un cookie sur internet ? {
+~Un virus informatique qui infecte les navigateurs pour voler des données personnelles.
+~Un programme installé automatiquement pour accélérer la vitesse de connexion Internet.
+=Un fichier stocké par un site web pour enregistrer des informations sur sa navigation
+~Un module de sécurité qui bloque les publicités et les traqueurs sur les sites web.
+#### Les cookies ne sont pas dangereux en soi, mais ils peuvent collecter des informations sur votre navigation. Certains sont utiles, mais d’autres peuvent servir à vous suivre à des fins publicitaires.
+}
+
+::Question 029::Quel bouton permet d’actualiser une page web ? {
+=Flèche circulaire
+~Maison
+~Etoile
+~Loupe
+#### Bon à savoir \: la touche F5 sert à actualiser une page internet.
+}
+
+::Question 030::Comment accéder aux paramètres de Firefox ? {
+~Menu > Aide
+~Menu > Historique
+~Menu > Favoris
+=Menu > Paramètres
+#### Les paramètres de Mozilla permettent d’adapter le navigateur à ses besoins tout en renforçant sa sécurité en ligne.
+}
+
+::Question 031::Comment ajouter un site en favori ? {
+~Ctrl + F
+=Cliquer sur l’étoile dans la barre d’adresse
+~Menu > Historique > Ajouter
+~Taper "favori" dans la barre de recherche
+#### Il est possible de gérer ses favoris dans « Gérer vos marque-pages ».
+}
+
+::Question 032::Que signifie le "S" dans "HTTPS" dans une adresse web ? {
+~Il indique que le site est hébergé sur un serveur sécurisé.
+=Le site n’est pas sécuriséIl signifie que la navigation est sécurisée grâce au chiffrement des données.
+~Il indique que le site est un service public officiel.
+~Il signifie que le site utilise uniquement des technologies modernes.
+#### Un site en HTTPS est reconnaissable par le petit cadenas qui apparaît dans la barre d’adresse de votre navigateur.
+}
+
+::Question 033::Quel outil permet de changer le moteur de recherche par défaut ? {
+=Le menu Paramètres
+~Le menu Téléchargements
+~Le menu Historique
+~Le menu Extensions et Thèmes
+#### Par défaut, le moteur de recherche de Mozilla est Google.
+}
+
+::Question 034::Que se passe-t-il si vous cliquez sur un fichier PDF dans Firefox ? {
+~Le fichier est bloqué pour des raisons de sécurité
+~Une fenêtre s’ouvre pour demander avec quel programme ouvrir le fichier
+~Le fichier est supprimé
+=Le fichier s’ouvre dans le navigateur
+#### Par défaut, Firefox ouvre les fichiers PDF directement dans le navigateur, grâce à un lecteur PDF intégré.
+}
+
+::Question 035::À quoi sert un mot de passe enregistré dans Firefox ? {
+~À éviter les virus sur les sites web sécurisés.
+=À se connecter automatiquement à des sites
+~À remplir automatiquement les formulaires de paiement en ligne.
+~À bloquer l’accès aux sites non sécurisés.
+#### Lorsque vous acceptez d’enregistrer un mot de passe, Firefox le mémorise de manière chiffrée pour pouvoir le remplir automatiquement lors de vos prochaines connexions sur ce site.
+}
+
+::Question 036::Quel outil de Firefox peut suggérer des mots pendant que vous tapez ? {
+=L’autocomplétion
+~Le dictionnaire
+~Le cache
+~L’antivirus
+#### L’autocomplétion facilite la saisie en proposant automatiquement des suggestions basées sur l’historique ou des données fréquentes. Elle permet de gagner du temps et de limiter les erreurs lors de la navigation ou de la saisie de texte.
+}
+
+::Question 037::Quel raccourci permet d’ouvrir un nouvel onglet ? {
+~Ctrl+F
+~Ctrl+N
+~Ctrl+O
+=Ctrl+T
+#### Ce raccourci clavier est spécifique aux navigateurs internet.
+}
+
+::Question 038::Comment fermer un onglet actif ? {
+=Clic sur la croix de l’onglet
+~Ctrl+Z
+~F11
+~Maj+L
+#### Astuce \: Ctrl + W ferme un onglet, et Ctrl + Shift + T permet de rouvrir le dernier onglet fermé.
+}
+
+::Question 039::Pourquoi est-il utile de vider le cache du navigateur ? {
+~Pour pouvoir éteindre l’ordinateur
+=Pour améliorer les performances et résoudre certains bugs
+~Pour mettre à jour les extensions
+~Pour sécuriser sa navigation internet
+#### Les caches du navigateur stockent temporairement des éléments des sites web (images, scripts, etc.) pour accélérer leur affichage lors des visites suivantes.
+}
+
+::Question 040::Que peut-on configurer comme page d’accueil dans Firefox ? {
+=Un moteur de recherche, un site web ou une page vide
+~Uniquement le site de Mozilla
+~Le dernier site visité obligatoirement
+~Aucune page. Cela n’est pas possible avec un ordinateur Insee.
+#### L’intranet Symphonie est la page d’accueil sur les postes Insee.
+}
+
+::Question 041::Quelle option permet de supprimer les cookies dans Firefox ? {
+=Effacer les données de navigation
+~Changer la langue du navigateur
+~Réinitialiser les onglets
+~Réduire la mémoire utilisée
+#### Pour effacer les données du navigateur sur Firefox, il faut cliquer sur le menu ≡, choisir Paramètres, puis aller dans Vie privée et sécurité et cliquer sur Effacer les données.
+}
+
+::Question 042::Que faire en premier quand une page web ne charge pas correctement ? {
+~Redémarrer l’ordinateur
+~Fermer tous les onglets
+=Réactualiser la page
+~Désinstaller Firefox
+#### Réactualiser une page web permet de relancer son chargement, ce qui peut corriger des erreurs d’affichage ou des éléments manquants. C’est une action simple mais efficace lorsque la connexion est instable ou que le site rencontre un problème temporaire.
+}
+
+::Question 043::Que fait le mode de navigation privée dans Firefox ? {
+~Il permet de naviguer plus rapidement.
+~Il bloque tous les sites web non sécurisés.
+~Il supprime automatiquement les fichiers téléchargés.
+=Il empêche la sauvegarde de l’historique de navigation sur l’appareil.
+#### Le mode de navigation privée ne rend pas anonyme sur Internet. Ce mode n’est pas activé à l’Insee.
+}
+
+::Question 044::Que se passe-t-il si vous cliquez sur un lien vers une page internet pendant votre navigation sur Firefox ? {
+~Le lien remplace la page actuelle.
+=Le lien s’ouvre dans un onglet à côté sans quitter la page actuelle.
+~Le lien s’ouvre dans une nouvelle fenêtre uniquement.
+~Le lien est bloqué automatiquement.
+#### Astuce \: clic molette ou clic droit > "Ouvrir dans un nouvel onglet".
+}
+
+$CATEGORY: LibreOffice
+
+::Question 045::Quel est l’équivalent de Microsoft Excel dans LibreOffice ? {
+~Base
+~Calc
+~Draw
+=Writer
+#### Les noms des applications de LibreOffice, comme Writer, Calc, Draw ou Impress, sont directement liés à leurs fonctions \: écrire, calculer, dessiner ou présenter. Cette logique de nommage facilite la prise en main, car elle permet de comprendre rapidement le rôle de chaque outil.
+}
+
+::Question 046::Quel format de fichier est utilisé par défaut par LibreOffice Writer ? {
+=.odt
+~.txt
+~.wtr
+~.docx
+#### L’extension .odt signifie Open Document Text.
+}
+
+::Question 047::A quoi sert l’option « Saut de page » dans Writer ? {
+~A supprimer la mise en forme d’un paragraphe
+~A afficher les marges d’un document
+=Forcer le début d’un nouveau contenu sur une nouvelle page
+~Forcer l’impression en recto-verso
+#### Pour commencer une nouvelle page proprement, il ne faut pas appuyer plusieurs fois sur Entrée \: cela rend la mise en page fragile.
+}
+
+::Question 048::Quel raccourci clavier permet de sauvegarder un document ? {
+~Ctrl+C
+~Ctrl+G
+=Ctrl+S
+~Ctrl+Z
+#### Certains raccourcis clavier comme Ctrl + S pour Save (enregistrer) sont faciles à retenir car ils utilisent l’initiale de l’action en anglais
+}
+
+::Question 049::Dans Writer, où peut-on modifier rapidement la taille et le type de police ? {
+~Insertion
+~Outils
+=Barre d’outils de formatage
+~Aide
+#### La barre de formatage dans Writer offre un accès rapide aux outils pour modifier l’apparence du texte, comme la police, la taille, l’alignement ou la couleur.
+}
+
+::Question 050::Quel menu de Writer permet de justifier un paragraphe ? {
+~Données
+=Format
+~Fichier
+~Outils
+#### Justifier un texte est une action de formatage car elle modifie uniquement l’apparence du texte, sans en changer le contenu.
+}
+
+::Question 051::À quoi sert l’outil "puces et numérotation" dans Writer ? {
+~À ajouter des tableaux
+~À corriger automatiquement l’orthographe
+=À structurer des listes
+~À insérer des symboles
+#### Il est possible de choisir parmi différents styles (symboles, chiffres, lettres, hiérarchies) et de personnaliser l’apparence des puces pour adapter la présentation aux besoins du document.
+}
+
+::Question 052::Dans Writer, quel est l'objectif de l’outil 'rechercher et remplacer' ? {
+~Remplacer une image
+=Trouver un mot et le remplacer automatiquement
+~Vérifier la grammaire
+~Modifier l’ordre des paragraphes
+#### Le raccourci clavier Ctrl + H dans Writer ouvre la fonction Rechercher et remplacer, qui permet de retrouver rapidement un mot ou une expression et de le remplacer automatiquement. C’est un outil précieux pour gagner du temps, notamment lors de modifications répétitives dans un document.
+}
+
+::Question 053::Quelle commande permet de corriger automatiquement des fautes dans Writer ? {
+=Correction automatique
+~Affichage > Grammaire
+~Table des matières
+~Police > Souligné
+#### La correction automatique dans Writer ne détecte pas tous les types d’erreurs, notamment de sens ou de grammaire complexe. Il est important de relire attentivement son texte, car cette aide reste complémentaire et non infaillible.
+}
+
+::Question 054::Dans Writer, que permet l’option « Alignement justifié » ? {
+~Aligner le texte uniquement à gauche
+~Aligner le texte au centre
+~Aligner le texte uniquement à droite
+=Aligner le texte à gauche et à droite
+#### Un texte justifié peut poser des problèmes d’accessibilité, notamment pour les personnes dyslexiques, car il crée des espaces irréguliers entre les mots qui gênent la lecture. Pour une meilleure lisibilité, il est souvent recommandé de privilégier l’alignement à gauche dans les contenus numériques.
+}
+
+::Question 055::Dans Writer, quelle méthode permet de modifier l’orientation d’une page ? {
+~Insertion > Champ
+~Outils > Langue
+~Affichage > Plein écran
+=Format > Page > Orientation
+#### Une page peut avoir deux orientations \: portrait (verticale) ou paysage (horizontale). Le choix de l’orientation dépend du type de contenu à présenter \: le portrait convient mieux aux textes, tandis que le paysage est utile pour les tableaux ou les images larges.
+}
+
+::Question 056::Dans Calc, à quoi sert la fonction Concatener? {
+~Ajouter des nombres
+~Compter les cellules vides
+~Supprimer les doublons
+=Assembler du texte provenant de plusieurs cellules
+#### Bon à savoir \: l’assistant de fonction dans Calc aide à insérer des formules en guidant l’utilisateur pas à pas, même sans connaissances avancées.
+}
+
+::Question 057::Dans Calc, comment une cellule est-elle identifiée ? {
+=Par une lettre (colonne) et un chiffre (ligne)
+~Par un chiffre (colonne) et une lettre (ligne)
+~Par une suite de lettres unique
+~Par un numéro unique
+#### Dans Calc, chaque cellule est identifiée par une colonne (lettre) et une ligne (chiffre), comme B3 ou D7, un peu comme dans un jeu de bataille navale. Cette référence unique permet de localiser précisément une case pour y entrer des données ou des formules.
+}
+
+::Question 058::Quelle extension est utilisée pour un fichier LibreOffice Calc ? {
+~.xls
+=.ods
+~.clc
+~.csv
+#### L’extension .ods signifie Open Document Spreadsheet (tableur en anglais).
+}
+
+::Question 059::Quel symbole commence une formule dans Calc ? {
+=\=
+~\#
+~\&
+~\$
+#### Le signe \= est essentiel pour activer les fonctions automatiques du tableur, comme les additions, moyennes ou comparaisons.
+}
+
+::Question 060::Quelle fonction permet d’additionner plusieurs cellules dans Calc ? {
+~Calcul
+~Moyenne
+~Addition
+=Somme
+#### La fonction SOMME dans Calc permet d’additionner rapidement une série de cellules, ce qui évite de les additionner une à une. C’est une des fonctions les plus utilisées du tableur, idéale pour totaliser des colonnes ou des lignes de chiffres en un clic.
+}
+
+::Question 061::Quel outil permet de créer un graphique dans Calc ? {
+~Insertion > Image
+~Insertion > Objet
+=Insertion > Graphique
+~Format > Schéma
+#### L’assistant graphique dans Calc guide l’utilisateur pour créer pas à pas un graphique à partir de données sélectionnées. Il aide à choisir le type de graphique adapté (colonnes, lignes, secteurs...) et à le personnaliser, ce qui facilite la visualisation claire et efficace des informations chiffrées.
+}
+
+::Question 062::Dans Calc, que signifie une cellule vide ? {
+~La cellule contient une erreur
+~La cellule est protégée
+=La cellule ne contient aucune donnée
+~La cellule affiche automatiquement zéro
+#### Une cellule vide est totalement sans contenu, tandis qu’une cellule en apparence vide peut contenir un espace, une formule renvoyant une valeur vide (""), ou un caractère invisible.
+}
+
+::Question 063::Dans Calc, que permet la poignée de recopie ? {
+~Appliquer une bordure
+~Supprimer des données
+~Bloquer la cellule
+=Étendre une série de données automatiquement
+#### Dans Calc, il est possible de double-cliquer sur la poignée de recopie pour étendre automatiquement une formule jusqu’à la fin d’un tableau sans avoir à faire de glisser-déposer.
+}
+
+::Question 064::Dans Calc, qu'est-ce qu'une formule ? {
+=Une instruction pour effectuer un calcul
+~Un lien vers un document externe
+~Une commande pour formater les cellules
+~Un tableau croisé dynamique
+#### Les formules dans Calc permettent d’automatiser les calculs en combinant chiffres, cellules et fonctions (comme \=A1+B1). Elles transforment le tableur en un véritable outil de traitement de données, tout en réduisant les erreurs de calcul manuel.
+}
+
+::Question 065::Que permet le format .pdf lors de l’export d’un fichier LibreOffice ? {
+=Garantir une mise en page fixe quel que soit le système
+~Éditer le fichier plus rapidement
+~Ajouter des formules automatiquement
+~Alléger le fichier pour le compresser
+#### Transmettre un fichier PDF plutôt qu’un fichier .doc est une bonne pratique, car le PDF préserve la mise en page du document, peu importe le logiciel ou l’appareil utilisé. Cela garantit une lecture uniforme pour tous les destinataires, tout en évitant les modifications involontaires.
+}
+
+::Question 066::Que permet l’option 'figer les volets' dans Calc ? {
+=Garder visibles les premières lignes ou colonnes pendant le défilement
+~Masquer toutes les cellules vides
+~Créer un filtre automatique
+~Mettre en surbrillance des lignes et des colonnes
+#### L’option Figer les volets dans Calc permet de bloquer l’affichage de certaines lignes ou colonnes, comme les en-têtes, pour qu’elles restent visibles lors du défilement. C’est une fonctionnalité précieuse pour mieux lire et analyser des tableaux contenant de nombreuses données.
+}
+
+$CATEGORY: Outlook
+
+::Question 067::À qui dois-je signaler en priorité la réception d’un mail douteux ? {
+~Mes collègues les plus proches
+~Mon supérieur hiérarchique via Outlook
+~L’assistance informatique locale (GIIRE) via Tchap
+=La Division Sécurité et Maitrise des risques via Si@moi
+#### En cas de réception d'un mail douteux, et ce même si vous n'avez ni cliqué sur un lien, ni ouvert une pièce-jointe, il vous est demandé de transmettre l'information à la DSMR via Si@moi, grâce à la demande dédiée "Alerter la Division Sécurité et Maîtrise des Risques (DSMR) de la réception d'un mail douteux"
+}
+
+::Question 068::Dans quel dossier retrouve-t-on les messages en cours d’envoi ? {
+=Boite d’envoi
+~Brouillon
+~Eléments envoyés
+~Courrier indésirable
+#### La Boîte d’envoi dans Outlook stocke temporairement les messages en attente d’envoi, notamment ceux différés ou lorsque la connexion est interrompue. Elle permet de vérifier qu’un message est bien programmé ou en cours d’envoi, et de le modifier ou l’annuler si besoin avant qu’il ne parte.
+}
+
+::Question 069::Que permet le bouton “Répondre à tous” ? {
+~Répondre à soi-même
+~Répondre à l’expéditeur uniquement
+=Répondre à tous les destinataires du message
+~Créer un groupe
+#### Il est recommandé d’utiliser ce bouton avec discernement, pour éviter de surcharger inutilement les boîtes mail avec des réponses non pertinentes pour tous.
+}
+
+::Question 070::Quel symbole indique qu’un message contient une pièce jointe ? {
+~Une enveloppe
+=Une trombone
+~Un cadenas
+~Un point d’exclamation rouge
+#### Ce pictogramme universel facilite la reconnaissance rapide des messages contenant des fichiers à consulter ou télécharger.
+}
+
+::Question 071::Dans quelle situation utilise-t-on “CCI” ? {
+=À mettre un destinataire en copie sans que les autres le voient
+~Pour crypter un message
+~À envoyer le mail en priorité haute
+~À envoyer un message uniquement à soi-même
+#### Le sigle CCI signifie Copie Carbone Invisible, en référence aux anciennes machines à écrire où l’on utilisait du papier carbone pour faire des copies.
+}
+
+::Question 072::Que permet la fonction "Règles" dans Outlook ? {
+~Elle bloque automatiquement les pièces jointes.
+~Elle permet de personnaliser l’apparence des mails
+~Elle supprime les mails non lus après 24h
+=Elle automatise certaines actions, comme déplacer ou classer des e-mails
+#### Les règles dans Outlook permettent d’automatiser la gestion des mails, comme classer, déplacer, marquer ou répondre à certains messages selon des critères définis. Elles font gagner du temps, améliorent l’organisation de la boîte de réception.
+}
+
+::Question 073::Quelle fonctionnalité permet d’ajouter automatiquement son nom et ses coordonnées à la fin de chaque mail ? {
+~Le pied de page dynamique
+~L’option Réponse automatique
+~Le champ CC par défaut
+=La fonction Signature
+#### Dans Outlook, des modèles de signatures Insee sont disponibles pour tous les agents de l’Insee.
+}
+
+::Question 074::Peut-on envoyer plusieurs pièces jointes dans un seul mail ? {
+=Oui
+~Oui, mais une seule à la fois
+~Non
+~Seulement si ce sont des fichiers pdf
+#### Il est possible d’envoyer plusieurs pièces jointes dans un même mail, dans la limite de la taille supportée par Outlook.
+}
+
+::Question 075::Que signifie le terme “SPAM” ? {
+~Message personnel
+~Message de service
+=Message publicitaire non sollicité
+~Message non sécurisé
+#### Le terme SPAM vient à l’origine d’un sketch des Monty Python, où le marque de viande SPAM est répétée de façon envahissante.
+}
+
+::Question 076::Que permet l’option “Rechercher” dans Outlook ? {
+~Retrouver une personne dans l’annuaire
+=Retrouver un message ou un contact
+~Modifier un message
+~Supprimer plusieurs mails
+#### Cette option est particulièrement utile pour gagner du temps, éviter de faire défiler manuellement les messages, et retrouver des informations précises même dans une boîte très remplie.
+}
+
+::Question 077::À quoi sert le message d’absence automatique dans Outlook ? {
+~À supprimer les e-mails pendant les absences
+=À signaler automatiquement son indisponibilité
+~À archiver tous les messages reçus
+~A appliquer une règle sur les messages pendant les absences
+#### Il est possible de définir une date de début et de fin de réponse automatique et de définir le message d’absence à envoyer.
+}
+
+::Question 078::Que signifie l’icône d’un drapeau rouge à côté d’un message ? {
+=Message à suivre
+~Message suspect
+~Message transféré
+~Message avec pièce jointe
+#### Le drapeau rouge dans Outlook sert à marquer un message pour suivi, afin de ne pas oublier de le traiter plus tard. C’est un outil simple mais efficace pour organiser ses priorités et gérer ses tâches directement depuis sa messagerie.
+}
+
+::Question 079::Comment supprimer un message sans passer par la corbeille ? {
+~Clic droit > Supprimer
+~Suppr
+~Ctrl + Z
+=Maj + Suppr
+#### Le raccourci clavier Maj+Suppr permet de supprimer définitivement un message, sans passer par la corbeille.
+}
+
+::Question 080::Dans quel dossier se trouve un message en cours de rédaction mais non encore envoyé ? {
+~Boîte de réception
+=Brouillons
+~Boite d’envoi
+~Courrier indésirable
+#### Lorsque l’on ferme un message en cours de rédaction, Outlook propose automatiquement de l’enregistrer en brouillon, afin d’éviter toute perte involontaire de contenu.
+}
+
+::Question 081::Comment différer l’envoi d’un message à une date et une heure précise ? {
+~En cliquant sur “Enregistrer sous”
+~En modifiant le champ “Objet”
+=En utilisant l’option “Différer la livraison”
+~En mettant le message en brouillon
+#### Cette option permet de programmer l’envoi de ses messages pendant les heures de bureau.
+}
+
+::Question 082::Quel est l’intérêt d’un calendrier partagé dans Outlook ? {
+~Voir les messages envoyés d’un collègue
+=Planifier et consulter les disponibilités d’un groupe
+~Programmer des réunions dans un groupe
+~Envoyer un message collectif
+#### Différer l’envoi d’un message dans Outlook permet de choisir le moment exact de sa transmission, ce qui est utile pour s’assurer qu’il soit lu à un moment opportun, comme pendant les heures de bureau. C’est une bonne pratique pour optimiser la visibilité du message et respecter le rythme professionnel du destinataire.
+}
+
+::Question 083::Peut-on rappeler un message déjà envoyé ? {
+=Oui, si le destinataire n’a pas encore ouvert le message
+~Oui, uniquement sur mobile
+~Oui, toujours
+~Non jamais.
+#### C’est une option utile en cas d’erreur, mais elle n’est pas toujours garantie, d’où l’importance de bien relire avant d’envoyer.
+}
+
+::Question 084::Quel type de destinataire permet d’envoyer un message à un groupe prédéfini ? {
+~Une copie conforme
+=Un groupe de contacts
+~Une liste dynamique
+~Un contact caché
+#### Créer des groupes de contacts (ou listes de distribution) dans Outlook permet d’envoyer un message à plusieurs personnes en une seule action, sans avoir à saisir chaque adresse individuellement. C’est un gain de temps important pour les envois récurrents à une équipe ou un service, tout en réduisant le risque d’oublier un destinataire.
+}
+
+::Question 085::Quelle est l’utilité du calendrier intégré à Outlook ? {
+=Gérer les rendez-vous et réunions
+~Organiser les contacts en dossiers
+~Lancer des appels
+~Supprimer les anciens mails
+#### Lorsque le calendrier Outlook est connecté à des outils comme Zoom, il facilite encore plus l’organisation \: les liens de réunion sont automatiquement ajoutés aux événements, ce qui évite les oublis et simplifie l’accès pour tous les participants.
+}
+
+::Question 086::Que permet la fonction 'Transférer' ? {
+~Créer un brouillon
+~Déplacer le message pour l’archiver dans un dossier
+=Envoyer un message reçu à un autre destinataire
+~Reporter l’envoi d’un message
+#### Cette fonctionnalité est utile pour partager rapidement des documents sans avoir à les télécharger ni à rédiger un nouveau mail.
+}
+
+$CATEGORY: Informatique
+
+::Question 087::Qu’est-ce qu’un mot de passe fort ? {
+~Un mot simple que l’on retient facilement, comme "bonjour"
+~Un mot de passe composé uniquement de chiffres.
+=Un mot de passe long, avec majuscules, minuscules, chiffres et caractères spéciaux.
+~Un mot de passe contenant des informations personnelles.
+#### L’Insee renforce régulièrement ses règles de sécurité en matière de mots de passe. Une page sur Symphonie est disponible pour vous aider à trouver des mots de passe robustes.
+}
+
+::Question 088::Quel est le rôle d’un antivirus ? {
+~Bloquer les publicités sur les sites web
+~Sauvegarder automatiquement les fichiers
+~Accélérer la connexion Internet
+=Protéger l’ordinateur contre les programmes malveillants
+#### En cas de soupçon d’infection de votre poste de travail, il est conseillé de déconnecter le matériel du SI de l’Insee, en débranchant le câble réseau du poste.
+}
+
+::Question 089::Que signifie "phishing" (ou hameçonnage) ? {
+~Pirater un mot de passe Wi-Fi
+~Supprimer des fichiers à distance
+=Tenter de tromper l’utilisateur pour obtenir des données personnelles
+~Analyser l’état de connexion d’un utilisateur
+#### En cas de réception d'un mail douteux, et ce même si vous n'avez ni cliqué sur un lien, ni ouvert une pièce-jointe, il vous est demandé de transmettre l'information à la DSMR via Si@moi, grâce à la demande dédiée "Alerter la Division Sécurité et Maîtrise des Risques (DSMR) de la réception d'un mail douteux"
+}
+
+::Question 090::Que faut-il faire avant de cliquer sur un lien dans un e-mail suspect ? {
+~Cliquer rapidement avant qu’il disparaisse
+=Vérifier l’adresse réelle du lien (en le survolant)
+~L’envoyer à ses contacts pour demander leur avis
+~L’ouvrir dans un nouvel onglet
+#### Il ne sera jamais reproché à un agent d’avoir cliqué sur un lien ou d’avoir renseigné à tort un formulaire mais il est indispensable de déclarer l’évènement via si@moi pour empêcher la réutilisation de votre mot de passe à des fins malveillantes.
+}
+
+::Question 091::À quoi sert une mise à jour logicielle ? {
+=À corriger des failles de sécurité et améliorer les performances
+~À supprimer les fichiers inutiles
+~À effacer les anciens fichiers système
+~À ajouter des publicités personnalisées
+#### Des mises à jour de logiciel sont régulièrement programmées à l’Insee. Il est possible de les anticiper via le Centre Logiciel.
+}
+
+::Question 092::Pourquoi est-il déconseillé d’utiliser le même mot de passe partout ? {
+~Cela prend trop de place sur l’ordinateur
+~Les sites Internet interdisent cette pratique
+=Si un mot de passe est piraté, tous vos comptes deviennent vulnérables
+~Les mots de passe doivent obligatoirement contenir des chiffres
+#### L’Insee renforce régulièrement ses règles de sécurité en matière de mots de passe. Une page sur Symphonie est disponible pour vous aider à trouver des mots de passe robustes.
+}
+
+::Question 093::Quel composant est le « cerveau » de l’ordinateur, celui qui exécute les instructions ? {
+~L’écran
+~La carte graphique
+=Le processeur
+~Le disque dur
+#### Le processeur (ou CPU) est le cœur de l’ordinateur \: c’est lui qui exécute les instructions et coordonne les actions des différents composants.
+}
+
+::Question 094::Quelle est la fonction d’un port USB ? {
+~Afficher l’image à l’écran
+=Connecter des périphériques
+~Alimenter l’ordinateur
+~Accélérer le wi-fi
+#### Les ports USB peuvent représenter un risque de sécurité, car ils permettent d’introduire facilement des fichiers malveillants via des clés ou périphériques infectés. Il est donc important de ne brancher que des supports de confiance et de les contrôler via des politiques de sécurité.
+}
+
+::Question 095::Quelle unité est utilisée pour mesurer la capacité de stockage ? {
+=Gigaoctet
+~Hertz
+~Volt
+~Gigahertz
+#### Dans Outlook, il n’est pas possible d’envoyer des mails dépassant 10 gigaoctets.
+}
+
+::Question 096::A quoi sert la mémoire vive (RAM) ? {
+~Stocker les photos
+~Alimenter l’écran
+~Se connecter à Internet
+=Exécuter temporairement les programmes en cours
+#### La mémoire vive (RAM) permet à l’ordinateur de stocker temporairement les données en cours d’utilisation, pour y accéder rapidement. Plus la RAM est importante, plus l’ordinateur peut gérer efficacement plusieurs tâches en même temps sans ralentir.
+}
+
+::Question 097::Lequel des éléments suivants est un périphérique de sortie ? {
+~Clavier
+=Imprimante
+~Souris
+~Microphone
+#### Un scanner, en revanche, est un périphérique d’entrée.
+}
+
+::Question 098::Est-il possible de connecter son imprimante personnelle à un portable Insee ? {
+~Oui en faisant une demande Si@moi
+~Oui après intervention de la Giire
+~Oui, dans les paramètres > Imprimantes et scanners
+=Non, cela est exclu par la Division sécurité et maîtrise des risques
+#### La réponse est non car cela nécessite l’installation de drivers non testés sur le poste Insee.
+}
+
+::Question 099::Quel type de câble est utilisé pour connecter un écran à un ordinateur ? {
+=HDMI
+~Ethernet
+~USB
+~Jack
+#### Les câbles HDMI permettent de transmettre à la fois l’image et le son en haute définition entre un ordinateur et un écran, un vidéoprojecteur ou une télévision.
+}
+
+::Question 100::Quel composant est essentiel pour afficher l’image à l’écran ? {
+~Carte son
+=Carte graphique
+~Processeur
+~Carte wi-fi
+#### La carte graphique est un composant de l’ordinateur chargé d’afficher les images à l’écran.
+}
+
+::Question 101::Quel type de périphérique est un casque avec micro ? {
+~Un périphérique d’entrée
+~Un périphérique de sortie
+=Un périphérique d’entrée et de sortie
+~Un périphérique de stockage
+#### Lorsque l’on branche un casque avec micro à un ordinateur, les paramètres audio peuvent se modifier automatiquement pour utiliser ce nouveau périphérique. C’est une fonctionnalité pratique qui permet de bénéficier d’un son plus clair pour les appels ou les visioconférences, mais il est utile de vérifier les réglages si le son ou le micro ne fonctionne pas comme prévu.
+}
+
+::Question 102::Quel type de clavier est principalement utilisé en France ? {
+~QWERTY
+~DVORAK
+~COLEMAK
+=AZERTY
+#### Le clavier AZERTY est adaptée à la langue française. Il est possible de basculer de AZERTY à QWERTY accidentellement en utilsant le raccourci clavier Windows+Espace.
+}
+
+::Question 103::Quelle configuration a été choisie pour cet affichage ? {
+~Dupliquer ces affichages
+=Etendre ces affichages
+~Afficher uniquement sur 1
+~Afficher uniquement sur 2
+#### L’affichage étendu en mode multi-écran permet d’utiliser plusieurs écrans pour agrandir l’espace de travail, comme avoir un document sur un écran et une visioconférence sur l’autre. C’est une solution très pratique pour gagner en confort, en productivité et mieux organiser ses tâches à l’écran.
+}
+
+::Question 104::Quelle est la bonne pratique pour économiser l’énergie et préserver le matériel ? {
+~Laisser l’ordinateur allumé en permanence
+~Le mettre en veille autant que possible
+=L’éteindre complètement lorsqu’on ne l’utilise pas longtemps
+~Fermer simplement les fenêtres ouvertes
+#### Éteindre correctement son ordinateur permet de clôturer les tâches en cours, d’éviter les pertes de données et de préserver les performances du système. C’est une bonne pratique qui prolonge la durée de vie du matériel et assure un redémarrage plus stable lors de la prochaine utilisation.
+}
+
+::Question 105::Aucun lecteur réseau n’est connecté à l’allumage de mon ordinateur. Que dois-je faire en premier ? {
+~Faire une demande sur Si@moi
+~Contacter la Giire locale
+=Connecter soi-même les lecteurs réseaux
+~Rallumer mon ordinateur.
+#### Il est possible de reconnecter soi-même ses lecteurs réseaux via l’explorateur.
+}
+
+::Question 106::Dans les réglages d’affichage, que signifie l’option “Étendre l’affichage” ? {
+~Dupliquer l’écran sur deux moniteurs
+~Agrandir l’image sur un seul écran
+~Passer en mode plein écran
+=Utiliser plusieurs écrans comme un espace de travail élargi
+#### L’affichage étendu en mode multi-écran permet d’utiliser plusieurs écrans pour agrandir l’espace de travail, comme avoir un document sur un écran et une visioconférence sur l’autre. C’est une solution très pratique pour gagner en confort, en productivité et mieux organiser ses tâches à l’écran.
+}
+
+::Question 107::Quelle pratique est à éviter en matière d’impression ? {
+=Imprimer en couleur
+~Imprimer en recto-verso
+~Paramétrer par défaut les impressions en niveaux de gris
+~Réserver les impressions de masse sur les créneaux de «bon matin »
+#### Les impressions en couleur ne sont à réserver qu’aux cas indispensables \: une impression couleur est 6 fois plus chère et globalement plus polluante.
+}

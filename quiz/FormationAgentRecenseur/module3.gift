@@ -1,0 +1,43 @@
+$CATEGORY:  module3
+
+::Question1 ::
+Le rencensement c'est utile pour connaître le nombre d'habitants d'une commune
+{
+TRUE
+#### C’est un des objectifs majeurs du recensement \: le dénombrement, pour déterminer les populations de la France, des communes et de toutes les circonscriptions administratives.
+}
+
+::Question2 ::
+Le rencensement c'est utile pour connaître le nombre d'électeurs
+{
+FALSE
+#### Il n’y a pas de lien entre le fichier électoral et le recensement de la population.
+}
+
+::Question3 ::
+Le rencensement c'est utile pour déterminer le nombre de conseillers municipaux
+{
+TRUE
+#### Le nombre de conseiller municipaux dépend de la taille de la commune. Le recensement de la population permet de déterminer la population de référence de la commune.
+}
+
+::Question4 ::
+Le rencensement c'est utile pour mettre à jour la taxe foncière
+{
+FALSE
+#### 
+}
+
+::Question5 ::
+Le rencensement c'est utile pour connaître le salaire d'une personne
+{
+FALSE
+#### Cette question ne fait pas partie des questions du bulletin individuel. De plus aucune donnée individuelle issue du recensement n’est diffusée, seules des statistiques anonymisées sont produites.
+}
+
+::Question6 ::
+Le rencensement c'est utile pour connaître le nombre de logements
+{
+TRUE
+#### On recense avant tout les logements, puis les personnes qui y vivent de façon permanente. Le recensement permet de dénombrer les logements mais aussi de donner les principales caractéristiques du parc de logements (surface, nombre de pièces, année d’achèvement de l’immeuble, mode de chauffage...)
+}
