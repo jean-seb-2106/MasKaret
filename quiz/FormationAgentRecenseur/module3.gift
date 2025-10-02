@@ -1,30 +1,30 @@
 $CATEGORY:  module3
 
-::Question1 ::
+::Question01 ::
 Le recensement c'est utile pour connaître le nombre d'habitants d'une commune{
 TRUE
 #### C’est un des objectifs majeurs du recensement \: le dénombrement, pour déterminer les populations de la France, des communes et de toutes les circonscriptions administratives.
 }
 
-::Question2 ::
+::Question02 ::
 Le recensement c'est utile pour connaître le nombre d'électeurs{
 FALSE
 #### Il n’y a pas de lien entre le fichier électoral et le recensement de la population.
 }
 
-::Question3 ::
+::Question03 ::
 Le recensement c'est utile pour déterminer le nombre de conseillers municipaux{
 TRUE
 #### Le nombre de conseiller municipaux dépend de la taille de la commune. Le recensement de la population permet de déterminer la population de référence de la commune.
 }
 
-::Question4 ::
+::Question04 ::
 Le recensement c'est utile pour mettre à jour la taxe foncière{
 FALSE
 #### il n’y a pas de lien entre le recensement de la population et les impôts. Les informations recueillies ne peuvent donner lieu à aucun contrôle administratif ou fiscal. Elles ne sont en aucun cas diffusées à un autre organisme.
 }
 
-::Question5 ::
+::Question05 ::
 Le recensement c'est utile pour connaître le salaire d'une personne{
 FALSE
 #### Cette question ne fait pas partie des questions du bulletin individuel. De plus aucune donnée individuelle issue du recensement n’est diffusée, seules des statistiques anonymisées sont produites.
@@ -34,25 +34,25 @@ FALSE
 
 
 
-::Question6 ::
+::Question06 ::
 Le recensement c'est utile pour connaître le nombre de logements{
 TRUE
 #### On recense avant tout les logements, puis les personnes qui y vivent de façon permanente. Le recensement permet de dénombrer les logements mais aussi de donner les principales caractéristiques du parc de logements (surface, nombre de pièces, année d’achèvement de l’immeuble, mode de chauffage...)
 }
 
-::Question7 ::
+::Question07 ::
 La loi définit les principes du recensement{
 TRUE
 #### C’est la loi démocratie de proximité de 2002 qui encadre le recensement de la population.
 }
 
-::Question8 ::
+::Question08 ::
 Répondre au recensement est facultatif{
 FALSE
 #### C’est une obligation inscrite dans la loi (loi du 7 juin 1951). Mais répondre au recensement, utile à tous, est avant tout un acte civique \: chaque habitant bénéficie des services publics de sa commune, il a le devoir de répondre au recensement de la population.
 }
 
-::Question9 ::
+::Question09 ::
 Le recensement est déclaratif{
 TRUE
 #### C’est un principe du recensement \: il est déclaratif. Personne ne peut remettre en cause ni modifier leurs questionnaires. De plus les ménages disposent d’un droit d’accès à leurs réponses.

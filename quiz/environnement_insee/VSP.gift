@@ -1,0 +1,103 @@
+$CATEGORY: VSP
+
+::Question01::
+À quoi sert la statistique publique ? {
+~À divertir les citoyens
+=À éclairer les décisions publiques et informer le public
+~À promouvoir des idées politiques
+}
+
+::Question02::
+Quelle instance garantit l’indépendance des statistiques publiques en France ? {
+~ Le conseil national de l’information statistique (Cnis)
+~ L’inspection générale de l’Insee (IG) 
+= L’autorité de la statistique publique (ASP)
+}
+
+::Question03::
+Comment le service statistique public (SSP) est-il organisé en France ? {
+~ Centralisé
+~ Décentralisé par régions
+= Décentralisé par grands domaines ministériels et coordonné par l’Insee
+}
+
+::Question04::
+Combien d’organismes compte le service statistique public (SSP) ? {
+~ 8
+= 17
+~ 24
+#### L'Insee et 16 SSM constituent le service statistique public (SSP).
+}
+
+::Question05::
+À quoi sert le code de bonnes pratiques de la statistique européenne ? {
+= A assurer l’indépendance, l’impartialité et la transparence des instituts nationaux de statistique (INS)
+~ A harmoniser les programmes d’enquêtes au niveau européen
+~ A établir la liste des sources autorisées pour produire des statistiques européennes
+}
+
+::Question06::
+En France, la gouvernance de la statistique publique est assurée par... {
+= le Cnis, le SSP, et l’ASP
+~ le SSP uniquement
+~ l’Insee uniquement
+}
+
+::Question07::
+Quel rôle joue le Cnis ? {
+~ Il fixe le budget de l’Insee
+~ Il planifie la communication des statistiques économiques
+= Il organise le dialogue entre producteurs et utilisateurs des statistiques publiques
+}
+
+::Question08::
+Que signifie l’’indépendance professionnelle des statisticiens publics ? {
+~ Les statisticiens publics définissent eux-mêmes leur budget
+~ Ils n’ont pas besoin d’expliquer leurs méthodes
+= Ils décident des méthodes, du calendrier et de la communication sans intervention extérieure
+}
+
+::Question09::
+Quelle obligation découle directement de la valeur « transparence » ? {
+~ La gratuité des données
+= La documentation publique des méthodes
+~ La communication auprès du gouvernement accompagnant les données avant la levée de l’embargo
+}
+
+::Question10::
+Dans quel cas une statistique publique peut-elle être jugée non pertinente ? {
+~ Si elle ne couvre pas la France entière
+= Si elle ne répond pas aux besoins exprimés par les utilisateurs
+~ Si elle repose sur des données administratives
+}
+
+::Question11::
+La confidentialité statistique s’applique… {
+~ À toutes les données agrégées
+= À toutes les données dès qu’elles sont individualisées, même sans identifiant
+~ Aux données nominatives seulement
+}
+
+::Question12::
+Mettre en œuvre l’impartialité (valeur) dans la diffusion interdit… {
+= L’accès anticipé aux résultats par des tiers non autorisés
+~ La publication de statistiques provisoires
+~ L’usage de graphiques dans les communiqués
+}
+
+::Question13::
+La valeur « collaboration » débouche sur... {
+~ une perte de temps
+= l’élaboration de statistiques comparables d’un pays à l’autre
+~ une harmonisation complète des méthodes
+}
+
+::Question14::
+Six valeurs (transparence, impartialité, indépendance, collaboration, confidentialité et pertinence) sont incarnées par le SSP (Insee et SSM) pour... {
+= Disposer d’une culture commune
+= Guider l’action du SSP
+~ Se faire plaisir
+= Gagner la confiance du public
+= Se poser les bonnes questions
+= Garantir la confidentialité des données
+}
