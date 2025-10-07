@@ -1,0 +1,54 @@
+$CATEGORY:  module2
+
+::Question01 ::
+Le nombre de logements repérés sur le terrain est à remplir dans la liste d'adresses d'habitation.{
+TRUE
+#### Le nombre de logements repérés sur le terrain doit être reporté sur la liste d’adresses d’habitation afin de pouvoir éditer le carnet de collecte.
+}
+
+::Question02 ::
+Le nom des habitants est systématiquement à reporter sur la liste d’adresses d’habitation. {
+FALSE
+#### Le nom des habitants est renseigné sur la liste d’adresses d’habitations uniquement pour les adresses individuelles où il y a correspondance entre le logement et la boîte aux lettres (protocole « BAL »).
+}
+
+
+
+
+::Question03 ::
+Toutes les maisons individuelles sont éligibles au protocole « BAL ».{
+FALSE
+#### Le protocole « BAL » n’est possible que pour les adresses individuelles où le lien entre la maison et la boîte aux lettres est évident. Il existe des groupements de maisons, par exemple des lotissements où l’ensemble des boîtes est regroupé à l’entrée. Dans ce cas, le protocole « BAL » ne peut pas s’appliquer.
+}
+
+::Question04 ::
+Les enveloppes du protocole « BAL » contiennent la lettre aux habitants.{
+FALSE
+#### Les lettres aux habitants doivent être distribuées, avant le début de la collecte dans toutes les boîtes aux lettres afin d’informer les habitants du recensement.
+}
+
+::Question05 ::
+Les enveloppes du protocole « BAL » contiennent la notice internet. {
+TRUE
+#### Les enveloppes du protocole « BAL » contiennent la notice internet et sont distribuées dès la 1er jour de la collecte afin que les habitants puissent répondre par internet.
+}
+
+
+
+::Question06 ::
+Les identifiants du logement doivent être renseignés sur la notice internet. {
+TRUE
+#### Il faut nécessairement renseigner les identifiants du logement sur la notice internet, utile pour repérer les personnes déjà recensées.
+}
+
+::Question07 ::
+La date de dépôt de l'enveloppe doit être renseignée sur la notice internet. {
+FALSE
+#### Il n’y a pas de case prévue à cet effet sur la notice internet. Cette information sera toutefois à reporter sur le carnet de collecte dans la colonne dépôt.
+}
+
+::Question08 ::
+La date de retour souhaitée doit être renseignée sur la notice internet.{
+TRUE
+#### Cette information permet d’inciter les habitants à répondre rapidement et de pouvoir les relancer après cette date dans le cas où ils n’auraient pas répondu. La date de retour souhaitée est fixée au mardi qui suit le 1er jour de la collecte.
+}
