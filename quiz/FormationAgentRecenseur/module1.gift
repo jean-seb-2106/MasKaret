@@ -1,0 +1,52 @@
+$CATEGORY:  module1
+
+::Question01 ::
+La tournée de reconnaissance sert à repérer les limites du district{
+TRUE
+#### La tournée de reconnaissance permet de repérer les limites du district pour ne pas empiéter sur un district voisin et pour ne rien oublier. Elle a également pour finalité de mettre à jour la liste d’adresses d’habitation et d’informer les habitants.
+}
+
+::Question02 ::
+La tournée de reconnaissance sert à prendre rendez-vous pour la collecte {
+FALSE
+#### La prise de rendez-vous s’effectue à partir du 1erjour de collecte, donc après la tournée de reconnaissance. La tournée de reconnaissance est l’occasion de repérer sur le terrain les éventuels problèmes d’accès et d’informer les habitants en déposant des lettres aux habitants dans toutes les boîtes aux lettres.
+}
+
+::Question03 ::
+La tournée de reconnaissance sert à distribuer des questionnaires{
+FALSE
+#### La distribution des questionnaires débute le 1erjour de collecte, donc après la tournée de reconnaissance. La tournée de reconnaissance est l’occasion d’informer les habitants en apposant des affichettes remis par le coordonnateur communal et des lettres aux habitants dans toutes les boîtes aux lettres.
+}
+
+::Question04 ::
+La tournée de reconnaissance sert à estimer le nombre de logements à recenser{
+TRUE
+#### La tournée de reconnaissance sert à estimer le nombre de logements des adresses qui sont consignés dans la liste d’adresses d’habitation et seront reportés dans le carnet de collecte. Elle permet également de repérer les adresses avec un seul logement pour lesquelles il sera possible d’appliquer le protocole BAL s’il y a une correspondance entre la boîte aux lettres et l’adresse.
+}
+
+
+
+
+::Question05 ::
+Une maison vacante doit être reportée sur votre liste d'adresses d'habitation {
+TRUE
+#### Même si un logement est inoccupé, il doit être reporté sur votre liste d’adresses d’habitation ; S’il s’avère lors de la collecte qu’il est inhabité, il sera recensé en logement vacant.
+}
+
+::Question06 ::
+Un local d’association doit être reportée sur votre liste d'adresses d'habitation {
+FALSE
+#### Généralement, un local d’association n’est pas usage d’habitation, il ne doit donc pas êtrereporté sur votre liste d’adresses d’habitations.
+}
+
+::Question07 ::
+Un gîte doit être reportée sur votre liste d'adresses d'habitation {
+TRUE
+#### Un gîte est un logement d’habitation, il doit être reporté sur votre liste d’adresses d’habitations, il sera recensé en résidence secondaire la plupart du temps.
+}
+
+::Question08 ::
+Une maison de retraite doit être reportée sur votre liste d'adresses d'habitation {
+FALSE
+#### Une maison de retraite est une communauté par définition et elle ne doit donc pas être reportée sur la liste d’adresses d’habitation. Elle sera recensée par un enquêteur Insee et non par un agent recenseur. Si, lors de votre tournée de reconnaissance, vous rencontrez une adresse qui vous semble être une communauté et qui ne vous a pas été signalée comme telle, il vous faudra informer tout de suite votre coordonnateur.
+}
