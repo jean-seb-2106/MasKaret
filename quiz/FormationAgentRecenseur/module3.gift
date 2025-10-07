@@ -1,137 +1,101 @@
 $CATEGORY:  module3
 
 ::Question01 ::
-Le recensement c'est utile pour connaître le nombre d'habitants d'une commune{
+Le recensement c'est utile pour connaître le nombre d'habitants d'une commune.{
 TRUE
 #### C’est un des objectifs majeurs du recensement \: le dénombrement, pour déterminer les populations de la France, des communes et de toutes les circonscriptions administratives.
 }
 
 ::Question02 ::
-Le recensement c'est utile pour connaître le nombre d'électeurs{
+Le recensement c'est utile pour connaître le nombre d'électeurs.{
 FALSE
 #### Il n’y a pas de lien entre le fichier électoral et le recensement de la population.
 }
 
 ::Question03 ::
-Le recensement c'est utile pour déterminer le nombre de conseillers municipaux{
+Le recensement c'est utile pour déterminer le nombre de conseillers municipaux.{
 TRUE
 #### Le nombre de conseiller municipaux dépend de la taille de la commune. Le recensement de la population permet de déterminer la population de référence de la commune.
 }
 
 ::Question04 ::
-Le recensement c'est utile pour mettre à jour la taxe foncière{
-FALSE
-#### il n’y a pas de lien entre le recensement de la population et les impôts. Les informations recueillies ne peuvent donner lieu à aucun contrôle administratif ou fiscal. Elles ne sont en aucun cas diffusées à un autre organisme.
-}
-
-::Question05 ::
-Le recensement c'est utile pour connaître le salaire d'une personne{
-FALSE
-#### Cette question ne fait pas partie des questions du bulletin individuel. De plus aucune donnée individuelle issue du recensement n’est diffusée, seules des statistiques anonymisées sont produites.
-}
-
-
-
-
-
-::Question06 ::
-Le recensement c'est utile pour connaître le nombre de logements{
+Le recensement c'est utile pour connaître le nombre de logements.{
 TRUE
 #### On recense avant tout les logements, puis les personnes qui y vivent de façon permanente. Le recensement permet de dénombrer les logements mais aussi de donner les principales caractéristiques du parc de logements (surface, nombre de pièces, année d’achèvement de l’immeuble, mode de chauffage...)
 }
 
-::Question07 ::
-La loi définit les principes du recensement{
+::Question05 ::
+La loi définit les principes du recensement.{
 TRUE
 #### C’est la loi démocratie de proximité de 2002 qui encadre le recensement de la population.
 }
 
-::Question08 ::
-Répondre au recensement est facultatif{
+::Question06 ::
+Répondre au recensement est facultatif.{
 FALSE
 #### C’est une obligation inscrite dans la loi (loi du 7 juin 1951). Mais répondre au recensement, utile à tous, est avant tout un acte civique \: chaque habitant bénéficie des services publics de sa commune, il a le devoir de répondre au recensement de la population.
 }
 
-::Question09 ::
-Le recensement est déclaratif{
+::Question07 ::
+Le recensement est déclaratif.{
 TRUE
 #### C’est un principe du recensement \: il est déclaratif. Personne ne peut remettre en cause ni modifier leurs questionnaires. De plus les ménages disposent d’un droit d’accès à leurs réponses.
 }
 
-::Question10 ::
-Les informations recueillies sont confidentielles{
+::Question08 ::
+Les informations recueillies sont confidentielles.{
 TRUE
 #### Les informations issues du recensement sont soumises au RGPD (règlement général sur la protection des données), procédure approuvée par la CNIL. L’identité des personnes est demandée dans le seul but de vérifier que personne n’a été comptée deux fois. Le nom et  l’adresse sont supprimés des fichiers au plus tard le 31/12 de l’année qui suit le recensement.
 }
 
 
 
-
-::Question11 ::
+::Question09 ::
 Le recensement est exhaustif (on recense tout le monde) dans les communes de moins de 10 000 habitants{
 TRUE
 #### Dans les communes de moins de 10 000 habitants, on recense tous les logements et tous les habitants la même année.
 }
 
-::Question12 ::
-Le recensement est fait par sondage dans les villes de 10 000 habitants ou plus{
+::Question10 ::
+Le recensement est fait par sondage dans les villes de 10 000 habitants ou plus.{
 TRUE
 #### Les communes de 10 000 habitants ou plus sont recensées chaque année sur un échantillon d’adresse représentant environ 8 % de leurs logements. Il s’agit donc d’une enquête par sondage.
 }
 
-::Question13 ::
-Toutes les communes de moins de 10 000 habitants sont recensées la même année{
+::Question11 ::
+Toutes les communes de moins de 10 000 habitants sont recensées la même année.{
 FALSE
 #### Chaque année un cinquième des communes de moins de 10 000 habitants est recensé. Pour calculer les chiffres de population, on utilise 5 enquêtes de recensement successives, ainsi toutes les communes de moins de 10 000 habitants auront été recensées.
 }
 
-::Question14 ::
-Ma commune sera à nouveau recensée dans 5 ans{
-TRUE
-#### Chaque commune de moins de 10 000 habitants est recensée tous les cinq ans.
-}
-
-::Question15 ::
-Je recense tous les bébés quel que soit leur âge{
+::Question12 ::
+Je recense tous les bébés quel que soit leur âge.{
 FALSE
 #### Seuls les bébés nés avant la date de référence du recensement (le 1er jour de la collecte à 0h) doivent être recensés.
 }
 
 
 
-
-::Question16 ::
-Pamela, anglaise, venue s’installer en France depuis 5 ans{
-TRUE
-#### Pamela étant présente en France depuis plus de 12 mois doit y être recensée ; en effet le recensement de la population concerne toutes les personnes vivant habituellement en France, sans considération de leur nationalité
-}
-
-::Question17 ::
-Nataliya, réfugiée ukrainienne, venue en France depuis 7 mois{
+::Question13 ::
+Nataliya, réfugiée ukrainienne, venue en France depuis 7 mois, est recensée.{
 TRUE
 #### Nataliya n’est présente en France que depuis 7 mois ; néanmoins, étant réfugiée elle n’a à l’heure actuelle pas d’autre résidence habituelle ailleurs. Elle doit donc être recensée en France
 }
 
-::Question18 ::
-Nicole, française qui vit à Prague, passe chaque année 3 mois chez sa fille qui vit à Brest{
+::Question14 ::
+Nicole, française qui vit à Prague, passe chaque année 3 mois chez sa fille qui vit à Brest, est recensée.{
 FALSE
 #### Nicole vivant habituellement à l’étranger et n’étant que de passage en France n’a pas à y être recensée ; selon les conventions internationales, elles sera recensée dans son pays de résidence habituelle (République Tchèque)
 }
 
-::Question19 ::
-Alexander est suisse, habite en France et travaille à Genève{
-TRUE
-#### Alexander habite habituellement en France, il doit donc y être recensé
-}
-
-::Question20 ::
-Yuko, japonaise, fait ses études en France pour une durée de 3 ans{
+::Question15 ::
+Yuko, japonaise, fait ses études en France pour une durée de 3 ans, est recensée.{
 TRUE
 #### Yuko est présente en France pour plus de 12 mois ; elle doit donc y être recensée. En revanche, si elle était venue en France pour une seule année scolaire (généralement 9 mois) elle n’aurait pas été recensée
 }
 
-::Question21 ::
-Anton travaille l’hiver en France et vit habituellement en Roumanie{
+::Question16 ::
+Anton travaille l’hiver en France et vit habituellement en Roumanie, est recensé.{
 FALSE
 #### Anton vit habituellement en Roumanie et n’est de passage an France que pour quelques mois ; il ne doit donc pas être recensé en France mais le sera en Roumanie
 }
