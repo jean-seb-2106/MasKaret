@@ -1,103 +1,81 @@
-$CATEGORY: VSP
+$CATEGORY: IA
 
 ::Question01::
-À quoi sert la statistique publique ? {
-~À divertir les citoyens
-=À éclairer les décisions publiques et informer le public
-~À promouvoir des idées politiques
+À quelle fréquence la charte d'usage des assistants IA à l'Insee doit-elle être révisée au minimum ? {
+=Une fois par an
+~Tous les deux ans
+~Tous les six mois
+~Il n'est pas utile de la réviser régulièrement
 }
 
 ::Question02::
-Quelle instance garantit l’indépendance des statistiques publiques en France ? {
-~ Le conseil national de l’information statistique (Cnis)
-~ L’inspection générale de l’Insee (IG) 
-= L’autorité de la statistique publique (ASP)
+Selon la charte, comment un assistant IA doit-il être considéré vis-à-vis de l'Institut ? {
+=Comme une entité extérieure à l'Insee
+~Comme un simple moteur de recherche amélioré
+~Comme un outil interne sécurisé par défaut
+~Comme un membre virtuel de l'équipe projet
 }
 
 ::Question03::
-Comment le service statistique public (SSP) est-il organisé en France ? {
-~ Centralisé
-~ Décentralisé par régions
-= Décentralisé par grands domaines ministériels et coordonné par l’Insee
+Quelle est l'estimation de la consommation énergétique d'une requête ChatGPT par rapport à une recherche classique ? {
+=Environ 10 fois plus d'énergie
+~Environ 5 fois plus d'énergie
+~Environ 2 fois plus d'énergie
+~Environ 10 fois plus d'énergie
 }
 
 ::Question04::
-Combien d’organismes compte le service statistique public (SSP) ? {
-~ 8
-= 17
-~ 24
-#### L'Insee et 16 SSM constituent le service statistique public (SSP).
+Quelles données peuvent être transmises à un assistant IA selon les règles de confidentialité ? {
+=Les informations dont la divulgation n'a qu'un impact minime sur l'institut
+~Les données soumises au secret statistique
+~Les données sous embargo quelques heures avant leur sortie
+~Les algorithmes de l'Insee non encore publiés
 }
 
 ::Question05::
-À quoi sert le code de bonnes pratiques de la statistique européenne ? {
-= À assurer l’indépendance, l’impartialité et la transparence des instituts nationaux de statistique (INS)
-~ À harmoniser les programmes d’enquêtes au niveau européen
-~ À établir la liste des sources autorisées pour produire des statistiques européennes
+En cas de violation du secret professionnel par un agent via un assistant IA, quelle est la peine maximale encourue ? {
+~ 6 mois d'emprisonnement et 5 000 € d'amende
+= 1 an d'emprisonnement et 15 000 € d'amende
+~ Une simple sanction disciplinaire sans amende
+~ 2 ans d'emprisonnement et 30 000 € d'amende
 }
 
 ::Question06::
-En France, la gouvernance de la statistique publique est assurée par... {
-= Le Cnis, le SSP, et l’ASP
-~ Le SSP uniquement
-~ L’Insee uniquement
+Quel principe de la charte impose de mentionner l'usage de l'IA dans un produit interne ? {
+~ Souveraineté
+= Transparence
+~ Sobriété numérique 
+~ Responsabilité
 }
 
 ::Question07::
-Quel rôle joue le Cnis ? {
-~ Il fixe le budget de l’Insee
-~ Il planifie la communication des statistiques économiques
-= Il organise le dialogue entre producteurs et utilisateurs des statistiques publiques
+Comment est défini un « assistant IA » dans le cadre de cette charte ? {
+~ Un système expert fondé sur des règles logiques prédéfinies par des statisticiens
+= Un outil basé sur des modèles de deep learning génératifs conçus pour créer du contenu
+~ Tout logiciel capable d'automatiser des tâches administratives
+~ Uniquement les modèles de langage de grande taille (LLM) comme CHATGPT
 }
 
 ::Question08::
-Que signifie l’’indépendance professionnelle des statisticiens publics ? {
-~ Les statisticiens publics définissent eux-mêmes leur budget
-~ Ils n’ont pas besoin d’expliquer leurs méthodes
-= Ils décident des méthodes, du calendrier et de la communication sans intervention extérieure
+Pour répondre à l'enjeu de souveraineté, quel type d'infrastructure l'Insee privilégie-t-il ? {
+~ Des infrastructures basées exclusivement aux Etats-Unis
+~ Des infrastructures décentralisées sans localisation géographique précise
+= Des infrastructures françaises
+~ Uniquement des serveurs internes situés dans les locaux de l'Insee
 }
 
 ::Question09::
-Quelle obligation découle directement de la valeur « transparence » ? {
-~ La gratuité des données
-= La documentation publique des méthodes
-~ La communication auprès du gouvernement accompagnant les données avant la levée de l’embargo
+Dans le cadre de la démarche « Insee Vert », quelle fonctionnalité du robot conversationnel interne aide à la sobriété numérique ? {
+=
+~
+~
+~
 }
 
 ::Question10::
-Dans quel cas une statistique publique peut-elle être jugée non pertinente ? {
-~ Si elle ne couvre pas la France entière
-= Si elle ne répond pas aux besoins exprimés par les utilisateurs
-~ Si elle repose sur des données administratives
-}
-
-::Question11::
-La confidentialité statistique s’applique… {
-~ À toutes les données agrégées
-= À toutes les données dès qu’elles sont individualisées, même sans identifiant
-~ Aux données nominatives seulement
-}
-
-::Question12::
-Mettre en œuvre l’impartialité (valeur) dans la diffusion interdit… {
-= L’accès anticipé aux résultats par des tiers non autorisés
-~ La publication de statistiques provisoires
-~ L’usage de graphiques dans les communiqués
-}
-
-::Question13::
-La valeur « collaboration » débouche sur... {
-~ une perte de temps
-= l’élaboration de statistiques comparables d’un pays à l’autre
-~ une harmonisation complète des méthodes
-}
-
-::Question14::
-Six valeurs (transparence, impartialité, indépendance, collaboration, confidentialité et pertinence) sont incarnées par le SSP (Insee et SSM) pour... {
-= Disposer d’une culture commune
-= Guider l’action du SSP
-~ Se faire plaisir
-= Gagner la confiance du public
-= Se poser les bonnes questions
-= Garantir la confidentialité des données
+ ? {
+=
+~
+~
+~
 }
