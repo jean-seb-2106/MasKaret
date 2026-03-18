@@ -66,16 +66,8 @@ Pour répondre à l'enjeu de souveraineté, quel type d'infrastructure l'Insee p
 
 ::Question09::
 Dans le cadre de la démarche « Insee Vert », quelle fonctionnalité du robot conversationnel interne aide à la sobriété numérique ? {
-=
-~
-~
-~
-}
-
-::Question10::
- ? {
-=
-~
-~
-~
+~ La suppression immédiate de l'historique des conversations
+= La comparaison des performances et du coût énergétique entre un grand et un petit modèle
+~ L'extinction automatique du service après 18 heures
+~ L'interdiction stricte de générer des images
 }
