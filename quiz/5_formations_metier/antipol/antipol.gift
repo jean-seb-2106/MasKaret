@@ -52,9 +52,9 @@ Piège fréquent \: penser que tous les modules restent visibles.
 ::question06::
 Comment doit être renseignée une dépense qui concerne plusieurs domaines environnementaux ?{
 ~ Elle doit être répartie équitablement entre tous les domaines
-= Elle doit être déclarée dans chaque domaine concerné
+~ Elle doit être déclarée dans chaque domaine concerné
 ~ Elle ne doit pas être déclarée du tout 
-~ Elle doit être déclarée une seule fois dans le domaine principal
+= Elle doit être déclarée une seule fois dans le domaine principal
 #### Une dépense doit être déclarée une seule fois dans le domaine principal. Les autres réponses sont incorrectes car il n’y a ni répartition, ni double déclaration, ni exclusion de la dépense. 
 }
 
@@ -111,23 +111,25 @@ soit une estimation arbitraire, soit des coûts non pertinents.
 }
 
 ::question12::
-Quelle caractéristique définit un investissement spécifique ? {
-=Il sert uniquement à traiter ou réduire une pollution
-~Il est indispensable à la production
-~Il améliore la productivité
-~Il remplace un équipement existant
-#### Un investissement spécifique sert uniquement à traiter ou réduire 
-une pollution sans rôle direct dans la production. Les autres réponses décrivent 
-plutôt des caractéristiques d’un investissement intégré ou sont trop générales. 
+Dans quel domaine classer l’achat de panneaux solaires ? {
+~Économie d’énergie
+~Protection de l’air
+=Énergies renouvelables
+~Captage du CO₂
+#### Les panneaux solaires relèvent du domaine des énergies renouvelables 
+même s’il réduit indirectement la consommation d’énergie non renouvelable, 
+selon la nomenclature européenne, les panneaux solaires appartiennent à la production 
+d’énergie renouvelable (CEPA 13A) et non à l’économie et gestion de l’énergie (CEPA 13B). 
+Piège fréquent \: les classer en économie d’énergie.  
 }
 
 ::question13::
-Quelle caractéristique définit un investissement spécifique ? {
-=Il sert uniquement à traiter ou réduire une pollution
-~Il est indispensable à la production
-~Il améliore la productivité
-~Il remplace un équipement existant
-#### Un investissement spécifique sert uniquement à traiter ou réduire 
-une pollution sans rôle direct dans la production. Les autres réponses décrivent 
-plutôt des caractéristiques d’un investissement intégré ou sont trop générales. 
+Quelle question clé permet de distinguer un investissement environnemental 
+spécifique d’un investissement environnemental intégré ? {
+~Quel est le coût total de l’investissement ?
+~Est-il financé par une aide publique ?
+~A-t-il été réalisé au cours des 3 dernières années ?
+=Est-il indispensable à la production ? 
+#### La question clé pour distinguer un investissement spécifique d’un investissement intégré est de savoir si l’équipement acheté est indispensable à la production. S’il l’est, ce sera un investissement intégré, dans le cas contraire un investissement spécifique. 
+Les autres propositions ne permettent pas de faire cette distinction. 
 }
