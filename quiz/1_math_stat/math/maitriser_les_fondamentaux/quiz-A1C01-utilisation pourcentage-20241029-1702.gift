@@ -1,0 +1,101 @@
+// question: 0  name: Switch category to $course$/top/Utilisation des pourcentages
+$CATEGORY: Utilisation des pourcentages
+
+// question: 1434  name: A1C001PCTQ01
+::A1C001PCTQ01::[html]<p>Un article coûte 80 € et bénéficie d'une réduction de 15%. Quel est son prix après la réduction ?</p>{
+	~<p>70 €</p>#<p>Incorrect. Cela correspondrait à une réduction de 10€ au lieu de 15%.</p>
+	=<p>68 €</p>#<p>Correct ! La réduction est de 15% de 80 €, soit 12€. Le prix soldé est donc 80 € - 12 € \= 68 €.</p>
+	~<p>60 €</p>#<p>Incorrect. Ce résultat est trop bas pour une réduction de 15%.</p>
+	~<p>72 €</p>#<p>Incorrect. Cela correspondrait à une réduction de 10%.</p>
+	####<p>La réduction est de 12 €, car 15 % de 80 € \= 12 €. Le prix soldé est donc 80 € - 12 € \= 68 €.</p>
+}
+
+// question: 1435  name: A1C001PCTQ02
+::A1C001PCTQ02::[html]<p>Dans une population de 1 000 individus, 250 sont des femmes. Quelle est la part des femmes dans cette population en pourcentage ?</p>{
+	=<p>25%</p>#<p>Correct ! La part est calculée comme  (250)\(1000) * 100\= 25% .</p>
+	~<p>20%</p>#<p>Incorrect. Cela correspondrait à 200 femmes, pas 250.</p>
+	~<p>30%</p>#<p>Incorrect. Le résultat est supérieur à 25%.</p>
+	~<p>40%</p>#<p>Incorrect. Ce résultat est trop élevé.</p>
+	####<p>La part est obtenue par \( (250 / 1000) \times 100\= 25\% \).</p>
+}
+
+// question: 1436  name: A1C001PCTQ03
+::A1C001PCTQ03::[html]<p>Un mélange contient 30% de sucre. Quelle quantité de sucre y aura-t-il dans 200 g de ce mélange ?</p>{
+	=<p>60 g</p>#<p>Correct ! 30% de 200 g\= 60 g.</p>
+	~<p>40 g</p>#<p>Incorrect. Cela correspondrait à un mélange avec seulement 20% de sucre.</p>
+	~<p>80 g</p>#<p>Incorrect. 80 g serait un pourcentage de sucre plus élevé.</p>
+	~<p>50 g</p>#<p>Incorrect. 50 g correspondrait à un pourcentage de sucre inférieur à 30%.</p>
+	####<p>Le calcul est \: \( 200 \, g \times 30 \% \= 60 \, g \) de sucre.</p>
+}
+
+// question: 1437  name: A1C001PCTQ04
+::A1C001PCTQ04::[html]<p> Une recette de pâte utilise 150 g de farine pour 2 tartes. Combien de farine faut-il pour 5 tartes ?</p>{
+	=<p>375 g</p>#<p>Correct ! Le coefficient de proportionnalité est de 2,5. Donc \( 150 \, g \times 2,5\= 375 \, g \).</p>
+	~<p>300 g</p>#<p>Incorrect. Cela correspondrait à 4 tartes.</p>
+	~<p>400 g</p>#<p>Incorrect. Ce résultat est supérieur à la quantité nécessaire.</p>
+	~<p>350 g</p>#<p>Incorrect. Cela ne correspond pas au bon calcul.</p>
+	####<p>On multiplie \( 150 \, g \) par \( 2,5 \) pour obtenir \( 375 \, g \).</p>
+}
+
+// question: 1438  name: A1C001PCTQ05
+::A1C001PCTQ05::[html]<p>Produit en croix \: Si 5 kg de pommes coûtent 20 €, combien coûtent 8 kg de pommes ?</p>{
+	=<p>32 €</p>#<p>Correct ! 5 kg\= 20 €, donc le prix par kg est \( 4 \, € \). 8 kg coûtent \( 8 \times 4\= 32 \, € \).</p>
+	~<p>28 €</p>#<p>Incorrect. 28 € serait trop bas.</p>
+	~<p>40 €</p>#<p>Incorrect. Cela correspondrait à un prix par kilogramme plus élevé.</p>
+	~<p>30 €</p>#<p>Incorrect. Ce résultat est inférieur au bon montant.</p>
+	####<p>Le calcul est  8 * (20 / 5) \= 32 € .</p>
+}
+
+// question: 1439  name: A1C001PCTQ06
+::A1C001PCTQ06::[html]<p>Une entreprise a 120 employés, dont 30% sont à temps partiel. Combien d'employés travaillent à temps partiel ?</p>{
+	=<p>36</p>#<p>Correct ! 30% de 120\= 36.</p>
+	~<p>30</p>#<p>Incorrect. 30 représente le pourcentage de temps partiel, pas le nombre d'employés.</p>
+	~<p>40</p>#<p>Incorrect. 40 serait plus de 30%.</p>
+	~<p>50</p>#<p>Incorrect. 50 est bien au-dessus de 30%.</p>
+	####<p>Le calcul est \( 120 \times 30\% \= 36 \).</p>
+}
+
+
+
+// question: 1441  name: A1C001PCTQ07
+::A1C001PCTQ07::[html]<p>Dans une population, 40% des individus sont âgés de moins de 18 ans et 30% sont âgés de plus de 65 ans. Quelle est la part des individus âgés entre 18 et 65 ans ?</p>{
+	=<p>30%</p>#<p>Correct ! La part des moins de 18 ans et des plus de 65 ans est \( 40% + 30%\= 70% \). La part restante est donc \( 100% - 70%\= 30% \).</p>
+	~<p>40%</p>#<p>Incorrect. 40% correspond aux individus âgés de moins de 18 ans seulement.</p>
+	~<p>70%</p>#<p>Incorrect. 70% inclut les moins de 18 ans et les plus de 65 ans.</p>
+	~<p>20%</p>#<p>Incorrect. Ce résultat est trop bas.</p>
+	####<p>La part des individus entre 18 et 65 ans est \( 100\% - (40\% + 30\%)\= 30\% \).</p>
+}
+
+// question: 1442  name: A1C001PCTQ08
+::A1C001PCTQ08::[html]<p>Voici un tableau comparatif des structures de deux populations A et B en fonction de différents groupes d'âge \:</p>
+
+<table>
+    <tr>
+        <th>Groupe d'âge</th>
+        <th>Population A (en %)</th>
+        <th>Population B (en %)</th>
+    </tr>
+    <tr>
+        <td>0-14 ans</td>
+        <td>25%</td>
+        <td>20%</td>
+    </tr>
+    <tr>
+        <td>15-64 ans</td>
+        <td>65%</td>
+        <td>70%</td>
+    </tr>
+    <tr>
+        <td>65 ans et plus</td>
+        <td>10%</td>
+        <td>10%</td>
+    </tr>
+</table>
+
+<p>En vous basant sur ce tableau, quelle est la principale différence entre les deux populations en termes de répartition par âge ?</p> {
+    ~<p>Population A a une plus grande part d'individus âgés de 65 ans et plus.</p>#<p>Incorrect. Les deux populations ont la même part d'individus âgés de 65 ans et plus.</p>
+    ~<p>Population B a une plus grande part d'individus âgés de 0-14 ans.</p>#<p>Incorrect. Population A a une plus grande part d'individus dans ce groupe d'âge.</p>
+    =<p>Population A a une plus grande part d'individus âgés de 0-14 ans.</p>#<p>Correct ! La Population A a 25% d'individus âgés de 0-14 ans, contre 20% pour la Population B.</p>
+    ~<p>Les deux populations ont la même répartition par âge.</p>#<p>Incorrect. Les répartitions sont différentes, en particulier pour le groupe d'âge 0-14 ans.</p>
+    ####<p>La principale différence est que la Population A a 25% d'individus âgés de 0-14 ans, alors que la Population B en a 20%.</p>
+}

@@ -1,0 +1,23 @@
+
+// question: 0  name: Switch category to $course$/top/Les opérations
+$CATEGORY: Les opérations
+
+
+// question: 1432  name: A1C001Q07
+::A1C001Q07::[html]<p>Quel est le résultat de l'expression suivante en respectant les règles de priorité des opérations \: \\(3 + 4 \times 2 \\) ?</p>{
+	~<p>14</p>#<p>Incorrect. La multiplication doit être effectuée avant l'addition. \\(4 \times 2 \= 8\\) et \\(3 + 8 \= 11\\).</p>
+	=<p>11</p>#<p>Correct ! Selon les règles de priorité, on effectue la multiplication avant l'addition \: \\(4 \times 2 \= 8\\) et \\(3 + 8 \= 11\\).</p>
+	~<p>10</p>#<p>Incorrect. Vérifiez l'ordre des opérations ; la multiplication passe avant l'addition.</p>
+	~<p>7</p>#<p>Incorrect. La multiplication a une priorité plus haute que l'addition dans cette expression.</p>
+	####<p>Les règles de priorité stipulent que les multiplications et divisions sont effectuées avant les additions et soustractions.</p>
+}
+
+
+// question: 1433  name: A1C001Q08
+::A1C001Q08::[html]<p>Quel est le résultat de l'expression suivante en respectant les règles de priorité des opérations \: \\((5 + 3) \times 2 \\) ?</p>{
+	~<p>16</p>#<p>Correct ! Les parenthèses sont prioritaires et doivent être calculées en premier \: \\(5 + 3 \= 8\\), puis \\(8 \times 2 \= 16\\).</p>
+	=<p>16</p>#<p>Correct ! Les parenthèses sont prioritaires et doivent être calculées en premier \: \\(5 + 3 \= 8\\), puis \\(8 \times 2 \= 16\\).</p>
+	~<p>13</p>#<p>Incorrect. Les parenthèses doivent être calculées avant la multiplication.</p>
+	~<p>10</p>#<p>Incorrect. Vérifiez l'ordre des opérations en résolvant d'abord les parenthèses, puis la multiplication.</p>
+	####<p>Les règles de priorité des opérations indiquent que les calculs entre parenthèses sont faits en premier.</p>
+}
